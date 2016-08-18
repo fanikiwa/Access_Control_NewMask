@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Access_Control_NewMask.MasterPages.Main" ClientIDMode="Static" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script src="../Scripts/Main.js"></script>
+    <script src="../Scripts/jquery-2.2.3.js"></script>
+    <script type="text/javascript">
+        var allowZUTEdit = true;
+    </script>
+    <link href="../Styles/Main.css" rel="stylesheet" />
+    <script src="../Scripts/moment.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function doTime() {
+
+            //$( "#lblCompanyName" ).text( moment().format( "HH" ) + ":" + moment().format( "mm" ) );
+            $("#lblCompanyName").text(moment().format("DD") + "." + moment().format("MM") + "." + moment().format("YYYY"));
+        }
+
+        $(function () {
+            setInterval(doTime, 1);
+
+        });
+    </script>
+</head>
+
+<body>
+    <form id="MainForm" runat="server">
+        <div id="dashboardmain">
+            <div id="mainmenutop">
+                <div id="MainHeader">
+                    <section class="MainheaderSec">
+                        <asp:Button ID="btnDashboard" runat="server" Text="Dashboard" CssClass="btnDashboard" OnClick="btnDashboard_Click" />
+                    </section>
+                    <section class="MainheaderSec1">
+                        <section class="secPlaceHolder"></section>
+                    </section>
+                    <section class="MainheaderSec2">
+                    </section>
+                    <section class="MainheaderSec3">
+                        <asp:Button ID="Button1" runat="server" Text="Login/Logout" CssClass="btnLogoutsolution" OnClick="btnLogout_Click" />
+                    </section>
+                </div>
+            </div>
+            <div id="companyDetails">
+                <div class="dvnsLeft">
+                    <div class="userNameSec">
+                        <asp:Label runat="server" Text="" ID="lblGreeting" CssClass="LabelGreetings"></asp:Label>
+                        <asp:Label runat="server" Text="" ID="lblName" CssClass="LabelUserName"></asp:Label>
+                    </div>
+                    <div id="contentarea">
+                        <div id="navcontentarea" class="NavPanel">
+                            <asp:ContentPlaceHolder ID="ModuleNavBar" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <div class="dvnsRight">
+                    <section class="secCompanyName">
+                        <section class="secCompOne"></section>
+                        <section class="secCompTwo">
+                            <asp:Label ID="Label1" runat="server" Text="<%$ Resources:localizedText, dateTitle %>" CssClass="lblDateName"></asp:Label>
+                            <asp:Label ID="lblCompanyName" runat="server" Text="" CssClass="lblDateDisplay"></asp:Label>
+                        </section>
+                        <section class="secCompThree"></section>
+                    </section>
+                    <section class="secContHolder">
+                        <asp:ContentPlaceHolder ID="ContentHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                    <section class="footer">
+                        <section class="footerLeft">
+                            <asp:ContentPlaceHolder ID="FooterLeft" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                        <section class="footerRight">
+                            <asp:ContentPlaceHolder ID="FooterRight" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="Contentbottomarea" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

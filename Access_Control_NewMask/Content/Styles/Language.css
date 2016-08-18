@@ -1,0 +1,186 @@
+﻿.Wrapper {
+    color: #333;
+    padding: 5px;
+    position: relative;
+    width: 463px;
+    height: 245px;
+    top: 29%;
+    left: 33%;
+    display: block;
+    */*/
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 ); /* IE6-9 */
+
+    /*clear: none;
+    float: left;*/
+    /*height: 100%;*/
+    /*margin: 0 auto;*/
+    background-color: #FFFFFF:: ;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+
+.BottomFooterBtnsRight {
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: right;
+    padding: 5px 0 5px 30px;
+    margin: 5px 4px 0 0;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+
+
+.BottomFooterBtnsLeft_100 {
+    width: 110px;
+    height: 30px;
+    float: right !important;
+    margin-right: 29% !important;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+}
+
+
+
+
+.titlelang {
+    width: 78%;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -43px;
+    height: 40px;
+    display: block;
+}
+
+/*.BottomFooterBtnsLeft_100 {
+    width: 110px;
+    height: 34px;
+    padding: 5px 0 5px 30px;
+    margin: 5px 0 0 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    float: left;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}*/
+
+   .btnHelp {
+    width: 78%;
+    float: left;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: darkblue;
+    padding: 1px;
+    text-align: right;
+}
+
+
+.secSprache {
+    height: 98%;
+    width: 100%;
+    display: block;
+    float: left;
+    font-weight: 600;
+}
+
+
+.secListSpache {
+    width: 88%;
+    margin-top: 30px;
+    margin-left: 98px;
+    height: 99%;
+    overflow-y: auto;
+}
+
+
+
+
+
+.ListSpache {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.secOption {
+    margin-bottom: 16%;
+    padding-bottom: 6px;
+    border: none;
+    border-bottom-style: none;
+    display: block;
+}
+
+
+
+label[for] {
+    width: 60%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.secFooterSprache {
+    margin-top: 4px;
+    margin-left: 100px;
+    width: 69%;
+    height: 14%;
+}
+
+
+.btnClose {
+   
+    width: 18%;
+    float: right;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: red;
+    padding: 1px;
+    text-align: left;
+}
+
+.btnSave {
+    
+     width: 36%;
+    float: left;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: forestgreen;
+    padding: 1px;
+    text-align: left;
+}
+
+.btnSave:enabled:hover, .btnClose:enabled:hover,btnLöschen:enabled:hover btnEdit:enabled:hover, btnNew:enabled:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.secContHolder {
+    width: 100%;
+    float: left;
+    height: 93% !important;
+    clear: none;
+    
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}

@@ -1,0 +1,394 @@
+﻿.ContentAreaDiv {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.TopContentAreaDiv {
+    height: 7%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    clear: both;
+    min-height: 65px;
+}
+
+.secLeftTop {
+    float: left;
+    width: 100%;
+    height: 99%;
+    background-color: transparent;
+}
+
+.secholder {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98%;
+    margin-top: 10px;
+}
+
+
+
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flame {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#lbltitletop {
+    width: 91%;
+    float: left;
+    clear: none;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+.stopPic {
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+    padding: 5px;
+    clear: both;
+}
+
+
+#promptbtnclose {
+    width: 25px;
+    float: right;
+    margin-right: 8px;
+    clear: none;
+    height: 25px;
+    background-image: url('../../Images/FormImages/promptclose.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+}
+
+#lbltitlemsg {
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 10px;
+    float: left;
+    height: 40%;
+    text-align: left;
+    clear: both;
+}
+
+#prompttopclose {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    clear: none;
+    height: 27px;
+}
+
+#areasavepop {
+    text-align: left;
+    width: 482px;
+    height: 198px;
+    padding: 0;
+    float: left;
+    background-color: white;
+    clear: none;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+#dialogBox {
+    width: 500px;
+    height: 230px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+@media only screen and (min-width: 200px) {
+    .areagrid {
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+}
+    .MidContentAreaDiv {
+    width: 100%;
+    float: left;
+    height: 90%;
+    margin-top: 1%;
+    min-height: 500px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+    .lblperiod {
+        width: 99%;
+        min-height: 30px;
+        margin-right: 0px;
+        font-weight: 600;
+        margin-top: 0%;
+        min-width: 440px;
+        padding-left: 2px;
+        float: left;
+        text-align: left;
+    }
+
+    .footerextra {
+        float: right;
+        width: 80%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1680px) {
+    .areagrid {
+    width: 100%;
+    height: 95%;
+    overflow-y: auto;
+}
+    .MidContentAreaDiv {
+    width: 100%;
+    float: left;
+    height: 90%;
+    margin-top: 1%;
+    min-height: 500px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+    .lblperiod {
+        width: 99%;
+        min-height: 30px;
+        margin-right: 0px;
+        font-weight: 600;
+        margin-top: 0%;
+        min-width: 440px;
+        padding-left: 2px;
+        float: left;
+        text-align: left;
+    }
+
+    .footerextra {
+        float: right;
+        width: 80%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .areagrid {
+    width: 100%;
+    height: 85%;
+    overflow-y: auto;
+}
+    .MidContentAreaDiv {
+    width: 100%;
+    float: left;
+    height: 90%;
+    margin-top: 1%;
+    min-height: 500px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+    .lblperiod {
+        width: 99%;
+        min-height: 30px;
+        margin-right: 0px;
+        font-weight: 600;
+        margin-top: 10%;
+        min-width: 105px;
+        padding-left: 2px;
+        float: left;
+        text-align: left;
+    }
+
+    .footerextra {
+        float: right;
+        width: 80%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .areagrid {
+    width: 100%;
+    height: 85%;
+    overflow-y: auto;
+}
+    .MidContentAreaDiv {
+    width: 100%;
+    float: left;
+    height: 90%;
+    margin-top: 1%;
+    min-height: 500px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+    .lblperiod {
+        width: 99%;
+        min-height: 30px;
+        margin-right: 0px;
+        font-weight: 600;
+        margin-top: 10%;
+        min-width: 105px;
+        padding-left: 2px;
+        float: left;
+        text-align: left;
+    }
+
+    .footerextra {
+        float: right;
+        width: 54%;
+        margin-right: 0;
+    }
+}
+
+
+
+#btnBackOk {
+    display: block;
+    width: 110px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen;
+    border-radius: 5px;
+}
+
+    #btnBackOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+
+#btnNo {
+    display: block;
+    width: 160px;
+    float: left;
+    padding: 0;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 1px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnNo:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#btnCancel {
+    display: block;
+    width: 182px;
+    float: left;
+    height: 30px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+    border-radius: 5px;
+}
+
+    #btnCancel:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#btnOk {
+    display: block;
+    width: 135px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }

@@ -1,0 +1,631 @@
+﻿@media only screen and (min-width: 200px) { 
+.footer {
+    height: 5%;
+    min-height: 40px;
+    background-color: #ffffff;
+    width: 90%;
+    margin-left: auto;
+    margin-top: 2px;
+    margin-right: auto;
+    float: none;
+}
+ .secContHolder {
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+
+
+      width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 93% !important;
+}
+.mainareaplace1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 99% !important;
+}
+
+
+.topareaplace1 {
+    height: 5%;
+    padding-top: 16px;
+    min-height: 44px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+#grdBookings img {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+
+.gridareaplace1 {
+    margin-top: 1%;
+    overflow-y: auto;
+    height: 90%;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+ .topbtn {
+    width: 74px;
+    height: 18px;
+    border-radius: 5px;
+    float: left;
+    margin: 5px 0 6px 8px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: none !important;
+    text-align: left !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+ .chkActivation {
+    height: 20px;
+    float: left;
+    margin-left:5px;
+        margin-top:5px;
+            margin-right:5px;
+    width: 20px; 
+    clear: none; 
+}
+ .lblabwes {
+    float: left;
+    margin-left: 10%;
+    font-size: 14px;
+    width: 5%;
+    height: 90%;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0.5px;
+}
+
+.lblabsew {
+    float: left;
+    margin-left: 1%;
+    font-size: 14px;
+    width: 5%;
+    height: 90%;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0.5px;
+}
+
+.btnredarea {
+    float: left;
+    margin: 9px 0 1px 0;
+    margin-top: 2px;
+    text-indent:-9999px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    background-image: url('../../Images/FormImages/btn_reddisplay.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 6px;
+    background-size: contain;
+}
+.btngreenarea {
+    float: left;
+    text-indent:-9999px;
+    margin: 9px 0 1px 0;
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    background-image: url('../../Images/FormImages/btn_greendisplay.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 6px;
+    background-size: contain;
+}
+.lblbooking {
+    float: right;
+    margin: 4px 0 10px 8px;
+    font-size: 14px;
+    padding-right: 1%;
+    text-align: right;
+    width: 24%;
+    color: red;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1680px) { 
+.footer {
+    height: 5%;
+    min-height: 40px;
+    background-color: #ffffff;
+    width: 90%;
+    margin-left: auto;
+    margin-top: 2px;
+    margin-right: auto;
+    float: none;
+}
+ .secContHolder {
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+
+
+      width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 93% !important;
+}
+.mainareaplace1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 99% !important;
+}
+
+
+.topareaplace1 {
+    height: 5%;
+    padding-top: 16px;
+    min-height: 44px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+#grdBookings img {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+
+.gridareaplace1 {
+    margin-top: 1%;
+    overflow-y: auto;
+    height: 90%;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+ .topbtn {
+    width: 74px;
+    height: 18px;
+    border-radius: 5px;
+    float: left;
+    margin: 5px 0 6px 8px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: none !important;
+    text-align: left !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+ .chkActivation {
+    height: 20px;
+    float: left;
+    margin-left:5px;
+        margin-top:5px;
+            margin-right:5px;
+    width: 20px; 
+    clear: none; 
+}
+ .lblabwes {
+    float: left;
+    margin-left: 10%;
+    font-size: 14px;
+    width: 5%;
+    height: 90%;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0.5px;
+}
+
+.lblabsew {
+    float: left;
+    margin-left: 1%;
+    font-size: 14px;
+    width: 5%;
+    height: 90%;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0.5px;
+}
+
+.btnredarea {
+    float: left;
+    margin: 9px 0 1px 0;
+    margin-top: 2px;
+    text-indent:-9999px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    background-image: url('../../Images/FormImages/btn_reddisplay.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 6px;
+    background-size: contain;
+}
+.btngreenarea {
+    float: left;
+    text-indent:-9999px;
+    margin: 9px 0 1px 0;
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    background-image: url('../../Images/FormImages/btn_greendisplay.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 6px;
+    background-size: contain;
+}
+.lblbooking {
+    float: right;
+    margin: 4px 0 10px 8px;
+    font-size: 14px;
+    padding-right: 1%;
+    text-align: right;
+    width: 24%;
+    color: red;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1700px) { 
+.footer {
+    height: 5%;
+    min-height: 40px;
+    background-color: #ffffff;
+    width: 90%;
+    margin-left: auto;
+    margin-top: 2px;
+    margin-right: auto;
+    float: none;
+}
+ .secContHolder {
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+
+
+      width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 93% !important;
+}
+.mainareaplace1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 99% !important;
+}
+
+
+.topareaplace1 {
+    height: 5%;
+    padding-top: 16px;
+    min-height: 44px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+#grdBookings img {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+
+.gridareaplace1 {
+    margin-top: 1%;
+    overflow-y: auto;
+    height: 90%;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+ .topbtn {
+    width: 74px;
+    height: 18px;
+    border-radius: 5px;
+    float: left;
+    margin: 5px 0 6px 8px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: none !important;
+    text-align: left !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+ .chkActivation {
+    height: 20px;
+    float: left;
+    margin-left:5px;
+        margin-top:5px;
+            margin-right:5px;
+    width: 20px; 
+    clear: none; 
+}
+ .lblabwes {
+    float: left;
+    margin-left: 10%;
+    font-size: 14px;
+    width: 5%;
+    height: 90%;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0.5px;
+}
+
+.lblabsew {
+    float: left;
+    margin-left: 1%;
+    font-size: 14px;
+    width: 5%;
+    height: 90%;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0.5px;
+}
+
+.btnredarea {
+    float: left;
+    margin: 9px 0 1px 0;
+    margin-top: 2px;
+    text-indent:-9999px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    background-image: url('../../Images/FormImages/btn_reddisplay.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 6px;
+    background-size: contain;
+}
+.btngreenarea {
+    float: left;
+    text-indent:-9999px;
+    margin: 9px 0 1px 0;
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    background-image: url('../../Images/FormImages/btn_greendisplay.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 6px;
+    background-size: contain;
+}
+.lblbooking {
+    float: right;
+    margin: 4px 0 10px 8px;
+    font-size: 14px;
+    padding-right: 1%;
+    text-align: right;
+    width: 24%;
+    color: red;
+}
+
+
+
+}
+
+@media only screen and (min-width: 200px) { 
+.footer {
+    height: 5%;
+    min-height: 40px;
+    background-color: #ffffff;
+    width: 90%;
+    margin-left: auto;
+    margin-top: 2px;
+    margin-right: auto;
+    float: none;
+}
+ .secContHolder {
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+
+
+      width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 93% !important;
+}
+.mainareaplace1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 99% !important;
+}
+
+
+.topareaplace1 {
+    height: 5%;
+    padding-top: 16px;
+    min-height: 44px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+#grdBookings img {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+
+.gridareaplace1 {
+    margin-top: 1%;
+    overflow-y: auto;
+    height: 90%;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+ .topbtn {
+    width: 74px;
+    height: 18px;
+    border-radius: 5px;
+    float: left;
+    margin: 5px 0 6px 8px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: none !important;
+    text-align: left !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+ .chkActivation {
+    height: 20px;
+    float: left;
+    margin-left:5px;
+        margin-top:5px;
+            margin-right:5px;
+    width: 20px; 
+    clear: none; 
+}
+ .lblabwes {
+    float: left;
+    margin-left: 10%;
+    font-size: 14px;
+    width: 5%;
+    height: 90%;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0.5px;
+}
+
+.lblabsew {
+    float: left;
+    margin-left: 1%;
+    font-size: 14px;
+    width: 5%;
+    height: 90%;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0.5px;
+}
+
+.btnredarea {
+    float: left;
+    margin: 9px 0 1px 0;
+    margin-top: 2px;
+    text-indent:-9999px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    background-image: url('../../Images/FormImages/btn_reddisplay.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 6px;
+    background-size: contain;
+}
+.btngreenarea {
+    float: left;
+    text-indent:-9999px;
+    margin: 9px 0 1px 0;
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    background-image: url('../../Images/FormImages/btn_greendisplay.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 6px;
+    background-size: contain;
+}
+.lblbooking {
+    float: right;
+    margin: 4px 0 10px 8px;
+    font-size: 14px;
+    padding-right: 1%;
+    text-align: right;
+    width: 24%;
+    color: red;
+}
+
+
+
+}

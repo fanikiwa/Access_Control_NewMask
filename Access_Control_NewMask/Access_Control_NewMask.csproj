@@ -1,0 +1,2061 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F43E0914-16E6-4113-97FF-0C4E71ACB920}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Access_Control_NewMask</RootNamespace>
+    <AssemblyName>Access_Control_NewMask</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DatabaseDesignUpdator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\DatabaseDesignUpdator.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2.Service, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2.Web, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DfWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\DfWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Krutec.DataFox, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Krutec.DataFox.dll</HintPath>
+    </Reference>
+    <Reference Include="Krutec.Tools, Version=1.0.2.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Krutec.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="KrutecDfTrans, Version=1.0.1.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\KrutecDfTrans.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="ttxCore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ttxCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ttxTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ttxTools.dll</HintPath>
+    </Reference>
+    <Reference Include="ZKEUEmKeeperNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=30d92491ab74553a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ZKEUEmKeeperNet.dll</HintPath>
+    </Reference>
+    <Reference Include="ZKSDKCommunication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TermKonfig\TermKonfig\DLLS\ZKSDKCommunication.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\ReportService.mdf" />
+    <Content Include="Content\AccessCorrection.aspx" />
+    <Content Include="Content\AccessGroupHolidaySchedule.aspx" />
+    <Content Include="Content\AccessKalendar.aspx" />
+    <Content Include="Content\AccessPlan.aspx" />
+    <Content Include="Content\AccessPlanAccessCalender.aspx" />
+    <Content Include="Content\AccessPlanAccessGroup.aspx" />
+    <Content Include="Content\AccessPlanGroup.aspx" />
+    <Content Include="Content\AccessPlanGroupCalender.aspx" />
+    <Content Include="Content\AccessPlanGroupReader.aspx" />
+    <Content Include="Content\AccessPlanHolidaySchedule.aspx" />
+    <Content Include="Content\AccessPlanMembers.aspx" />
+    <Content Include="Content\AccessPlanPersonal.aspx" />
+    <Content Include="Content\AccessPlanReader.aspx" />
+    <Content Include="Content\AccessPlanTerminalInfo.aspx" />
+    <Content Include="Content\AccessProfile.aspx" />
+    <Content Include="Content\AccessProfileGroup.aspx" />
+    <Content Include="Content\AccReports.aspx" />
+    <Content Include="Content\Alarmfunction.aspx" />
+    <Content Include="Content\AssignReader.aspx" />
+    <Content Include="Content\BuildingPlanGroup.aspx" />
+    <Content Include="Content\BuildingPlanTerminalInfo.aspx" />
+    <Content Include="Content\BuildingPlanTermInfo.aspx" />
+    <Content Include="Content\CardPrint.aspx" />
+    <Content Include="Content\CostCenter_New.aspx" />
+    <Content Include="Content\Customer.aspx" />
+    <Content Include="Content\DashboardSettings.aspx" />
+    <Content Include="Content\DataCommunicationManual.aspx" />
+    <Content Include="Content\Department_New.aspx" />
+    <Content Include="Content\Displaypanel.aspx" />
+    <Content Include="Content\GateDisplaypanel.aspx" />
+    <Content Include="Content\GateMembers.aspx" />
+    <Content Include="Content\GateMembersDocumente.aspx" />
+    <Content Include="Content\GateMembersform.aspx" />
+    <Content Include="Content\GateMonitor.aspx" />
+    <Content Include="Content\GatePersonal.aspx" />
+    <Content Include="Content\GatePersonalDocument.aspx" />
+    <Content Include="Content\GateVisitors.aspx" />
+    <Content Include="Content\Gebaudeplan.aspx" />
+    <Content Include="Content\HolidayCalender.aspx" />
+    <Content Include="Content\Holidayplan.aspx" />
+    <Content Include="Content\Language.aspx" />
+    <Content Include="Content\Locations.aspx" />
+    <Content Include="Content\Login.aspx" />
+    <Content Include="Content\Logout.aspx" />
+    <Content Include="Content\MemberContractDuration.aspx" />
+    <Content Include="Content\MemberReport.aspx" />
+    <Content Include="Content\Members.aspx" />
+    <Content Include="Content\MembersDocumente.aspx" />
+    <Content Include="Content\MembersDocumenteInactive.aspx" />
+    <Content Include="Content\Membersform.aspx" />
+    <Content Include="Content\MembersformInactive.aspx" />
+    <Content Include="Content\MembersGroup.aspx" />
+    <Content Include="Content\MembersInactive.aspx" />
+    <Content Include="Content\Personal.aspx" />
+    <Content Include="Content\PersonalDocumente.aspx" />
+    <Content Include="Content\PersonalDocumenteInactive.aspx" />
+    <Content Include="Content\PersonalForm.aspx" />
+    <Content Include="Content\PersonalFormInactive.aspx" />
+    <Content Include="Content\PersonalInactive.aspx" />
+    <Content Include="Content\PersonalReport.aspx" />
+    <Content Include="Content\ReportMembersCardInfo.aspx" />
+    <Content Include="Content\ReportPersonalCardInfo.aspx" />
+    <Content Include="Content\ReportsMembersAttendaceList.aspx" />
+    <Content Include="Content\ReportsMembersAttendancetimes.aspx" />
+    <Content Include="Content\ReportsMembersList.aspx" />
+    <Content Include="Content\ReportsPersonalAttendanceList.aspx" />
+    <Content Include="Content\ReportsPersonalAttendancetimes.aspx" />
+    <Content Include="Content\ReportsPersonalList.aspx" />
+    <Content Include="Content\ReportsVisitorHistory.aspx" />
+    <Content Include="Content\ReportsVisitorList.aspx" />
+    <Content Include="Content\ReportsVisitorsAttendanceList.aspx" />
+    <Content Include="Content\RightsAssignment.aspx" />
+    <Content Include="Content\RightsSettings.aspx" />
+    <Content Include="Content\Scripts\AccessCorrection.js" />
+    <Content Include="Content\Scripts\AccessGroupHolidaySchedule.js" />
+    <Content Include="Content\Scripts\AccessKalendar.js" />
+    <Content Include="Content\Scripts\AccessPlan.js" />
+    <Content Include="Content\Scripts\AccessPlanAccessCalender.js" />
+    <Content Include="Content\Scripts\AccessPlanAccessGroup.js" />
+    <Content Include="Content\Scripts\AccessPlanGroup.js" />
+    <Content Include="Content\Scripts\AccessPlanGroupCalender.js" />
+    <Content Include="Content\Scripts\AccessPlanGroupReader.js" />
+    <Content Include="Content\Scripts\AccessPlanGroupReaderDiagram.js" />
+    <Content Include="Content\Scripts\AccessPlanHolidaySchedule.js" />
+    <Content Include="Content\Scripts\AccessPlanMembers.js" />
+    <Content Include="Content\Scripts\AccessPlanPersonal.js" />
+    <Content Include="Content\Scripts\AccessPlanReader.js" />
+    <Content Include="Content\Scripts\AccessPlanReaderDiagram.js" />
+    <Content Include="Content\Scripts\AccessPlanTerminalInfo.js" />
+    <Content Include="Content\Scripts\AccessProfile.js" />
+    <Content Include="Content\Scripts\AccessProfileGroup.js" />
+    <Content Include="Content\Scripts\AccReports.js" />
+    <Content Include="Content\Scripts\Alarmfunction.js" />
+    <Content Include="Content\Scripts\AssignReader.js" />
+    <Content Include="Content\Scripts\Buildingplan.js" />
+    <Content Include="Content\Scripts\BuildingPlanDiagram.js" />
+    <Content Include="Content\Scripts\BuildingPlanGroup.js" />
+    <Content Include="Content\Scripts\BuildingPlanTerminalInfo.js" />
+    <Content Include="Content\Scripts\BuildingPlanTermInfo.js" />
+    <Content Include="Content\Scripts\CostCenter_New.js" />
+    <Content Include="Content\Scripts\Customer.js" />
+    <Content Include="Content\Scripts\DashboardSettings.js" />
+    <Content Include="Content\Scripts\DataCommunicationManual.js" />
+    <Content Include="Content\Scripts\Department_New.js" />
+    <Content Include="Content\Scripts\DiagramFunctionsPlans.js" />
+    <Content Include="Content\Scripts\DiagramsCustomFunctions.js" />
+    <Content Include="Content\Scripts\Displaypanel.js" />
+    <Content Include="Content\Scripts\GateDisplaypanel.js" />
+    <Content Include="Content\Scripts\GateMembers.js" />
+    <Content Include="Content\Scripts\GateMembersDocumente.js" />
+    <Content Include="Content\Scripts\GateMembersform.js" />
+    <Content Include="Content\Scripts\GateMonitor.js" />
+    <Content Include="Content\Scripts\GatePersonal.js" />
+    <Content Include="Content\Scripts\GatePersonalDocument.js" />
+    <Content Include="Content\Scripts\GateVisitors.js" />
+    <Content Include="Content\Scripts\go-debug.js" />
+    <Content Include="Content\Scripts\go.js" />
+    <Content Include="Content\Scripts\goOld.js" />
+    <Content Include="Content\Scripts\HolidayCalender.js" />
+    <Content Include="Content\Scripts\Holidayplan.js" />
+    <Content Include="Content\Scripts\Language.js" />
+    <Content Include="Content\Scripts\Locations.js" />
+    <Content Include="Content\Scripts\Login.js" />
+    <Content Include="Content\Scripts\Logout.js" />
+    <Content Include="Content\Scripts\MemberContractDuration.js" />
+    <Content Include="Content\Scripts\MemberReport.js" />
+    <Content Include="Content\Scripts\Members.js" />
+    <Content Include="Content\Scripts\MembersDocumente.js" />
+    <Content Include="Content\Scripts\MembersDocumenteInactive.js" />
+    <Content Include="Content\Scripts\Membersform.js" />
+    <Content Include="Content\Scripts\MembersformInactive.js" />
+    <Content Include="Content\Scripts\MembersGroup.js" />
+    <Content Include="Content\Scripts\MembersInactive.js" />
+    <Content Include="Content\Scripts\Personal.js" />
+    <Content Include="Content\Scripts\PersonalDocumente.js" />
+    <Content Include="Content\Scripts\PersonalDocumenteInactive.js" />
+    <Content Include="Content\Scripts\PersonalForm.js" />
+    <Content Include="Content\Scripts\PersonalFormInactive.js" />
+    <Content Include="Content\Scripts\PersonalInactive.js" />
+    <Content Include="Content\Scripts\PersonalReport.js" />
+    <Content Include="Content\Scripts\ReportMembersCardInfo.js" />
+    <Content Include="Content\Scripts\ReportPersonalAttendanceTimes.js" />
+    <Content Include="Content\Scripts\ReportPersonalCardInfo.js" />
+    <Content Include="Content\Scripts\ReportsMembersAttendaceList.js" />
+    <Content Include="Content\Scripts\ReportsMembersAttendancetimes.js" />
+    <Content Include="Content\Scripts\ReportsMembersList.js" />
+    <Content Include="Content\Scripts\ReportsPersonalAttendanceList.js" />
+    <Content Include="Content\Scripts\ReportsPersonalList.js" />
+    <Content Include="Content\Scripts\ReportsVisitorHistory.js" />
+    <Content Include="Content\Scripts\ReportsVisitorList.js" />
+    <Content Include="Content\Scripts\ReportsVisitorsAttendanceList.js" />
+    <Content Include="Content\Scripts\RightsAssignment.js" />
+    <Content Include="Content\Scripts\RightsSettings.js" />
+    <Content Include="Content\Scripts\SwitchCalender.js" />
+    <Content Include="Content\Scripts\Switchplan.js" />
+    <Content Include="Content\Scripts\Switchprofile.js" />
+    <Content Include="Content\Scripts\TakePhoto.js" />
+    <Content Include="Content\Scripts\TimePickerDemo\timepicki.js" />
+    <Content Include="Content\Scripts\TimePickerDemo\wickedpicker.js" />
+    <Content Include="Content\Scripts\underscore.js" />
+    <Content Include="Content\Scripts\Vehicles.js" />
+    <Content Include="Content\Scripts\VisitorCompany.js" />
+    <Content Include="Content\Scripts\VisitorPlan.js" />
+    <Content Include="Content\Scripts\VisitorPlanReader.js" />
+    <Content Include="Content\Scripts\VisitorPlanReaderDiagram.js" />
+    <Content Include="Content\Scripts\VisitorPlanVisitorCalender.js" />
+    <Content Include="Content\Scripts\VisitorReports.js" />
+    <Content Include="Content\Scripts\Visitors.js" />
+    <Content Include="Content\Scripts\VisitorsApplications.js" />
+    <Content Include="Content\Scripts\Webcamscripts\webcam.js" />
+    <Content Include="Content\Scripts\Webcamscripts\webcam.min.js" />
+    <Content Include="Content\Scripts\Webcamscripts\webcam.swf" />
+    <Content Include="Content\Styles\AccessCorrection.css" />
+    <Content Include="Content\Styles\AccessGroupHolidaySchedule.css" />
+    <Content Include="Content\Styles\AccessKalendar.css" />
+    <Content Include="Content\Styles\AccessPlan.css" />
+    <Content Include="Content\Styles\AccessPlanAccessCalendar2.css" />
+    <Content Include="Content\Styles\AccessPlanAccessCalender.css" />
+    <Content Include="Content\Styles\AccessPlanAccessGroup.css" />
+    <Content Include="Content\Styles\AccessPlanGroup.css" />
+    <Content Include="Content\Styles\AccessPlanGroupCalender.css" />
+    <Content Include="Content\Styles\AccessPlanGroupReader.css" />
+    <Content Include="Content\Styles\AccessPlanHolidaySchedule.css" />
+    <Content Include="Content\Styles\AccessPlanMembers.css" />
+    <Content Include="Content\Styles\AccessPlanPersonal.css" />
+    <Content Include="Content\Styles\Accessplanpersonal2.css" />
+    <Content Include="Content\Styles\AccessPlanReader.css" />
+    <Content Include="Content\Styles\AccessPlanReaderNew.css" />
+    <Content Include="Content\Styles\AccessPlanTerminalInfo.css" />
+    <Content Include="Content\Styles\AccessProfile.css" />
+    <Content Include="Content\Styles\AccessProfileGroup.css" />
+    <Content Include="Content\Styles\AccReports.css" />
+    <Content Include="Content\Styles\Alarmfunction.css" />
+    <Content Include="Content\Styles\AssignReader.css" />
+    <Content Include="Content\Styles\Buildingplan.css" />
+    <Content Include="Content\Styles\BuildingPlanGroup.css" />
+    <Content Include="Content\Styles\BuildingPlanTerminalInfo.css" />
+    <Content Include="Content\Styles\BuildingPlanTermInfo.css" />
+    <Content Include="Content\Styles\CostCenter_New.css" />
+    <Content Include="Content\Styles\Customer.css" />
+    <Content Include="Content\Styles\DashboardSettings.css" />
+    <Content Include="Content\Styles\DataCommunicationManual.css" />
+    <Content Include="Content\Styles\Department_New.css" />
+    <Content Include="Content\Styles\Displaypanel.css" />
+    <Content Include="Content\Styles\FormViewSearch.css" />
+    <Content Include="Content\Styles\FormViewSearchAccPro.css" />
+    <Content Include="Content\Styles\FormViewSearchcalender.css" />
+    <Content Include="Content\Styles\FormviewsearchMembers.css" />
+    <Content Include="Content\Styles\GateDisplaypanel.css" />
+    <Content Include="Content\Styles\GateMembers.css" />
+    <Content Include="Content\Styles\GateMembersDocumente.css" />
+    <Content Include="Content\Styles\GateMembersform.css" />
+    <Content Include="Content\Styles\GatePersonal.css" />
+    <Content Include="Content\Styles\GatePersonalDocument.css" />
+    <Content Include="Content\Styles\GateVisitors.css" />
+    <Content Include="Content\Styles\HolidayCalender.css" />
+    <Content Include="Content\Styles\Holidayplan.css" />
+    <Content Include="Content\Styles\ImportantDialogVisitorDashboard.css" />
+    <Content Include="Content\Styles\ImportantInfoDialog.css" />
+    <Content Include="Content\Styles\ImportantInfoDialogAccessProfile.css" />
+    <Content Include="Content\Styles\ImportantInfoDialogAcckal.css" />
+    <Content Include="Content\Styles\ImportantInfoDialogHolidayCalendar.css" />
+    <Content Include="Content\Styles\ImportantInfoDialogPersonal.css" />
+    <Content Include="Content\Styles\ImportantInfoDialogVer2.css" />
+    <Content Include="Content\Styles\Language.css" />
+    <Content Include="Content\Styles\Locations.css" />
+    <Content Include="Content\Styles\Login.css" />
+    <Content Include="Content\Styles\Logout.css" />
+    <Content Include="Content\Styles\MemberContractDuration.css" />
+    <Content Include="Content\Styles\MemberGroupDialouge.css" />
+    <Content Include="Content\Styles\MemberReport.css" />
+    <Content Include="Content\Styles\Members.css" />
+    <Content Include="Content\Styles\MembersDocumente.css" />
+    <Content Include="Content\Styles\MembersDocumenteInactive.css" />
+    <Content Include="Content\Styles\Membersform.css" />
+    <Content Include="Content\Styles\MembersformInactive.css" />
+    <Content Include="Content\Styles\MembersGroup.css" />
+    <Content Include="Content\Styles\MembersInactive.css" />
+    <Content Include="Content\Styles\Personal.css" />
+    <Content Include="Content\Styles\PersonalDocumente.css" />
+    <Content Include="Content\Styles\PersonalDocumenteInactive.css" />
+    <Content Include="Content\Styles\PersonalForm.css" />
+    <Content Include="Content\Styles\PersonalFormInactive.css" />
+    <Content Include="Content\Styles\PersonalInactive.css" />
+    <Content Include="Content\Styles\PersonalReport.css" />
+    <Content Include="Content\Styles\ReportMembersCardInfo.css" />
+    <Content Include="Content\Styles\ReportPersonalCardInfo.css" />
+    <Content Include="Content\Styles\ReportsMembersAttendaceList.css" />
+    <Content Include="Content\Styles\ReportsMembersAttendancetimes.css" />
+    <Content Include="Content\Styles\ReportsMembersList.css" />
+    <Content Include="Content\Styles\ReportsPersonalAttendanceList.css" />
+    <Content Include="Content\Styles\ReportsPersonalAttendancetimes.css" />
+    <Content Include="Content\Styles\ReportsPersonalList.css" />
+    <Content Include="Content\Styles\ReportsVisitorHistory.css" />
+    <Content Include="Content\Styles\ReportsVisitorList.css" />
+    <Content Include="Content\Styles\ReportsVisitorsAttendanceList.css" />
+    <Content Include="Content\Styles\RightsAssignment.css" />
+    <Content Include="Content\Styles\RightsSettings.css" />
+    <Content Include="Content\Styles\SaveDeleteDialog.css" />
+    <Content Include="Content\Styles\SerchClientCompany.css" />
+    <Content Include="Content\Styles\SerchClientCompanyDashbord.css" />
+    <Content Include="Content\Styles\SwitchCalender.css" />
+    <Content Include="Content\Styles\Switchplan.css" />
+    <Content Include="Content\Styles\Switchprofile.css" />
+    <Content Include="Content\Styles\TimePickerDemo\fonts\fontello.svg" />
+    <Content Include="Content\Styles\TimePickerDemo\timepicki.css" />
+    <Content Include="Content\Styles\TimePickerDemo\wickedpicker.css" />
+    <Content Include="Content\Styles\TimePickerDemo\wickedpicker.min.css" />
+    <Content Include="Content\Styles\Vehicles.css" />
+    <Content Include="Content\Styles\VehiclesDialogs.css" />
+    <Content Include="Content\Styles\VisitorCompany.css" />
+    <Content Include="Content\Styles\VisitorPlan.css" />
+    <Content Include="Content\Styles\VisitorPlanReader.css" />
+    <Content Include="Content\Styles\VisitorPlanReader2.css" />
+    <Content Include="Content\Styles\VisitorPlanVisitorCalender.css" />
+    <Content Include="Content\Styles\VisitorPlanVisitorCalender2.css" />
+    <Content Include="Content\Styles\VisitorReports.css" />
+    <Content Include="Content\Styles\Visitors.css" />
+    <Content Include="Content\Styles\VisitorsApplications.css" />
+    <Content Include="Content\SwitchCalender.aspx" />
+    <Content Include="Content\Switchplan.aspx" />
+    <Content Include="Content\Switchprofile.aspx" />
+    <Content Include="Content\Vehicles.aspx" />
+    <Content Include="Content\VisitorCompany.aspx" />
+    <Content Include="Content\VisitorPlan.aspx" />
+    <Content Include="Content\VisitorPlanReader.aspx" />
+    <Content Include="Content\VisitorPlanVisitorCalender.aspx" />
+    <Content Include="Content\VisitorReports.aspx" />
+    <Content Include="Content\Visitors.aspx" />
+    <Content Include="Content\VisitorsApplications.aspx" />
+    <Content Include="DBScripts\20160208000.txt" />
+    <Content Include="DBScripts\Accounts.sql" />
+    <Content Include="DBScripts\AC_Permissions.sql" />
+    <Content Include="DBScripts\Colors.sql" />
+    <Content Include="DBScripts\Countries.sql" />
+    <Content Include="DBScripts\DAC\1033\DacUnpackResources.dll" />
+    <Content Include="DBScripts\DAC\dacunpack.exe" />
+    <Content Include="DBScripts\DAC\Extensions\Readme.txt" />
+    <Content Include="DBScripts\DAC\Microsoft.Data.Tools.Contracts.dll" />
+    <Content Include="DBScripts\DAC\Microsoft.Data.Tools.Schema.Sql.dll" />
+    <Content Include="DBScripts\DAC\Microsoft.Data.Tools.Schema.Tasks.Sql.dll" />
+    <Content Include="DBScripts\DAC\Microsoft.Data.Tools.Schema.Utilities.Sql.dll" />
+    <Content Include="DBScripts\DAC\Microsoft.Data.Tools.Utilities.dll" />
+    <Content Include="DBScripts\DAC\Microsoft.SqlServer.Dac.dll" />
+    <Content Include="DBScripts\DAC\Microsoft.SqlServer.Dac.Extensions.dll" />
+    <Content Include="DBScripts\DAC\Microsoft.SqlServer.Dac.Extensions.xml" />
+    <Content Include="DBScripts\DAC\Microsoft.SqlServer.Dac.xml" />
+    <Content Include="DBScripts\DAC\sqlpackage.exe" />
+    <Content Include="DBScripts\Pers_Type.sql" />
+    <Content Include="DBScripts\Status_Static.sql" />
+    <Content Include="DBScripts\TerminalOEM.sql" />
+    <Content Include="DBScripts\Terminals.sql" />
+    <Content Include="DBScripts\VehicleTypes.sql" />
+    <Content Include="Dlls\DatabaseDesignUpdator.dll" />
+    <Content Include="Dlls\DFComDLL.dll" />
+    <Content Include="Dlls\DfWrapper.dll" />
+    <Content Include="Dlls\Krutec.DataFox.dll" />
+    <Content Include="Dlls\Krutec.Tools.dll" />
+    <Content Include="Dlls\KrutecDfTrans.exe" />
+    <Content Include="Dlls\ttxCore.dll" />
+    <Content Include="Dlls\ttxTools.dll" />
+    <Content Include="Dlls\ZKEUEmKeeperNet.dll" />
+    <Content Include="Dlls\ZKSDKCommunication.dll" />
+    <Content Include="Images\FormImages\18pxorange.png" />
+    <Content Include="Images\FormImages\190arrow.png" />
+    <Content Include="Images\FormImages\190arrow2.png" />
+    <Content Include="Images\FormImages\1arrow.png" />
+    <Content Include="Images\FormImages\245arrow.png" />
+    <Content Include="Images\FormImages\245arrow2.png" />
+    <Content Include="Images\FormImages\25pxlocked.png" />
+    <Content Include="Images\FormImages\2arrow.png" />
+    <Content Include="Images\FormImages\315-arrow.png" />
+    <Content Include="Images\FormImages\315RIght.png" />
+    <Content Include="Images\FormImages\absent.png" />
+    <Content Include="Images\FormImages\access-pprofigrp-pic.png" />
+    <Content Include="Images\FormImages\accesscorrections-pic.png" />
+    <Content Include="Images\FormImages\accessgroup-pic.png" />
+    <Content Include="Images\FormImages\accessplan-pic.png" />
+    <Content Include="Images\FormImages\accessplangroup-pic.png" />
+    <Content Include="Images\FormImages\accessprotocal-pics.png" />
+    <Content Include="Images\FormImages\addtogrid.png" />
+    <Content Include="Images\FormImages\alarm-pic.png" />
+    <Content Include="Images\FormImages\all.png" />
+    <Content Include="Images\FormImages\ANZ.png" />
+    <Content Include="Images\FormImages\Apply.png" />
+    <Content Include="Images\FormImages\arrow-20px.png" />
+    <Content Include="Images\FormImages\arrowgreen-02.png" />
+    <Content Include="Images\FormImages\arrowgreen-02New.png" />
+    <Content Include="Images\FormImages\ArrowLeft.png" />
+    <Content Include="Images\FormImages\arrowpoint.png" />
+    <Content Include="Images\FormImages\arrowpomit.png" />
+    <Content Include="Images\FormImages\arrowreader.png" />
+    <Content Include="Images\FormImages\arrowred-01.png" />
+    <Content Include="Images\FormImages\arrowred-01New.png" />
+    <Content Include="Images\FormImages\ArrowRight.png" />
+    <Content Include="Images\FormImages\ArrowRightBlack.png" />
+    <Content Include="Images\FormImages\Berechtigungen-pic.png" />
+    <Content Include="Images\FormImages\blue1.png" />
+    <Content Include="Images\FormImages\bluecamera.png" />
+    <Content Include="Images\FormImages\bp_green24px.png" />
+    <Content Include="Images\FormImages\bp_green24pxOld.png" />
+    <Content Include="Images\FormImages\bp_green24pxOLd2.png" />
+    <Content Include="Images\FormImages\bp_green24pxOld3.png" />
+    <Content Include="Images\FormImages\bp_red24px.png" />
+    <Content Include="Images\FormImages\bp_red24pxOld.png" />
+    <Content Include="Images\FormImages\bp_red24pxOld2.png" />
+    <Content Include="Images\FormImages\bp_red24pxOld3.png" />
+    <Content Include="Images\FormImages\btnBack.png" />
+    <Content Include="Images\FormImages\btncopy.png" />
+    <Content Include="Images\FormImages\btndelete.png" />
+    <Content Include="Images\FormImages\btnEdit.png" />
+    <Content Include="Images\FormImages\btnEdit23.png" />
+    <Content Include="Images\FormImages\btnprgs2.png" />
+    <Content Include="Images\FormImages\btn_greendisplay.png" />
+    <Content Include="Images\FormImages\btn_reddisplay.png" />
+    <Content Include="Images\FormImages\buildingplan-pic.png" />
+    <Content Include="Images\FormImages\builginggroup-pic.png" />
+    <Content Include="Images\FormImages\calender1-pic.png" />
+    <Content Include="Images\FormImages\CAR1.jpg" />
+    <Content Include="Images\FormImages\CAR2.jpg" />
+    <Content Include="Images\FormImages\cardreaderdata.png" />
+    <Content Include="Images\FormImages\cartype-pic.png" />
+    <Content Include="Images\FormImages\client-pic.png" />
+    <Content Include="Images\FormImages\Close.png" />
+    <Content Include="Images\FormImages\CloseBtn.jpg" />
+    <Content Include="Images\FormImages\ClosedDoorRed.png" />
+    <Content Include="Images\FormImages\ClosedDoorRedOld.png" />
+    <Content Include="Images\FormImages\contract-pic.png" />
+    <Content Include="Images\FormImages\copy.png" />
+    <Content Include="Images\FormImages\Copy2.png" />
+    <Content Include="Images\FormImages\correction.png" />
+    <Content Include="Images\FormImages\costCenter-pic.png" />
+    <Content Include="Images\FormImages\dash-check.png" />
+    <Content Include="Images\FormImages\dash-info.png" />
+    <Content Include="Images\FormImages\dash-personal.png" />
+    <Content Include="Images\FormImages\dash-vis.png" />
+    <Content Include="Images\FormImages\datamanual-icon.png" />
+    <Content Include="Images\FormImages\delete.png" />
+    <Content Include="Images\FormImages\delImage.png" />
+    <Content Include="Images\FormImages\DelPhotoImg_x18.png" />
+    <Content Include="Images\FormImages\department-pic.png" />
+    <Content Include="Images\FormImages\display-01.png" />
+    <Content Include="Images\FormImages\displaypanel-pic.png" />
+    <Content Include="Images\FormImages\document.png" />
+    <Content Include="Images\FormImages\document1.png" />
+    <Content Include="Images\FormImages\document2.png" />
+    <Content Include="Images\FormImages\door-reader100-cange2.png" />
+    <Content Include="Images\FormImages\door-reader100-last.png" />
+    <Content Include="Images\FormImages\door-reader100.png" />
+    <Content Include="Images\FormImages\door-reader100_Old.png" />
+    <Content Include="Images\FormImages\door-reader100_Old2.png" />
+    <Content Include="Images\FormImages\door-reader100_Old3.png" />
+    <Content Include="Images\FormImages\door.png" />
+    <Content Include="Images\FormImages\Ebene25.png" />
+    <Content Include="Images\FormImages\edit-02-01.png" />
+    <Content Include="Images\FormImages\edit-02.png" />
+    <Content Include="Images\FormImages\ERP2.png" />
+    <Content Include="Images\FormImages\ETZ.png" />
+    <Content Include="Images\FormImages\file.png" />
+    <Content Include="Images\FormImages\FILTER-01.png" />
+    <Content Include="Images\FormImages\folder1-01.png" />
+    <Content Include="Images\FormImages\folder2-02.png" />
+    <Content Include="Images\FormImages\folder4-01.png" />
+    <Content Include="Images\FormImages\folderminus-02.png" />
+    <Content Include="Images\FormImages\folderminus-22-02.png" />
+    <Content Include="Images\FormImages\folderplus-01.png" />
+    <Content Include="Images\FormImages\folderplus-11-01.png" />
+    <Content Include="Images\FormImages\folderplus3-02.png" />
+    <Content Include="Images\FormImages\gatemonitor-pic.png" />
+    <Content Include="Images\FormImages\Gebaeude25.png" />
+    <Content Include="Images\FormImages\green1.png" />
+    <Content Include="Images\FormImages\greenactive.png" />
+    <Content Include="Images\FormImages\greencamera.png" />
+    <Content Include="Images\FormImages\greengrid.png" />
+    <Content Include="Images\FormImages\greengrid2.png" />
+    <Content Include="Images\FormImages\greeninfo-01.png" />
+    <Content Include="Images\FormImages\grey1.png" />
+    <Content Include="Images\FormImages\GreyArrowLeft.png" />
+    <Content Include="Images\FormImages\GreyArrowRight.png" />
+    <Content Include="Images\FormImages\Help.png" />
+    <Content Include="Images\FormImages\holiday-01.jpg" />
+    <Content Include="Images\FormImages\holiday.png" />
+    <Content Include="Images\FormImages\holiday02.png" />
+    <Content Include="Images\FormImages\holiday2.png" />
+    <Content Include="Images\FormImages\holiday50px.png" />
+    <Content Include="Images\FormImages\holidayplan-pic.png" />
+    <Content Include="Images\FormImages\info-03-01.png" />
+    <Content Include="Images\FormImages\info-03.png" />
+    <Content Include="Images\FormImages\infoback.png" />
+    <Content Include="Images\FormImages\infoblue.png" />
+    <Content Include="Images\FormImages\infoblue2.png" />
+    <Content Include="Images\FormImages\infogreen.png" />
+    <Content Include="Images\FormImages\infor-30px.png" />
+    <Content Include="Images\FormImages\infor-30pxOld.png" />
+    <Content Include="Images\FormImages\information2.png" />
+    <Content Include="Images\FormImages\internet-holiday.png" />
+    <Content Include="Images\FormImages\iterm-02.png" />
+    <Content Include="Images\FormImages\Kal1.png" />
+    <Content Include="Images\FormImages\Kal2.png" />
+    <Content Include="Images\FormImages\Kal3.png" />
+    <Content Include="Images\FormImages\karendar-arrow1.png" />
+    <Content Include="Images\FormImages\karendar-arrow2.png" />
+    <Content Include="Images\FormImages\Keys.png" />
+    <Content Include="Images\FormImages\krutec-logo.png" />
+    <Content Include="Images\FormImages\landscape1.png" />
+    <Content Include="Images\FormImages\language-pic.png" />
+    <Content Include="Images\FormImages\leser.png" />
+    <Content Include="Images\FormImages\leser50px.png" />
+    <Content Include="Images\FormImages\leserOld.png" />
+    <Content Include="Images\FormImages\leserpic2.png" />
+    <Content Include="Images\FormImages\leserpic40em.png" />
+    <Content Include="Images\FormImages\Loading.gif" />
+    <Content Include="Images\FormImages\location-pics.png" />
+    <Content Include="Images\FormImages\location.png" />
+    <Content Include="Images\FormImages\location2.png" />
+    <Content Include="Images\FormImages\lockedpic40px.png" />
+    <Content Include="Images\FormImages\logout-no.png" />
+    <Content Include="Images\FormImages\maximize.png" />
+    <Content Include="Images\FormImages\membermaster-pis.png" />
+    <Content Include="Images\FormImages\memberstudio-pic.png" />
+    <Content Include="Images\FormImages\minimize.png" />
+    <Content Include="Images\FormImages\morelist-pic.png" />
+    <Content Include="Images\FormImages\name-01.png" />
+    <Content Include="Images\FormImages\new-01.png" />
+    <Content Include="Images\FormImages\New-Room-32.png" />
+    <Content Include="Images\FormImages\New-Room-48.png" />
+    <Content Include="Images\FormImages\New.png" />
+    <Content Include="Images\FormImages\NewPhotoImg_x18.png" />
+    <Content Include="Images\FormImages\no-logout.png" />
+    <Content Include="Images\FormImages\OK.png" />
+    <Content Include="Images\FormImages\OpenDoorGreen.png" />
+    <Content Include="Images\FormImages\OpenDoorGreenOld.png" />
+    <Content Include="Images\FormImages\orange-info2.png" />
+    <Content Include="Images\FormImages\otherreport.png" />
+    <Content Include="Images\FormImages\paint-brush.png" />
+    <Content Include="Images\FormImages\passBack_0.jpg" />
+    <Content Include="Images\FormImages\passBack_1.jpg" />
+    <Content Include="Images\FormImages\passBack_1Old.jpg" />
+    <Content Include="Images\FormImages\passBack_2.jpg" />
+    <Content Include="Images\FormImages\passBack_2Old.jpg" />
+    <Content Include="Images\FormImages\passwords-pic.png" />
+    <Content Include="Images\FormImages\PEP-Inactive.png" />
+    <Content Include="Images\FormImages\pep.png" />
+    <Content Include="Images\FormImages\persdoc.png" />
+    <Content Include="Images\FormImages\persdoc25px.png" />
+    <Content Include="Images\FormImages\persearch.png" />
+    <Content Include="Images\FormImages\personal-dash1.png" />
+    <Content Include="Images\FormImages\personalinformation4.png" />
+    <Content Include="Images\FormImages\personalpic.png" />
+    <Content Include="Images\FormImages\personen.png" />
+    <Content Include="Images\FormImages\personen50px.png" />
+    <Content Include="Images\FormImages\personenOld.png" />
+    <Content Include="Images\FormImages\personenpic40em.png" />
+    <Content Include="Images\FormImages\personnel-04.png" />
+    <Content Include="Images\FormImages\personnelpic30em.png" />
+    <Content Include="Images\FormImages\picked.png" />
+    <Content Include="Content\Customer.aspx" />
+    <Content Include="Images\FormImages\popupinfo.png" />
+    <Content Include="Images\FormImages\portal.png" />
+    <Content Include="Images\FormImages\portal50px.png" />
+    <Content Include="Images\FormImages\portrait1.png" />
+    <Content Include="Images\FormImages\preview-02.png" />
+    <Content Include="Images\FormImages\preview.png" />
+    <Content Include="Images\FormImages\print-report.png" />
+    <Content Include="Images\FormImages\printer.png" />
+    <Content Include="Images\FormImages\Printer2.png" />
+    <Content Include="Images\FormImages\printerarea1.png" />
+    <Content Include="Images\FormImages\prj-06.png" />
+    <Content Include="Images\FormImages\PRJ.png" />
+    <Content Include="Images\FormImages\promptclose.png" />
+    <Content Include="Images\FormImages\PRP.png" />
+    <Content Include="Images\FormImages\PZE.png" />
+    <Content Include="Images\FormImages\Raum25.png" />
+    <Content Include="Images\FormImages\REB.png" />
+    <Content Include="Images\FormImages\Recalculate.png" />
+    <Content Include="Images\FormImages\receivedata-pic.png" />
+    <Content Include="Images\FormImages\red.png" />
+    <Content Include="Images\FormImages\red1.png" />
+    <Content Include="Images\FormImages\redactive.png" />
+    <Content Include="Images\FormImages\redcamera.png" />
+    <Content Include="Images\FormImages\redgrid.png" />
+    <Content Include="Images\FormImages\redgrid2.png" />
+    <Content Include="Images\FormImages\refresh.png" />
+    <Content Include="Images\FormImages\refreshkrwfl.png" />
+    <Content Include="Images\FormImages\rotating.gif" />
+    <Content Include="Images\FormImages\rotating1.gif" />
+    <Content Include="Images\FormImages\Save.png" />
+    <Content Include="Images\FormImages\save50px.png" />
+    <Content Include="Images\FormImages\search.png" />
+    <Content Include="Images\FormImages\searchDB.png" />
+    <Content Include="Images\FormImages\searchInner.png" />
+    <Content Include="Images\FormImages\senddata-pic.png" />
+    <Content Include="Images\FormImages\settingareapic.png" />
+    <Content Include="Images\FormImages\settings-new.png" />
+    <Content Include="Images\FormImages\sportstudio-pic.png" />
+    <Content Include="Images\FormImages\stop-20px.png" />
+    <Content Include="Images\FormImages\stop-25px.png" />
+    <Content Include="Images\FormImages\stop-save1-01.png" />
+    <Content Include="Images\FormImages\stop-save2-02.png" />
+    <Content Include="Images\FormImages\stop-savex100.png" />
+    <Content Include="Images\FormImages\stop2.png" />
+    <Content Include="Images\FormImages\stopCustom20px.png" />
+    <Content Include="Images\FormImages\stopCustom25px.png" />
+    <Content Include="Images\FormImages\stopCustom32px.png" />
+    <Content Include="Images\FormImages\stopx100.png" />
+    <Content Include="Images\FormImages\Stop_100x100.png" />
+    <Content Include="Images\FormImages\switchplan-pic.png" />
+    <Content Include="Images\FormImages\switchprofile-pic.png" />
+    <Content Include="Images\FormImages\tablepic.png" />
+    <Content Include="Images\FormImages\terminal-info.png" />
+    <Content Include="Images\FormImages\terminal-info20x20.png" />
+    <Content Include="Images\FormImages\terminal-infoOld.png" />
+    <Content Include="Images\FormImages\tmk-23px.png" />
+    <Content Include="Images\FormImages\TMK-Inactive.png" />
+    <Content Include="Images\FormImages\TMK-Info.png" />
+    <Content Include="Images\FormImages\TMK.png" />
+    <Content Include="Images\FormImages\TMK_Old.png" />
+    <Content Include="Images\FormImages\trainerfolder.png" />
+    <Content Include="Images\FormImages\tuer.png" />
+    <Content Include="Images\FormImages\Uebernehmen.png" />
+    <Content Include="Images\FormImages\Undo.png" />
+    <Content Include="Images\FormImages\unlockedpic40px.png" />
+    <Content Include="Images\FormImages\userimage.png" />
+    <Content Include="Images\FormImages\VIS.png" />
+    <Content Include="Content\Scripts\Settings.js" />
+    <Content Include="Content\Settings.aspx" />
+    <Content Include="Content\Styles\Settings.css" />
+    <Content Include="Images\FormImages\visitorapplication-pic.png" />
+    <Content Include="Images\FormImages\visitorcompany-pic.png" />
+    <Content Include="Images\FormImages\visitordata-pics.png" />
+    <Content Include="Images\FormImages\visitorlist-pics.png" />
+    <Content Include="Images\FormImages\visitorlist2-pic.png" />
+    <Content Include="Images\FormImages\visitorplan-pic.png" />
+    <Content Include="Images\FormImages\web-04.png" />
+    <Content Include="Images\FormImages\WEB.png" />
+    <Content Include="Images\FormImages\workflow-03.png" />
+    <Content Include="Images\FormImages\yellow-edit.png" />
+    <Content Include="Images\FormImages\yellow1.png" />
+    <Content Include="Images\FormImages\yellowcamera.png" />
+    <Content Include="Images\FormImages\yellowcamera2.png" />
+    <Content Include="Images\FormImages\yellowgrid.png" />
+    <Content Include="Images\FormImages\yellowgrid2.png" />
+    <Content Include="Images\FormImages\yes-logout.png" />
+    <Content Include="Images\FormImages\zoom1-01.png" />
+    <Content Include="Images\FormImages\zoom10-01.png" />
+    <Content Include="Images\FormImages\zoom2-02.png" />
+    <Content Include="Images\FormImages\zoom20-02.png" />
+    <Content Include="Images\FormImages\zut-05.png" />
+    <Content Include="Images\FormImages\ZUT.png" />
+    <Content Include="Images\FormImages\zutdashboardpic.jpg" />
+    <Content Include="Images\FormImages\Zutrittsplan.png" />
+    <Content Include="Images\FormImages\zutrittsprofil.png" />
+    <Content Include="Images\FormImages\zutrittsprofil50px.png" />
+    <Content Include="Images\FormImages\Zweispaltig.png" />
+    <Content Include="Images\TimePickerDemo\arrow.png" />
+    <Content Include="Images\TimePickerDemo\top_arr.png" />
+    <Content Include="Images\TreeviewImages\access-corrections-08.png" />
+    <Content Include="Images\TreeviewImages\access-plan-06.png" />
+    <Content Include="Images\TreeviewImages\access-protocal-13.png" />
+    <Content Include="Images\TreeviewImages\alarm-function-12.png" />
+    <Content Include="Images\TreeviewImages\application-07.png" />
+    <Content Include="Images\TreeviewImages\auto-data-15.png" />
+    <Content Include="Images\TreeviewImages\building-plan-05.png" />
+    <Content Include="Images\TreeviewImages\cardhistory.png" />
+    <Content Include="Images\TreeviewImages\cardhistory2.png" />
+    <Content Include="Images\TreeviewImages\communication-03.png" />
+    <Content Include="Images\TreeviewImages\dashboard-02.png" />
+    <Content Include="Images\TreeviewImages\dashboard.png" />
+    <Content Include="Images\TreeviewImages\general-01.png" />
+    <Content Include="Images\TreeviewImages\history-03.png" />
+    <Content Include="Images\TreeviewImages\history.png" />
+    <Content Include="Images\TreeviewImages\lists-04.png" />
+    <Content Include="Images\TreeviewImages\MAIN-INFO.png" />
+    <Content Include="Images\TreeviewImages\manual-data-16.png" />
+    <Content Include="Images\TreeviewImages\master-data-06.png" />
+    <Content Include="Images\TreeviewImages\personnel-04.png" />
+    <Content Include="Images\TreeviewImages\privilages.png" />
+    <Content Include="Images\TreeviewImages\safety-05.png" />
+    <Content Include="Images\TreeviewImages\safety-stand-11.png" />
+    <Content Include="Images\TreeviewImages\settings-01.png" />
+    <Content Include="Images\TreeviewImages\settings.png" />
+    <Content Include="Images\TreeviewImages\switchplan.png" />
+    <Content Include="Images\TreeviewImages\switchplan1.png" />
+    <Content Include="Images\TreeviewImages\switchplan2.png" />
+    <Content Include="Images\TreeviewImages\viseval.png" />
+    <Content Include="Images\TreeviewImages\visitor-data-08.png" />
+    <Content Include="Images\TreeviewImages\visitor-mngmnt-02.png" />
+    <Content Include="Images\TreeviewImages\visitor-plan-09.png" />
+    <Content Include="Images\TreeviewImages\vislist1.png" />
+    <Content Include="Images\TreeviewImages\zutrittsprofil.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="MasterPages\Main.Master" />
+    <Content Include="MasterPages\Secondary.Master" />
+    <Content Include="MasterPages\Primary.Master" />
+    <Content Include="Content\Styles\TimePickerDemo\fonts\fontello.eot" />
+    <Content Include="Content\Styles\TimePickerDemo\fonts\fontello.ttf" />
+    <Content Include="Content\Styles\TimePickerDemo\fonts\fontello.woff" />
+    <Content Include="MasterPages\Gate.Master" />
+    <Content Include="MasterPages\Accessplan.Master" />
+    <Content Include="DBScripts\DAC\sqlpackage.exe.config" />
+    <Content Include="DBScripts\Snapshots\KruAll_DB_08.dacpac" />
+    <Content Include="DBScripts\Snapshots\KruAll_DB_12.dacpac" />
+    <Content Include="DBScripts\Snapshots\KruAll_DB_14.dacpac" />
+    <Content Include="DBScripts\Snapshots\KruAll_DB_14x.dacpac" />
+    <Content Include="MasterPages\AccessPlanGroup.Master" />
+    <Content Include="MasterPages\Reports.Master" />
+    <None Include="Scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="Scripts\Accessplan.js" />
+    <Content Include="Scripts\AccessPlanGroup.js" />
+    <Content Include="Scripts\Gate.js" />
+    <Content Include="Scripts\Index.js" />
+    <Content Include="Scripts\jquery-2.2.3.js" />
+    <Content Include="Scripts\jquery-2.2.3.min.js" />
+    <Content Include="Scripts\jquery-2.2.3.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-migrate-1.3.0.js" />
+    <Content Include="Scripts\jquery-migrate-1.3.0.min.js" />
+    <Content Include="Scripts\Main.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\Primary.js" />
+    <Content Include="Scripts\Reports.js" />
+    <Content Include="Scripts\Secondary.js" />
+    <Content Include="Styles\Accessplan.css" />
+    <Content Include="Styles\AccessPlanGroup.css" />
+    <Content Include="Styles\Gate.css" />
+    <Content Include="Styles\Index.css" />
+    <Content Include="Styles\Main.css" />
+    <Content Include="Styles\Primary.css" />
+    <Content Include="Styles\Reports.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Styles\Secondary.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_GlobalResources\LocalizedText.de-DE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalizedText.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LocalizedText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalizedText.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessCorrection.aspx.cs">
+      <DependentUpon>AccessCorrection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessCorrection.aspx.designer.cs">
+      <DependentUpon>AccessCorrection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessGroupHolidaySchedule.aspx.cs">
+      <DependentUpon>AccessGroupHolidaySchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessGroupHolidaySchedule.aspx.designer.cs">
+      <DependentUpon>AccessGroupHolidaySchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessKalendar.aspx.cs">
+      <DependentUpon>AccessKalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessKalendar.aspx.designer.cs">
+      <DependentUpon>AccessKalendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlan.aspx.cs">
+      <DependentUpon>AccessPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlan.aspx.designer.cs">
+      <DependentUpon>AccessPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanAccessCalender.aspx.cs">
+      <DependentUpon>AccessPlanAccessCalender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanAccessCalender.aspx.designer.cs">
+      <DependentUpon>AccessPlanAccessCalender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanAccessGroup.aspx.cs">
+      <DependentUpon>AccessPlanAccessGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanAccessGroup.aspx.designer.cs">
+      <DependentUpon>AccessPlanAccessGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanGroup.aspx.cs">
+      <DependentUpon>AccessPlanGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanGroup.aspx.designer.cs">
+      <DependentUpon>AccessPlanGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanGroupCalender.aspx.cs">
+      <DependentUpon>AccessPlanGroupCalender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanGroupCalender.aspx.designer.cs">
+      <DependentUpon>AccessPlanGroupCalender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanGroupReader.aspx.cs">
+      <DependentUpon>AccessPlanGroupReader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanGroupReader.aspx.designer.cs">
+      <DependentUpon>AccessPlanGroupReader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanHolidaySchedule.aspx.cs">
+      <DependentUpon>AccessPlanHolidaySchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanHolidaySchedule.aspx.designer.cs">
+      <DependentUpon>AccessPlanHolidaySchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanMembers.aspx.cs">
+      <DependentUpon>AccessPlanMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanMembers.aspx.designer.cs">
+      <DependentUpon>AccessPlanMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanPersonal.aspx.cs">
+      <DependentUpon>AccessPlanPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanPersonal.aspx.designer.cs">
+      <DependentUpon>AccessPlanPersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanReader.aspx.cs">
+      <DependentUpon>AccessPlanReader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanReader.aspx.designer.cs">
+      <DependentUpon>AccessPlanReader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessPlanTerminalInfo.aspx.cs">
+      <DependentUpon>AccessPlanTerminalInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessPlanTerminalInfo.aspx.designer.cs">
+      <DependentUpon>AccessPlanTerminalInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessProfile.aspx.cs">
+      <DependentUpon>AccessProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessProfile.aspx.designer.cs">
+      <DependentUpon>AccessProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccessProfileGroup.aspx.cs">
+      <DependentUpon>AccessProfileGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccessProfileGroup.aspx.designer.cs">
+      <DependentUpon>AccessProfileGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AccReports.aspx.cs">
+      <DependentUpon>AccReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AccReports.aspx.designer.cs">
+      <DependentUpon>AccReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Alarmfunction.aspx.cs">
+      <DependentUpon>Alarmfunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Alarmfunction.aspx.designer.cs">
+      <DependentUpon>Alarmfunction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\AssignReader.aspx.cs">
+      <DependentUpon>AssignReader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\AssignReader.aspx.designer.cs">
+      <DependentUpon>AssignReader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\BuildingPlanGroup.aspx.cs">
+      <DependentUpon>BuildingPlanGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\BuildingPlanGroup.aspx.designer.cs">
+      <DependentUpon>BuildingPlanGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\BuildingPlanTerminalInfo.aspx.cs">
+      <DependentUpon>BuildingPlanTerminalInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\BuildingPlanTerminalInfo.aspx.designer.cs">
+      <DependentUpon>BuildingPlanTerminalInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\BuildingPlanTermInfo.aspx.cs">
+      <DependentUpon>BuildingPlanTermInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\BuildingPlanTermInfo.aspx.designer.cs">
+      <DependentUpon>BuildingPlanTermInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\CardPrint.aspx.cs">
+      <DependentUpon>CardPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\CardPrint.aspx.designer.cs">
+      <DependentUpon>CardPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\CostCenter_New.aspx.cs">
+      <DependentUpon>CostCenter_New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\CostCenter_New.aspx.designer.cs">
+      <DependentUpon>CostCenter_New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Customer.aspx.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Customer.aspx.designer.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\DashboardSettings.aspx.cs">
+      <DependentUpon>DashboardSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\DashboardSettings.aspx.designer.cs">
+      <DependentUpon>DashboardSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\DataCommunicationManual.aspx.cs">
+      <DependentUpon>DataCommunicationManual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\DataCommunicationManual.aspx.designer.cs">
+      <DependentUpon>DataCommunicationManual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Department_New.aspx.cs">
+      <DependentUpon>Department_New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Department_New.aspx.designer.cs">
+      <DependentUpon>Department_New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Displaypanel.aspx.cs">
+      <DependentUpon>Displaypanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Displaypanel.aspx.designer.cs">
+      <DependentUpon>Displaypanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\GateDisplaypanel.aspx.cs">
+      <DependentUpon>GateDisplaypanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\GateDisplaypanel.aspx.designer.cs">
+      <DependentUpon>GateDisplaypanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\GateMembers.aspx.cs">
+      <DependentUpon>GateMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\GateMembers.aspx.designer.cs">
+      <DependentUpon>GateMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\GateMembersDocumente.aspx.cs">
+      <DependentUpon>GateMembersDocumente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\GateMembersDocumente.aspx.designer.cs">
+      <DependentUpon>GateMembersDocumente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\GateMembersform.aspx.cs">
+      <DependentUpon>GateMembersform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\GateMembersform.aspx.designer.cs">
+      <DependentUpon>GateMembersform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\GateMonitor.aspx.cs">
+      <DependentUpon>GateMonitor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\GateMonitor.aspx.designer.cs">
+      <DependentUpon>GateMonitor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\GatePersonal.aspx.cs">
+      <DependentUpon>GatePersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\GatePersonal.aspx.designer.cs">
+      <DependentUpon>GatePersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\GatePersonalDocument.aspx.cs">
+      <DependentUpon>GatePersonalDocument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\GatePersonalDocument.aspx.designer.cs">
+      <DependentUpon>GatePersonalDocument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\GateVisitors.aspx.cs">
+      <DependentUpon>GateVisitors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\GateVisitors.aspx.designer.cs">
+      <DependentUpon>GateVisitors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Gebaudeplan.aspx.cs">
+      <DependentUpon>Gebaudeplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Gebaudeplan.aspx.designer.cs">
+      <DependentUpon>Gebaudeplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\HolidayCalender.aspx.cs">
+      <DependentUpon>HolidayCalender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\HolidayCalender.aspx.designer.cs">
+      <DependentUpon>HolidayCalender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Holidayplan.aspx.cs">
+      <DependentUpon>Holidayplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Holidayplan.aspx.designer.cs">
+      <DependentUpon>Holidayplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Language.aspx.cs">
+      <DependentUpon>Language.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Language.aspx.designer.cs">
+      <DependentUpon>Language.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Locations.aspx.cs">
+      <DependentUpon>Locations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Locations.aspx.designer.cs">
+      <DependentUpon>Locations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\MemberContractDuration.aspx.cs">
+      <DependentUpon>MemberContractDuration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\MemberContractDuration.aspx.designer.cs">
+      <DependentUpon>MemberContractDuration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\MemberReport.aspx.cs">
+      <DependentUpon>MemberReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\MemberReport.aspx.designer.cs">
+      <DependentUpon>MemberReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Members.aspx.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Members.aspx.designer.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\MembersDocumente.aspx.cs">
+      <DependentUpon>MembersDocumente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\MembersDocumente.aspx.designer.cs">
+      <DependentUpon>MembersDocumente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\MembersDocumenteInactive.aspx.cs">
+      <DependentUpon>MembersDocumenteInactive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\MembersDocumenteInactive.aspx.designer.cs">
+      <DependentUpon>MembersDocumenteInactive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Membersform.aspx.cs">
+      <DependentUpon>Membersform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Membersform.aspx.designer.cs">
+      <DependentUpon>Membersform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\MembersformInactive.aspx.cs">
+      <DependentUpon>MembersformInactive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\MembersformInactive.aspx.designer.cs">
+      <DependentUpon>MembersformInactive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\MembersGroup.aspx.cs">
+      <DependentUpon>MembersGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\MembersGroup.aspx.designer.cs">
+      <DependentUpon>MembersGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\MembersInactive.aspx.cs">
+      <DependentUpon>MembersInactive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\MembersInactive.aspx.designer.cs">
+      <DependentUpon>MembersInactive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Personal.aspx.cs">
+      <DependentUpon>Personal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Personal.aspx.designer.cs">
+      <DependentUpon>Personal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\PersonalDocumente.aspx.cs">
+      <DependentUpon>PersonalDocumente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\PersonalDocumente.aspx.designer.cs">
+      <DependentUpon>PersonalDocumente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\PersonalDocumenteInactive.aspx.cs">
+      <DependentUpon>PersonalDocumenteInactive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\PersonalDocumenteInactive.aspx.designer.cs">
+      <DependentUpon>PersonalDocumenteInactive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\PersonalForm.aspx.cs">
+      <DependentUpon>PersonalForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\PersonalForm.aspx.designer.cs">
+      <DependentUpon>PersonalForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\PersonalFormInactive.aspx.cs">
+      <DependentUpon>PersonalFormInactive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\PersonalFormInactive.aspx.designer.cs">
+      <DependentUpon>PersonalFormInactive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\PersonalInactive.aspx.cs">
+      <DependentUpon>PersonalInactive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\PersonalInactive.aspx.designer.cs">
+      <DependentUpon>PersonalInactive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\PersonalReport.aspx.cs">
+      <DependentUpon>PersonalReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\PersonalReport.aspx.designer.cs">
+      <DependentUpon>PersonalReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportMembersCardInfo.aspx.cs">
+      <DependentUpon>ReportMembersCardInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportMembersCardInfo.aspx.designer.cs">
+      <DependentUpon>ReportMembersCardInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportPersonalCardInfo.aspx.cs">
+      <DependentUpon>ReportPersonalCardInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportPersonalCardInfo.aspx.designer.cs">
+      <DependentUpon>ReportPersonalCardInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsMembersAttendaceList.aspx.cs">
+      <DependentUpon>ReportsMembersAttendaceList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsMembersAttendaceList.aspx.designer.cs">
+      <DependentUpon>ReportsMembersAttendaceList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsMembersAttendancetimes.aspx.cs">
+      <DependentUpon>ReportsMembersAttendancetimes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsMembersAttendancetimes.aspx.designer.cs">
+      <DependentUpon>ReportsMembersAttendancetimes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsMembersList.aspx.cs">
+      <DependentUpon>ReportsMembersList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsMembersList.aspx.designer.cs">
+      <DependentUpon>ReportsMembersList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsPersonalAttendanceList.aspx.cs">
+      <DependentUpon>ReportsPersonalAttendanceList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsPersonalAttendanceList.aspx.designer.cs">
+      <DependentUpon>ReportsPersonalAttendanceList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsPersonalAttendancetimes.aspx.cs">
+      <DependentUpon>ReportsPersonalAttendancetimes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsPersonalAttendancetimes.aspx.designer.cs">
+      <DependentUpon>ReportsPersonalAttendancetimes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsPersonalList.aspx.cs">
+      <DependentUpon>ReportsPersonalList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsPersonalList.aspx.designer.cs">
+      <DependentUpon>ReportsPersonalList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsVisitorHistory.aspx.cs">
+      <DependentUpon>ReportsVisitorHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsVisitorHistory.aspx.designer.cs">
+      <DependentUpon>ReportsVisitorHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsVisitorList.aspx.cs">
+      <DependentUpon>ReportsVisitorList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsVisitorList.aspx.designer.cs">
+      <DependentUpon>ReportsVisitorList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ReportsVisitorsAttendanceList.aspx.cs">
+      <DependentUpon>ReportsVisitorsAttendanceList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ReportsVisitorsAttendanceList.aspx.designer.cs">
+      <DependentUpon>ReportsVisitorsAttendanceList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\RightsAssignment.aspx.cs">
+      <DependentUpon>RightsAssignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\RightsAssignment.aspx.designer.cs">
+      <DependentUpon>RightsAssignment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\RightsSettings.aspx.cs">
+      <DependentUpon>RightsSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\RightsSettings.aspx.designer.cs">
+      <DependentUpon>RightsSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\SwitchCalender.aspx.cs">
+      <DependentUpon>SwitchCalender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\SwitchCalender.aspx.designer.cs">
+      <DependentUpon>SwitchCalender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Switchplan.aspx.cs">
+      <DependentUpon>Switchplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Switchplan.aspx.designer.cs">
+      <DependentUpon>Switchplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Switchprofile.aspx.cs">
+      <DependentUpon>Switchprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Switchprofile.aspx.designer.cs">
+      <DependentUpon>Switchprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Vehicles.aspx.cs">
+      <DependentUpon>Vehicles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Vehicles.aspx.designer.cs">
+      <DependentUpon>Vehicles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\VisitorCompany.aspx.cs">
+      <DependentUpon>VisitorCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\VisitorCompany.aspx.designer.cs">
+      <DependentUpon>VisitorCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\VisitorPlan.aspx.cs">
+      <DependentUpon>VisitorPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\VisitorPlan.aspx.designer.cs">
+      <DependentUpon>VisitorPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\VisitorPlanReader.aspx.cs">
+      <DependentUpon>VisitorPlanReader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\VisitorPlanReader.aspx.designer.cs">
+      <DependentUpon>VisitorPlanReader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\VisitorPlanVisitorCalender.aspx.cs">
+      <DependentUpon>VisitorPlanVisitorCalender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\VisitorPlanVisitorCalender.aspx.designer.cs">
+      <DependentUpon>VisitorPlanVisitorCalender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\VisitorReports.aspx.cs">
+      <DependentUpon>VisitorReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\VisitorReports.aspx.designer.cs">
+      <DependentUpon>VisitorReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Visitors.aspx.cs">
+      <DependentUpon>Visitors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Visitors.aspx.designer.cs">
+      <DependentUpon>Visitors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\VisitorsApplications.aspx.cs">
+      <DependentUpon>VisitorsApplications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\VisitorsApplications.aspx.designer.cs">
+      <DependentUpon>VisitorsApplications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\EncryptionCtl.cs" />
+    <Compile Include="Controllers\FileProcessor.cs" />
+    <Compile Include="Controllers\RegionHolidaysDownload.cs" />
+    <Compile Include="Controllers\TimeDurationCalculator.cs" />
+    <Compile Include="Controllers\Version.cs" />
+    <Compile Include="Controllers\ZUTMain.cs" />
+    <Compile Include="Dtos\AccessCorrectionLogs.cs" />
+    <Compile Include="Dtos\AccessGroupDto.cs" />
+    <Compile Include="Dtos\AccessLogReportsDto.cs" />
+    <Compile Include="Dtos\AccessPlanAccessGroupDto.cs" />
+    <Compile Include="Dtos\AccessPlanMembersDto.cs" />
+    <Compile Include="Dtos\AccessProfileDto.cs" />
+    <Compile Include="Dtos\AccessReportSettings_DTO.cs" />
+    <Compile Include="Dtos\AssignedReaderDto.cs" />
+    <Compile Include="Dtos\BuildingPlanDto.cs" />
+    <Compile Include="Dtos\BuildingPlanPersonalRptDto .cs" />
+    <Compile Include="Dtos\BuildingPlanLocationDto.cs" />
+    <Compile Include="Dtos\BuildingPlanNodesDto.cs" />
+    <Compile Include="Dtos\CardAllocationOverview_DTO.cs" />
+    <Compile Include="Dtos\DurationRedirectDto.cs" />
+    <Compile Include="Dtos\EmployeeProfile.cs" />
+    <Compile Include="Dtos\GateDisplaypanelDto.cs" />
+    <Compile Include="Dtos\GroupProfileDto.cs" />
+    <Compile Include="Dtos\HolidayCalendarDto.cs" />
+    <Compile Include="Dtos\HolidayCalendar_DTO.cs" />
+    <Compile Include="Dtos\HolidayPlan.cs" />
+    <Compile Include="Dtos\LocationCalendarDto.cs" />
+    <Compile Include="Dtos\MemberAccessGroupsDto.cs" />
+    <Compile Include="Dtos\MemberDocumentsDto.cs" />
+    <Compile Include="Dtos\MemberDynamicFieldDto.cs" />
+    <Compile Include="Dtos\MemberGroupDto.cs" />
+    <Compile Include="Dtos\MembersDataDto.cs" />
+    <Compile Include="Dtos\MemberSearchDto.cs" />
+    <Compile Include="Dtos\MembersListRptDto.cs" />
+    <Compile Include="Dtos\PermissionDto.cs" />
+    <Compile Include="Dtos\PermissionDto2.cs" />
+    <Compile Include="Dtos\PersAccessGroupsDto.cs" />
+    <Compile Include="Dtos\PersonalCardPrint_DTO.cs" />
+    <Compile Include="Dtos\PersonalData_DTO.cs" />
+    <Compile Include="Dtos\PersonalDocumentDto.cs" />
+    <Compile Include="Dtos\PersonalDynamicField_DTO.cs" />
+    <Compile Include="Dtos\PersonalReportsDto.cs" />
+    <Compile Include="Dtos\PersonalReportsListDto.cs" />
+    <Compile Include="Dtos\PersonalReportsListSettingsDto.cs" />
+    <Compile Include="Dtos\PersonnelAccessPlanDto.cs" />
+    <Compile Include="Dtos\PersonnelDto.cs" />
+    <Compile Include="Dtos\PersProfileMappingDto.cs" />
+    <Compile Include="Dtos\ReaderUpdatedValuesDto.cs" />
+    <Compile Include="Dtos\ReportMembersCardInfoDto.cs" />
+    <Compile Include="Dtos\ReportsMemberListDto.cs" />
+    <Compile Include="Dtos\ReportsMembersListDto.cs" />
+    <Compile Include="Dtos\ReportsPersonalListDto.cs" />
+    <Compile Include="Dtos\ReportsVisitorListDto.cs" />
+    <Compile Include="Dtos\SelectedHolidayDto.cs" />
+    <Compile Include="Dtos\TerminalConfigDto.cs" />
+    <Compile Include="Dtos\TerminalReaderDto.cs" />
+    <Compile Include="Dtos\TransponderDto.cs" />
+    <Compile Include="Dtos\VisitorCompanyDto.cs" />
+    <Compile Include="Dtos\VisitorsDto.cs" />
+    <Compile Include="Dtos\WeekProfileHour.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Accessplan.Master.cs">
+      <DependentUpon>Accessplan.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Accessplan.Master.designer.cs">
+      <DependentUpon>Accessplan.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\AccessPlanGroup.Master.cs">
+      <DependentUpon>AccessPlanGroup.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\AccessPlanGroup.Master.designer.cs">
+      <DependentUpon>AccessPlanGroup.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Gate.Master.cs">
+      <DependentUpon>Gate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Gate.Master.designer.cs">
+      <DependentUpon>Gate.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Primary.Master.cs">
+      <DependentUpon>Primary.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Primary.Master.designer.cs">
+      <DependentUpon>Primary.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Reports.Master.cs">
+      <DependentUpon>Reports.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Reports.Master.designer.cs">
+      <DependentUpon>Reports.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Secondary.Master.cs">
+      <DependentUpon>Secondary.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Secondary.Master.designer.cs">
+      <DependentUpon>Secondary.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportsPortrait\AccessPersonalProtocalReportPortrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\AccessPersonelReportPortrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\AttendanceTimesReportBPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\AttendanceTimesReportCPotrait .cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\AttendanceTimesReportPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MemberProtocalReportPersonalPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MemberProtocalReportPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MemberReportListVarAPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MemberReportListVarBPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MemberReportListVarCPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MemberReportListVarDPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MembersAttendanceReportPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MembersAttendancetimesReportBPotait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MembersAttendancetimesReportCPotait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\MembersAttendancetimesReportPotait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\PersonalAttendanceReportPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\PersonalReportListVarAPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\PersonalReportListVarBPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\PersonalReportListVarCPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\PersonalReportListVarDPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\ReportMembersCardInfoRptPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\ReportPersonalCardInfoRptPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\ReportsVisitorListPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\VisitorHistoryReportPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\VisitorHistoryReportVarBPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\VisitorHistoryReportVarCPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\VisitorProtocalPersonalReportPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportsPortrait\VisitorProtocalReportPotrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AttendanceTimesReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MemberPersProtocalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MemberProtocalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MemberReportListVarA.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MemberReportListVarB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MemberReportListVarC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MemberReportListVarD.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MembersAttendanceReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MembersAttendancetimesReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MembersProtocolPersonelReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PersonalAttendanceReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PersonalCardPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PersonalReportListVarA.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PersonalReportListVarB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PersonalReportListVarC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PersonalReportListVarD.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportMembersCardInfoRpt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportPersonalCardInfoRpt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\VisitorHistoryReportC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\VisitorHistoryReportB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\VisitorProtocalPersonalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\VisitorProtocalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AccessPersonelReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AccessPersonalProtocalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AttendanceTimesReportB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AttendanceTimesReportC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MembersAttendancetimesReportB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MembersAttendancetimesReportC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\VisitorHistoryReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\VisitorReportList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TerminalCommunication\DataCommunication.cs" />
+    <Compile Include="TerminalCommunication\DatafoxConnection.cs" />
+    <Compile Include="TerminalCommunication\ITerminalConnection.cs" />
+    <Compile Include="TerminalCommunication\TerminalInterface.cs" />
+    <Compile Include="TerminalCommunication\ZKPullConnection.cs" />
+    <Compile Include="TerminalCommunication\ZKStandAloneConnection.cs" />
+    <Compile Include="ViewModels\AccessCalendarScheduleViewModel.cs" />
+    <Compile Include="ViewModels\AccessCalendarViewModel.cs" />
+    <Compile Include="ViewModels\AccessControlLogsViewModel.cs" />
+    <Compile Include="ViewModels\AccessControlProtocolViewModel.cs" />
+    <Compile Include="ViewModels\AccessGroupViewModel.cs" />
+    <Compile Include="ViewModels\AccessPlanGroupReaderViewModel.cs" />
+    <Compile Include="ViewModels\AccessPlanMembersMappingViewModel.cs" />
+    <Compile Include="ViewModels\AccessPlanPersMappingViewModel.cs" />
+    <Compile Include="ViewModels\AccessPlanViewModel.cs" />
+    <Compile Include="ViewModels\AccessReportsViewModel.cs" />
+    <Compile Include="ViewModels\BuildingPlanViewModel.cs" />
+    <Compile Include="ViewModels\CostcenterViewModel.cs" />
+    <Compile Include="ViewModels\DepartmentViewModel.cs" />
+    <Compile Include="ViewModels\GateDisplaypanelViewModel.cs" />
+    <Compile Include="ViewModels\GlobalSettingsViewModel.cs" />
+    <Compile Include="ViewModels\HolidayCalendarScheduleViewModel.cs" />
+    <Compile Include="ViewModels\HolidayCalendarViewModel.cs" />
+    <Compile Include="ViewModels\HolidayPlanAccessProfileMonthViewModel.cs" />
+    <Compile Include="ViewModels\HolidayPlanCalendarMappedViewModel.cs" />
+    <Compile Include="ViewModels\HolidayPlanCalendarScheduleViewModel.cs" />
+    <Compile Include="ViewModels\HolidayPlanCalendarViewModel.cs" />
+    <Compile Include="ViewModels\HolidayScheduleViewModel.cs" />
+    <Compile Include="ViewModels\HolidayViewModel.cs" />
+    <Compile Include="ViewModels\LocationViewModel.cs" />
+    <Compile Include="ViewModels\MemberAccessGroupsViewModel.cs" />
+    <Compile Include="ViewModels\MemberContractDurationViewModel.cs" />
+    <Compile Include="ViewModels\MemberFormViewModel.cs" />
+    <Compile Include="ViewModels\MembersDocumentsViewModel.cs" />
+    <Compile Include="ViewModels\MembersInactiveViewModel.cs" />
+    <Compile Include="ViewModels\MembersViewModel.cs" />
+    <Compile Include="ViewModels\MemberTransponderViewModels.cs" />
+    <Compile Include="ViewModels\PermissionMappingViewModel.cs" />
+    <Compile Include="ViewModels\PermissionProfileViewModel.cs" />
+    <Compile Include="ViewModels\PermissionSettingsViewModel.cs" />
+    <Compile Include="ViewModels\PersAccessGroupsViewModel.cs" />
+    <Compile Include="ViewModels\PersAdditionalInforViewModel.cs" />
+    <Compile Include="ViewModels\PersAdditionalInfoViewModel.cs" />
+    <Compile Include="ViewModels\PersContactViewModel.cs" />
+    <Compile Include="ViewModels\PersCostCentreViewModel.cs" />
+    <Compile Include="ViewModels\PersDepartmentViewModel.cs" />
+    <Compile Include="ViewModels\PersLocationViewModel.cs" />
+    <Compile Include="ViewModels\PersonalDocumentsViewModel.cs" />
+    <Compile Include="ViewModels\PersonalTransponderViewModels.cs" />
+    <Compile Include="ViewModels\PersonalViewModel.cs" />
+    <Compile Include="ViewModels\PersonnelInactiveViewModel.cs" />
+    <Compile Include="ViewModels\PersonnelNewViewModel.cs" />
+    <Compile Include="ViewModels\PersonnelViewModel.cs" />
+    <Compile Include="ViewModels\PresClientViewModel.cs" />
+    <Compile Include="ViewModels\ReportsMembersListViewModel.cs" />
+    <Compile Include="ViewModels\ReportsVisitorListViewModel.cs" />
+    <Compile Include="ViewModels\SwitchPlanViewModel.cs" />
+    <Compile Include="ViewModels\VehicleTypesViewModel.cs" />
+    <Compile Include="ViewModels\VisitorAccessTimeViewModel.cs" />
+    <Compile Include="ViewModels\VisitorBookingsViewModel.cs" />
+    <Compile Include="ViewModels\VisitorPlanViewModels.cs" />
+    <Compile Include="ViewModels\VisitorTransponderViewModels.cs" />
+    <Compile Include="ViewModels\VisitorViewModels.cs" />
+    <Compile Include="ViewModels\ZuttritProfilesTimeFrameViewModel.cs" />
+    <Compile Include="ViewModels\ZuttritProfileViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserImages\Member\" />
+    <Folder Include="UserImages\Personal\" />
+    <Folder Include="UserImages\Visitor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\LocalizedText.de-DE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LocalizedText.de-DE.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\LocalizedText.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LocalizedText.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ReportsPortrait\AccessPersonalProtocalReportPortrait.resx">
+      <DependentUpon>AccessPersonalProtocalReportPortrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\AccessPersonelReportPortrait.resx">
+      <DependentUpon>AccessPersonelReportPortrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\AttendanceTimesReportBPotrait.resx">
+      <DependentUpon>AttendanceTimesReportBPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\AttendanceTimesReportCPotrait .resx">
+      <DependentUpon>AttendanceTimesReportCPotrait .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\AttendanceTimesReportPotrait.resx">
+      <DependentUpon>AttendanceTimesReportPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MemberProtocalReportPersonalPotrait.resx">
+      <DependentUpon>MemberProtocalReportPersonalPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MemberProtocalReportPotrait.resx">
+      <DependentUpon>MemberProtocalReportPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MemberReportListVarAPotrait.resx">
+      <DependentUpon>MemberReportListVarAPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MemberReportListVarBPotrait.resx">
+      <DependentUpon>MemberReportListVarBPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MemberReportListVarCPotrait.resx">
+      <DependentUpon>MemberReportListVarCPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MemberReportListVarDPotrait.resx">
+      <DependentUpon>MemberReportListVarDPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MembersAttendanceReportPotrait.resx">
+      <DependentUpon>MembersAttendanceReportPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MembersAttendancetimesReportBPotait.resx">
+      <DependentUpon>MembersAttendancetimesReportBPotait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MembersAttendancetimesReportCPotait.resx">
+      <DependentUpon>MembersAttendancetimesReportCPotait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\MembersAttendancetimesReportPotait.resx">
+      <DependentUpon>MembersAttendancetimesReportPotait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\PersonalAttendanceReportPotrait.resx">
+      <DependentUpon>PersonalAttendanceReportPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\PersonalReportListVarAPotrait.resx">
+      <DependentUpon>PersonalReportListVarAPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\PersonalReportListVarBPotrait.resx">
+      <DependentUpon>PersonalReportListVarBPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\PersonalReportListVarCPotrait.resx">
+      <DependentUpon>PersonalReportListVarCPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\PersonalReportListVarDPotrait.resx">
+      <DependentUpon>PersonalReportListVarDPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\ReportMembersCardInfoRptPotrait.resx">
+      <DependentUpon>ReportMembersCardInfoRptPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\ReportPersonalCardInfoRptPotrait.resx">
+      <DependentUpon>ReportPersonalCardInfoRptPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\ReportsVisitorListPotrait.resx">
+      <DependentUpon>ReportsVisitorListPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\VisitorHistoryReportPotrait.resx">
+      <DependentUpon>VisitorHistoryReportPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\VisitorHistoryReportVarBPotrait.resx">
+      <DependentUpon>VisitorHistoryReportVarBPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\VisitorHistoryReportVarCPotrait.resx">
+      <DependentUpon>VisitorHistoryReportVarCPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\VisitorProtocalPersonalReportPotrait.resx">
+      <DependentUpon>VisitorProtocalPersonalReportPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsPortrait\VisitorProtocalReportPotrait.resx">
+      <DependentUpon>VisitorProtocalReportPotrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AttendanceTimesReport.resx">
+      <DependentUpon>AttendanceTimesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MemberPersProtocalReport.resx">
+      <DependentUpon>MemberPersProtocalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MemberProtocalReport.resx">
+      <DependentUpon>MemberProtocalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MemberReportListVarA.resx">
+      <DependentUpon>MemberReportListVarA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MemberReportListVarB.resx">
+      <DependentUpon>MemberReportListVarB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MemberReportListVarC.resx">
+      <DependentUpon>MemberReportListVarC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MemberReportListVarD.resx">
+      <DependentUpon>MemberReportListVarD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MembersAttendanceReport.resx">
+      <DependentUpon>MembersAttendanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MembersAttendancetimesReport.resx">
+      <DependentUpon>MembersAttendancetimesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MembersProtocolPersonelReport.resx">
+      <DependentUpon>MembersProtocolPersonelReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PersonalAttendanceReport.resx">
+      <DependentUpon>PersonalAttendanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PersonalCardPrint.resx">
+      <DependentUpon>PersonalCardPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PersonalReportListVarA.resx">
+      <DependentUpon>PersonalReportListVarA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PersonalReportListVarB.resx">
+      <DependentUpon>PersonalReportListVarB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PersonalReportListVarC.resx">
+      <DependentUpon>PersonalReportListVarC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PersonalReportListVarD.resx">
+      <DependentUpon>PersonalReportListVarD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportMembersCardInfoRpt.resx">
+      <DependentUpon>ReportMembersCardInfoRpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportPersonalCardInfoRpt.resx">
+      <DependentUpon>ReportPersonalCardInfoRpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VisitorHistoryReportC.resx">
+      <DependentUpon>VisitorHistoryReportC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VisitorHistoryReportB.resx">
+      <DependentUpon>VisitorHistoryReportB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VisitorProtocalPersonalReport.resx">
+      <DependentUpon>VisitorProtocalPersonalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VisitorProtocalReport.resx">
+      <DependentUpon>VisitorProtocalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AccessPersonelReport.resx">
+      <DependentUpon>AccessPersonelReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AccessPersonalProtocalReport.resx">
+      <DependentUpon>AccessPersonalProtocalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AttendanceTimesReportB.resx">
+      <DependentUpon>AttendanceTimesReportB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AttendanceTimesReportC.resx">
+      <DependentUpon>AttendanceTimesReportC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MembersAttendancetimesReportB.resx">
+      <DependentUpon>MembersAttendancetimesReportB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MembersAttendancetimesReportC.resx">
+      <DependentUpon>MembersAttendancetimesReportC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VisitorHistoryReport.resx">
+      <DependentUpon>VisitorHistoryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VisitorReportList.resx">
+      <DependentUpon>VisitorReportList.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KruAll.Core\KruAll.Core.csproj">
+      <Project>{5720a1d6-a972-432d-8e6e-780118c5a1f8}</Project>
+      <Name>KruAll.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1192</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1192/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

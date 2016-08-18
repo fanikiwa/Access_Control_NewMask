@@ -1,0 +1,142 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Reports.Master.cs" Inherits="Access_Control_NewMask.MasterPages.Protocol" ClientIDMode="Static" %>
+
+<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="../Scripts/jquery-2.2.3.js"></script>
+    <script src="../Scripts/moment.js"></script>
+    <script type="text/javascript">
+        var allowZUTEdit = true;
+    </script>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script src="../Scripts/Reports.js"></script>
+    <link href="../Styles/Reports.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function doTime() {
+
+            //$( "#lblCompanyName" ).text( moment().format( "HH" ) + ":" + moment().format( "mm" ) );
+            $("#lblCompanyName").text(moment().format("DD") + "." + moment().format("MM") + "." + moment().format("YYYY"));
+        }
+
+        $(function () {
+            setInterval(doTime, 1);
+
+        });
+    </script>
+</head>
+<body>
+    <form id="MainForm" runat="server">
+        <div id="dashboardmain">
+            <div id="mainmenutop">
+                <div id="MainHeader">
+                    <section class="MainheaderSec">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
+                        <asp:Button ID="btnDashboard" runat="server" Text="Dashboard" CssClass="btnDashboard" OnClick="btnDashboard_Click" />
+                    </section>
+                    <section class="MainheaderSec1">
+                        <section class="secPlaceHolder">
+                            <asp:Button ID="btnReports" runat="server" Text="" CssClass="printbtn" />
+                        </section>
+                    </section>
+                    <section class="MainheaderSec2">
+                        <asp:Label ID="PageTitleLbl" runat="server" Text="" CssClass="companylbl"></asp:Label>
+                        <asp:Label ID="pagenamelbl" runat="server" Text="" CssClass="pagenamelbl"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="" CssClass="solutionversionlbl"></asp:Label>
+
+                    </section>
+                    <section class="MainheaderSec3">
+                        <asp:Button ID="Button1" runat="server" Text="Login/Logout" CssClass="btnLogoutsolution" OnClick="btnLogout_Click" />
+                    </section>
+                </div>
+            </div>
+            <div id="companyDetails">
+                <div class="dvnsLeft">
+
+                    <div id="contentarea">
+                        <div class="userNameSec">
+                        </div>
+                        <div id="navcontentarea" class="NavPanel">
+                            <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" Font-Names="Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif" Font-Size="12px" Style="min-width: 150px" Height="100%" CssClass="navigatetop" GroupSpacing="0px">
+                                <Groups>
+                                    <dx:NavBarGroup Text="<%$ Resources:localizedText, personallistandprotocols %>" AllowDragging="False" ShowExpandButton="False" AllowExpanding="False" HeaderStyle-CssClass="newheight">
+                                        <Items>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, protocal %>" NavigateUrl="../Content/PersonalReport.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, attendancelistnew %>" NavigateUrl="../Content/ReportsPersonalAttendanceList.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, attendanceTimes %>" NavigateUrl="../Content/ReportsPersonalAttendancetimes.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, personallist %>" NavigateUrl="../Content/ReportsPersonalList.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, idAssignmentChart %>" NavigateUrl="../Content/ReportPersonalCardInfo.aspx"></dx:NavBarItem>
+                                        </Items>
+                                        <HeaderStyle BackColor="#006158" />
+                                        <HeaderStyle ForeColor="White" />
+                                    </dx:NavBarGroup>
+                                    <dx:NavBarGroup Text="<%$ Resources:localizedText, visitorlistandprotocols %>" AllowDragging="False" ShowExpandButton="False" AllowExpanding="False" HeaderStyle-CssClass="newheight" HeaderStyle-Font-Underline="false">
+                                        <Items>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, visitoraccessprotocol %>" NavigateUrl="../Content/VisitorReports.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, Visitorhistory2 %>" NavigateUrl="../Content/ReportsVisitorHistory.aspx"></dx:NavBarItem>
+                                            <%--<dx:NavBarItem Text="<%$ Resources:localizedText, visitorcompany2 %>" NavigateUrl="../Content/ReportsVisitorsAttendanceList.aspx"></dx:NavBarItem>--%>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, visitorlistnew %>" NavigateUrl="../Content/ReportsVisitorList.aspx"></dx:NavBarItem>
+                                        </Items>
+                                        <HeaderStyle BackColor="#c19a57" />
+                                        <HeaderStyle ForeColor="White" />
+                                    </dx:NavBarGroup>
+                                    <dx:NavBarGroup Text="<%$ Resources:localizedText, memberslistandprotocols %>" AllowDragging="False" ShowExpandButton="False" AllowExpanding="False" HeaderStyle-CssClass="newheight">
+                                        <Items>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, protocal %>" NavigateUrl="../Content/MemberReport.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, attendancelistnew %>" NavigateUrl="../Content/ReportsMembersAttendaceList.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, attendanceTimes %>" NavigateUrl="../Content/ReportsMembersAttendancetimes.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, memberlist %>" NavigateUrl="../Content/ReportsMembersList.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, idAssignmentChart %>" NavigateUrl="../Content/ReportMembersCardInfo.aspx"></dx:NavBarItem>
+                                        </Items>
+                                        <HeaderStyle BackColor="#f37467" />
+                                        <HeaderStyle ForeColor="White" />
+                                    </dx:NavBarGroup>
+                                    <%--  <dx:NavBarGroup Text="Weitere Listen und Protokolle" AllowDragging="False" ShowExpandButton="False" AllowExpanding="False" HeaderStyle-CssClass="newheight">
+                                        <HeaderStyle BackColor="#54a3ee" />
+                                        <HeaderStyle ForeColor="White" />
+                                    </dx:NavBarGroup>--%>
+                                </Groups>
+                            </dx:ASPxNavBar>
+                            <asp:ContentPlaceHolder ID="ModuleNavBar" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <div class="dvnsRight">
+                    <section class="secCompanyName">
+                        <section class="secCompOne"></section>
+                        <section class="secCompTwonew">
+                            <asp:Label ID="Label1" runat="server" Text="<%$ Resources:localizedText, dateTitle %>" CssClass="lblDateName" Style="display: none;"></asp:Label>
+                            <asp:Label ID="lblCompanyName" runat="server" Text="" CssClass="lblDateDisplay" Style="display: none;"></asp:Label>
+                        </section>
+                        <section class="secCompThree"></section>
+                    </section>
+
+
+                    <section class="secContHolder">
+                        <asp:ContentPlaceHolder ID="ContentHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                    <section class="footer">
+                        <section class="footerLeft">
+                            <asp:ContentPlaceHolder ID="FooterLeft" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                        <section class="footerRight">
+                            <asp:ContentPlaceHolder ID="FooterRight" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="Contentbottomarea" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

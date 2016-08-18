@@ -1,0 +1,1459 @@
+﻿
+.ContentAreaDiv {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+.TopContentAreaDiv {
+    height: 7%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    clear: both;
+    min-height: 65px;
+}
+
+#AEHeaderLeftDiv, #AEHeaderRightDiv {
+    float: left;
+}
+
+#AEHeaderLeftDiv {
+    width: 85%;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.BottomHeaderLabels {
+    width: 100%;
+}
+
+.BottomHeaderLists {
+    width: 100%;
+}
+
+#AEHeaderRightDiv {
+    width: 15%;
+    margin-top: 5px;
+    margin-right: 4px;
+    display:none;
+}
+
+.L1HeaderT1drplables {
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    width: 14%;
+}
+.L1HeaderT1drplablesid {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 3px;
+    width: 8.3%;
+}
+
+
+.L1HeaderT1drplablesnew2 {
+    display: inline-block;
+    margin-left: 1px;
+    margin-bottom: 3px;
+    width: 10%;
+}
+
+.L1HeaderT1drplableslong {
+    display: inline-block;
+    margin-left: 1px;
+    margin-bottom: 3px;
+    width: 13%;
+}
+
+.L1HeaderT1drplablesnew {
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    width: 10%;
+}
+.L1HeaderT1drplists {
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px #808080;
+    margin-right: 5px;
+    width: 10%;
+}
+.L1HeaderT1drplists {
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px #808080;
+    margin-right: 5px;
+    width: 14%;
+}
+.L1HeaderT1drplistsid {
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px #808080;
+    margin-right: 5px;
+    width: 8%;
+    margin-left: 23px;
+}
+
+
+
+#MainContdiv {
+    float: left;
+    height: 91%;
+    width: 100%;
+
+    margin-top: 1%;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+
+    /*background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );*/
+}
+.wrappernew {
+    height: 98%;
+    width: 98%;
+    margin-left: 13px;
+    /*border: 1px solid gray;*/
+    margin-top: 5px;
+    border-radius: 5px;
+    float: left;
+}
+.secwrapperleft {
+    float: left;
+    width: 61%;
+    height: 98%;
+}
+.secwrapperright {
+    float: right;
+    width: 37%;
+    height: 99%;
+}
+
+.secgrid {
+    width: 99%;
+    height: 98%;
+  
+  
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-y: auto;
+    margin-top: 4px;
+}
+
+.webCamMode {
+    width: 360px;
+    height: 298px;
+    float: left;
+    margin-top: 3.5%;
+    border: 1px solid black;
+}
+.cameraScreen {
+    width: 320px;
+    height: 240px;
+    float: left;
+    margin-left: 7%;
+}
+.acceptButtons {
+    width: 100%;
+    height: 27px;
+    float: left;
+    margin-top: 3px;
+}
+earchVisitors {
+    width: 99%;
+    height: 88%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+.cameraButtonsLeft {
+    width: 115px;
+    height: 30px;
+    border-radius: 5px;
+    float: left;
+    background-size: contain;
+    margin-left: 4px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: forestgreen;
+    cursor: pointer;
+    padding: 1px;
+    text-align: left;
+}
+
+.cameraButtonsRight {
+    width: 120px;
+    height: 30px;
+    background-size: contain;
+    float: right;
+    margin-left: 5px;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+.topbtnareanew {
+        display: block;
+        width: 99%;
+        height: 5%;
+        padding-left: 1%;
+        margin-top: -20px;
+        padding-top: 5px;
+        float: left;
+        margin-bottom: 20px;
+        clear: both;
+        background-color: rgba(254, 241, 199, 1);
+    }
+.newcompany {
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 2px;
+    float: left;
+}
+.fontweight600 {
+    font-weight: 600;
+}
+
+.ColorRed {
+    color: red;
+}
+
+/*.secHeader {
+    width: 99%;
+    height: 4.5%;
+    float: right;
+    margin-right: 2%;
+}*/
+
+/*.secHeader {
+    width: 99%;
+    height: 5%;
+    float: left;
+    margin-right: 0%;
+}*/
+
+.ColorBlue {
+    color: dodgerblue;
+}
+
+.secLeft {
+    width: 99%;
+    height: 98%;
+    float: left;
+}
+.seclefttop {
+    width: 100%;
+    height: 11%;
+    float: left;
+    background-color: #fff2c8;
+}
+
+
+
+.secleftbttm {
+    width: 100%;
+    height: 62%;
+    float: left;
+}
+
+
+
+
+.secRight {
+    width: 90%;
+    height: 95%;
+    float: left;
+    /*margin-top: 20px;*/
+}
+
+.visName {
+    width: 100%;
+    float: left;
+    height: 43%;
+    margin-top: 3px;
+}
+
+.visNr {
+    width: 100%;
+    float: left;
+    height: 52%;
+}
+
+
+.txtPersNr {
+    width: 17.5%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+    min-width: 68px;
+    margin-top: 5px;
+}
+
+.tabsec1 {
+    width: 27%;
+    float: left;
+    height: 100%;
+    margin-left: 1%;
+}
+
+.lbltop {
+    width: 97%;
+    height: 22%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2px;
+}
+
+/*.lbltopnew {
+    width: 23%;
+    height: 31%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2px;
+}*/
+
+.divlabelstop {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.lblmid {
+    width: 97%;
+    height: 24%;
+    float: left;
+    display: block;
+    margin: 5px 0 0px 0;
+    margin-left: 2%;
+}
+
+
+
+.lblbttmnnn {
+    width: 94%;
+    float: left;
+    margin-top: 8px;
+    height: 20px;
+    margin-left: 2%;
+    margin-bottom: 2px;
+}
+.lblbttmnew {
+    width: 94%;
+    float: left;
+    margin-top: 7.5px;
+    height: 20px;
+    margin-left: 2%;
+    margin-bottom: 0px;
+}
+.lblbttm2 {
+    width: 97%;
+    float: left;
+    margin-top: 7px;
+    height: 7%;
+    margin-left: 2%;
+}
+.lblbttm2new {
+    width: 97%;
+    float: left;
+    margin-top: 3px;
+    height: 6%;
+    margin-left: 2%;
+}
+
+
+
+
+.tabsec2 {
+    width: 64%;
+    float: left;
+    height: 100%;
+}
+
+.tabsec2top {
+    width: 59%;
+    float: right;
+    height: 100%;
+}
+
+.tabsec2top1 {
+    width: 96%;
+    float: left;
+    margin-top: 2px;
+}
+
+.tabsec2top1new {
+    width: 98%;
+    float: left;
+    height: 44%;
+    margin-bottom: 5px;
+}
+
+.tabsec2top1left {
+    width: 36%;
+    float: left;
+    height: 100%;
+}
+.txtsize1 {
+    float: right;
+    height: 18px !important;
+    border-radius: 5px;
+    width: 58%;
+    border-collapse: separate;
+    border: 1px solid grey;
+    margin-top: -1px;
+}
+.txtsize1new {
+    float: right;
+    height: 26px !important;
+    border-radius: 5px;
+    width: 58%;
+    border-collapse: separate;
+    border: 1px solid grey;
+    margin-top: 2px;
+}
+input[type='text'].dxeEditArea, input[type='password'].dxeEditArea {
+    height: 14px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+    .txtsize1.dxeEditArea {
+        float: right;
+        height: 18px;
+        border-radius: 5px;
+        width: 58%;
+        border-collapse: separate;
+        border: 1px solid grey;
+    }
+
+.txtsize2 {
+    float: left;
+    height: 20px;
+    border-radius: 3px;
+    width: 36%;
+}
+
+.txtsize2new {
+    float: left;
+    height: 20px;
+    border-radius: 3px;
+    width: 51%;
+}
+
+.txtsize3 {
+    float: left;
+    height: 19px;
+    border-radius: 3px;
+    width: 90%;
+    margin-top: 3px;
+}
+/*size4 is the longest size*/
+
+
+
+.txtsize4id {
+    float: left;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    width: 24%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+
+.buttonbes {
+    height: 28px;
+    width: 31px;
+    display: inline-block;
+    text-indent: -9999px;
+    clear: none;
+    margin-top: -2px;
+    float: right;
+    background-image: url('../../Images/FormImages/orange-info2.png');
+    background-repeat: no-repeat;
+}
+
+
+.txtpersonalnrnew {
+    float: left;
+    margin-bottom: 2px;
+    width: 90.5%;
+    height: 25px;
+    border-radius: 5px;
+    min-height: 20px;
+    margin-top: 8px;
+    text-align: right;
+}
+
+.txtsize4dept {
+    float: left;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    width: 60%;
+    height: 44%;
+}
+
+
+
+.txtsize4new {
+    float: left;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    width: 31%;
+    height: 6%;
+    text-align: right;
+}
+.txtsize5 {
+    float: left;
+    border-radius: 3px;
+    margin-top: 8px;
+    width: 88%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+
+.btnpersonalsplit {
+    float: left;
+    margin: 0px 0 1px 0;
+    width: 13%;
+    height: 25px;
+    border-radius: 5px;
+    background: white;
+    margin-top: 8px;
+}
+.btnpersonalsplitserch {
+    float: right;
+    margin-top: 8px;
+    width: 32px;
+    height: 25px;
+    border: 1px solid black;
+    background-image: url('../../Images/FormImages/yellow-edit.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.btnpersonalsplitserch:hover:enabled {
+  cursor:pointer;
+}
+
+.btnpersonalsplitserchclint {
+    float: right;
+    margin-top: 8px;
+    width: 32px;
+    height: 25px;
+    border: 1px solid black;
+    background-image: url('../../Images/FormImages/orange-info2.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.btnpersonalsplitserchclint:hover:enabled {
+  cursor:pointer;
+}
+
+    .btnpersonalsplit:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.tabsec2top1right {
+    width: 63%;
+    float: right;
+    height: 100%;
+}
+
+.tabsec2top1righttop {
+    width: 100%;
+    float: right;
+    height: 50%;
+    margin-bottom: 3px;
+}
+
+.tabsec2top1rightbttm {
+    width: 100%;
+    float: right;
+    height: 50%;
+}
+.lblShotr {
+    width: 42%;
+    height: 25px;
+    float: left;
+    text-align: center;
+    margin-top: 4px;
+}
+
+
+.lblShotrnew {
+    width: 40%;
+    height: 20px;
+    float: left;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.tabsec2top2 {
+    width: 300px;
+    float: left;
+    min-width: 160px;
+    height: 50%;
+}
+
+.tabsec2midleft {
+    width: 98%;
+    float: left;
+    height: 100%;
+    margin-left: 0%;
+}
+.secmiddiv1 {
+    width: 100%;
+    height: 27%;
+    float: left;
+    margin-bottom: 2px;
+}
+.secmiddiv2 {
+    width: 100%;
+    height: 26%;
+    float: left;
+    margin-bottom: 2px;
+}
+
+
+.secmiddiv3 {
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+.tabsec2midright {
+    width: 45%;
+    float: left;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.secAccess {
+    width: 405px;
+    height: 19px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+
+.visData {
+    width: 100%;
+    float: left;
+    height: 5%;
+    margin-bottom: 2px;
+}
+
+
+
+.lblVisitorData {
+    width: 98%;
+    margin-left: 5px;
+    color: forestgreen;
+    text-align: left;
+}
+
+.tabsec3 {
+    width: 100%;
+    height: 55%;
+}
+
+.tabsec3top {
+    width: 100%;
+    float: right;
+    height: 67%;
+    margin-right: 0px;
+    margin-top: 0%;
+    background: transparent;
+}
+
+
+.tabsec3bttm {
+    height: 24%;
+    float: right;
+    width: 100%;
+}
+
+.lblmemholder {
+    height: 10%;
+    float: right;
+    width: 96%;
+    margin-right: 8%;
+}
+.PhotoholderClsnew {
+    background-color: transparent;
+    border: none;
+    margin-top: 3%;
+    color: orangered;
+    text-decoration: underline;
+    margin-left: 87px;
+}
+.memosec {
+    width: 100%;
+    float: left;
+    height: 86%;
+    margin-top: 1%;
+}
+
+
+.txt {
+    width: 100%;
+    float: right;
+    height: 99%;
+    border: 1px solid black;
+    background: white;
+    overflow-y: auto;
+    margin-right: 3px;
+}
+.sectionLinks {
+    width: 76%;
+    float: left;
+    height: 100%;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+.hyperButtonsHover {
+    cursor: pointer;
+}
+
+.secLinkOne {
+    width: 80%;
+    height: 30%;
+    float: right;
+}
+
+
+.secLinkTwo {
+    width: 80%;
+    height: 30%;
+    float: right;
+}
+
+
+.secLinkThree {
+    width: 80%;
+    height: 30%;
+    float: right;
+}
+
+
+.hypLnkVis {
+    width: 100%;
+    color: forestgreen;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+
+.hypLnkVis2 {
+    width: 100%;
+    color: forestgreen;
+    text-decoration: underline;
+    cursor: pointer;
+      border: none;
+    background: transparent;
+}
+
+.hypLnkVis3 {
+    width: 84%;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+
+.photoFieldSet {
+    width: 200px;
+    height: 217px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 1px;
+    float: left;
+}
+
+.secCommentedLinks {
+    width: 100%;
+    height: 39%;
+    float: left;
+}
+
+.lblDateFrom2 {
+    width: 99%;
+    float: left;
+    margin-left: 2px;
+    margin-top: 6px;
+    font-weight: 600;
+    color: forestgreen;
+}
+   .secHeader {
+    width: 99%;
+    height: 5%;
+    float: left;
+    margin-right: 0%;
+}
+
+
+.memHeader {
+    width: 98%;
+    float: left;
+    height: 8%;
+}
+
+.PhotoholderCls {
+    height: 150px;
+    width: 150px;
+    /*margin-bottom: 8px;*/
+    font-family: 'Segoe UI', Arial, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.PhotoBtnsHolder {
+    display: block;
+    width: 100%;
+    height: 14%;
+}
+
+.PhotoholderButtonsCls {
+    width: 90%;
+    height: 30px;
+    border: 1px solid #563d7c;
+    border-radius: 5px;
+    padding: 1px 2px 1px 18px;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+    margin: 6px 5px 0 5px;
+    float: right;
+    font-family: "Segoe UI", Arial, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-right: 9px;
+}
+
+.btnewphoto {
+    background-image: url('/Images/FormImages/NewPhotoImg_x18.png');
+}
+
+    .btnewphoto:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.btdelphoto {
+    background-image: url('/Images/FormImages/DelPhotoImg_x18.png');
+}
+
+    .btdelphoto:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+#btnTakeOver {
+    float: right;
+    text-align: center;
+    padding: 0 0 0 0;
+    background: white;
+}
+
+.FooterFloatLeft {
+    float: left;
+    width: 73.5%;
+    height: 60px;
+}
+.fvVisitors {
+    width: 47%;
+    height: 100%;
+    float: left;
+    display:none;
+}
+
+.btnprgsedit {
+    float: left;
+    width: 36px;
+    height: 25px;
+    background-color: #efefef;
+    border-radius: 3px;
+    background-image: url('/Images/FormImages/btnprgs2.png');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+    .btnprgsedit:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.searchsection {
+   width: 56%;
+    height: 88%;
+    padding: 5px;
+    margin-top: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+
+.dxeMemoEditAreaSys, input[type='text'].dxeEditAreaSys, input[type='password'].dxeEditAreaSys {
+    display: block;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.searchclint {
+    width: 56%;
+    height: 88%;
+    padding: 5px;
+    margin-top: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+.lblmemholder {
+    height: 24%;
+    float: right;
+    width: 96%;
+    margin-right: 5%;
+}
+.tabsec3bttmnew {
+    height: 19%;
+    float: right;
+    width: 100%;
+    margin-top: 165%;
+}
+
+.memHeader {
+    width: 98%;
+    float: left;
+    height: 8%;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.memosec {
+    width: 100%;
+    float: left;
+    height: 63%;
+    margin-top: 1%;
+}
+.txt {
+    width: 99%;
+    float: left;
+    height: 92%;
+    border-radius: 5px;
+}
+.Wrappernew3 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: #333;
+    padding: 5px;
+    position: relative;
+    width: 710px;
+    height: 470px;
+    display: block;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    margin-top: 59px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gridIdNr {
+    height: 67%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 5px;
+}
+.lblclient {
+    width: 17%;
+    height: 100%;
+    float: left;
+    margin-top: 5px;
+    display: block;
+    margin-left: 4px;
+    text-align: center;
+}
+.txtpclientdesc {
+    width: 15%;
+    margin-left: 1%;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.lblptypenew {
+    width: 10%;
+    height: 100%;
+    float: left;
+    margin-top: 5px;
+    display: block;
+    margin-left: 1%;
+    text-align: right;
+}
+.txtpmemonew {
+    width: 45%;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 14px;
+}
+.ActionBtns, .ActionBtnsBottom {
+    height: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.GridFooterBtnsLeft {
+    width: 120px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+    padding: 5px 0 5px 30px;
+    margin: 5px 0 0 0px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+@media only screen and (min-width: 200px) { 
+    .txtsize4 {
+    float: left;
+    width: 97%;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+    .Grid2 {
+    height: 11%;
+    width: 90%;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+    .lblbttm {
+    width: 94%;
+    float: left;
+    margin-top: 3px;
+    height: 20px;
+    margin-left: 2%;
+    margin-bottom: 4px;
+}
+
+    .secleftmid {
+    width: 100%;
+    height: 19%;
+    float: left;
+}
+ 
+    .tabsec2bttm {
+    width: 63%;
+    float: left;
+    height: 100%;
+    margin-top: 7px;
+}
+    .tabsec2mid {
+    width: 65%;
+    float: left;
+    height: 100%;
+    margin-top: 5px;
+}
+    .divlabelsbttm {
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+    .divlabelsmid {
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+    .lblPersNr {
+    width: 33%;
+    float: left;
+    min-width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+    .lblNme {
+    width: 33%;
+    float: left;
+    min-width: 30px;
+    margin-left: 5px;
+}
+.txtName {
+    width: 60%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.lbltopnew {
+    width: 35%;
+    height: 31%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+.lblmidneeew {
+    width: 100%;
+    height: 25%;
+    float: left;
+    display: block;
+    margin: 6px 0 0px 0;
+    margin-left: 2%;
+}
+
+
+}  
+ 
+@media only screen and (min-width: 1680px) { 
+    .txtsize4 {
+    float: left;
+    width: 97%;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+    .Grid2 {
+    height: 11%;
+    width: 90%;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+    .lblbttm {
+    width: 94%;
+    float: left;
+    margin-top: 3px;
+    height: 20px;
+    margin-left: 2%;
+    margin-bottom: 4px;
+}
+
+    .secleftmid {
+    width: 100%;
+    height: 19%;
+    float: left;
+}
+ 
+    .tabsec2bttm {
+    width: 63%;
+    float: left;
+    height: 100%;
+    margin-top: 7px;
+}
+    .tabsec2mid {
+    width: 65%;
+    float: left;
+    height: 100%;
+    margin-top: 5px;
+}
+    .divlabelsbttm {
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+    .divlabelsmid {
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+    .lblPersNr {
+    width: 33%;
+    float: left;
+    min-width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+    .lblNme {
+    width: 33%;
+    float: left;
+    min-width: 30px;
+    margin-left: 5px;
+}
+.txtName {
+    width: 60%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.lbltopnew {
+    width: 35%;
+    height: 31%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+.lblmidneeew {
+    width: 100%;
+    height: 25%;
+    float: left;
+    display: block;
+    margin: 6px 0 0px 0;
+    margin-left: 2%;
+}
+
+
+}   
+
+  @media only screen and (min-width: 1700px) {
+      .txtsize4 {
+    float: left;
+    width: 97%;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+      .lblbttm {
+    width: 94%;
+    float: left;
+    margin-top: 3px;
+    height: 20px;
+    margin-left: 2%;
+    margin-bottom: 4px;
+}
+
+      .secleftmid {
+    width: 100%;
+    height: 19%;
+    float: left;
+}
+
+      .tabsec2bttm {
+    width: 63%;
+    float: left;
+    height: 100%;
+    margin-top: 7px;
+}
+      .tabsec2mid {
+    width: 65%;
+    float: left;
+    height: 100%;
+    margin-top: 5px;
+}
+      .divlabelsbttm {
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+      .divlabelsmid {
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+      .lblPersNr {
+    width: 33%;
+    float: left;
+    min-width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+      .lblNme {
+    width: 33%;
+    float: left;
+    min-width: 30px;
+    margin-left: 5px;
+}
+
+.txtName {
+    width: 64%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+       .lbltopnew {
+    width: 38%;
+    height: 31%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+
+       .lblmidneeew {
+    width: 97%;
+    height: 25%;
+    float: left;
+    display: block;
+    margin: 6px 0 0px 0;
+    margin-left: 2%;
+}
+  } 
+
+
+  @media only screen and (min-width: 1900px) { 
+.txtsize4 {
+    float: left;
+    width: 97%;
+    height: 20px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+.lblbttm {
+    width: 94%;
+    float: left;
+    margin-top: 12px;
+    height: 19px;
+    margin-left: 2%;
+    margin-bottom: 4px;
+}
+
+      .secleftmid {
+    width: 100%;
+    height: 17%;
+    float: left;
+    /*margin-top: 16px;*/
+}
+      .tabsec2bttm {
+    width: 74%;
+    float: left;
+    height: 100%;
+    margin-top: 7px;
+}
+      .tabsec2mid {
+    width: 76%;
+    float: left;
+    height: 100%;
+    margin-top: 5px;
+}
+      .divlabelsbttm {
+    width: 26%;
+    height: 100%;
+    float: left;
+}
+
+      
+.divlabelsmid {
+    width: 24%;
+    height: 100%;
+    float: left;
+}
+
+.lblPersNr {
+    width: 25%;
+    float: left;
+    min-width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+      .lblNme {
+    width: 25%;
+    float: left;
+    min-width: 30px;
+    margin-left: 5px;
+}
+      .txtName {
+    width: 72%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+          .lbltopnew {
+    width: 38%;
+    height: 31%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+.lblmidneeew {
+    width: 97%;
+    height: 25%;
+    float: left;
+    display: block;
+    margin: 6px 0 0px 0;
+    margin-left: 2%;
+}
+  }
+
+  .mapbtns1BtnsRightNew {
+        width: 122px;
+        height: 30px;
+        border: 1px solid grey;
+        min-width: 93px;
+        border-radius: 5px;
+        float: left;
+        padding: 5px 0 5px 18px;
+        margin: 5px 0 0 4px;
+        margin-right: 0%;
+        margin-left: 1px;
+        background-size: 21px;
+        background-position-y: 4px;
+        background-repeat: no-repeat;
+    }

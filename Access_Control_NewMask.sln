@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access_Control_NewMask", "Access_Control_NewMask\Access_Control_NewMask.csproj", "{F43E0914-16E6-4113-97FF-0C4E71ACB920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KruAll.Core", "KruAll.Core\KruAll.Core.csproj", "{5720A1D6-A972-432D-8E6E-780118C5A1F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F43E0914-16E6-4113-97FF-0C4E71ACB920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43E0914-16E6-4113-97FF-0C4E71ACB920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43E0914-16E6-4113-97FF-0C4E71ACB920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43E0914-16E6-4113-97FF-0C4E71ACB920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5720A1D6-A972-432D-8E6E-780118C5A1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5720A1D6-A972-432D-8E6E-780118C5A1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5720A1D6-A972-432D-8E6E-780118C5A1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5720A1D6-A972-432D-8E6E-780118C5A1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kru-all.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Access_Control_NewMask\\Access_Control_NewMask.csproj
+		SccProjectName1 = Access_Control_NewMask
+		SccLocalPath1 = Access_Control_NewMask
+		SccProjectUniqueName2 = KruAll.Core\\KruAll.Core.csproj
+		SccProjectName2 = KruAll.Core
+		SccLocalPath2 = KruAll.Core
+	EndGlobalSection
+EndGlobal

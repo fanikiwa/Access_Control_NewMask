@@ -1,0 +1,463 @@
+﻿.secContHolder {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.secSprache {
+    height: 100%;
+    width: 100%;
+    font-weight: 600;
+}
+
+.secListSpache {
+    width: 64%;
+    margin-top: 10px;
+    margin-left: 100px;
+    height: 72%;
+    border-radius: 5px;
+    overflow-y: auto;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.ListSpache {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.secOption {
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border: 1px gray;
+    border-bottom-style: solid;
+    display: block;
+}
+
+label[for] {
+    width: 60%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.Wrappernew1 {
+    height: 74%;
+    width: 48%;
+    position: relative;
+    top: 13%;
+    display: block;
+    min-width: 744px;
+    margin: auto;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    clear: both;
+}
+
+.topsec {
+    height: 10%;
+    width: 99%;
+    margin-left: 3px;
+    float: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.bottom {
+    height: 77%;
+    width: 100%;
+    float: left;
+}
+
+.bottom2 {
+    height: 10%;
+    width: 100%;
+    float: left;
+}
+
+.bottom2top {
+    height: 40%;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.bottom2profil {
+    height: 27%;
+    width: 100%;
+}
+
+.planGruppen2 {
+    width: 11%;
+    font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 13px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px #808080;
+    float: left;
+}
+
+.planGruppen8 {
+    width: 34%;
+    font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+    font-size: 14px;
+    margin-left: 1px;
+    margin-top: 13px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px #808080;
+    float: left;
+    min-width: 199px;
+}
+
+.planGruppen1 {
+    width: 23%;
+    font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+    font-size: 14px;
+    margin-left: 11px;
+    margin-top: 2%;
+    float: left;
+    font-weight: 600;
+}
+
+.planGruppen3 {
+    width: 5%;
+    font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+    font-size: 14px;
+    margin-left: 51px;
+    margin-top: 2%;
+    float: left;
+    min-width: 93px;
+    font-weight: 600;
+}
+
+.bottom2toplbl {
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin-left: 81px;
+    font-weight: 600;
+}
+
+.bottom2toptextbox {
+    width: 34%;
+    float: right;
+    margin-right: 10%;
+    height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+}
+
+.bottom3 {
+    height: 53%;
+    width: 83%;
+    margin-left: 79px;
+    float: left;
+}
+
+.lbl {
+    height: 10%;
+    width: 100%;
+}
+
+.memo {
+    height: 89%;
+    width: 96%;
+    border: 1px solid gray;
+    margin-top: 1%;
+}
+
+.mainHolder {
+    height: 45%;
+    width: 98%;
+    float: left;
+}
+
+.btnClose {
+    float: right;
+}
+
+.btnSave {
+    float: left;
+}
+
+    .btnSave:enabled:hover, .btnClose:enabled:hover, btnLöschen:enabled:hover btnEdit:enabled:hover, btnNew:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnBackOk {
+    display: block;
+    width: 110px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen;
+    border-radius: 5px;
+}
+
+    #btnBackOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flame {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#lbltitletop {
+    width: 91%;
+    float: left;
+    clear: none;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+.stopPic {
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+    padding: 5px;
+    clear: both;
+}
+
+#promptbtnclose {
+    width: 25px;
+    float: right;
+    margin-right: 8px;
+    clear: none;
+    height: 25px;
+    background-image: url('../../Images/FormImages/promptclose.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+}
+
+#lbltitlemsg {
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 10px;
+    float: left;
+    height: 40%;
+    text-align: left;
+    clear: both;
+}
+
+#prompttopclose {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    clear: none;
+    height: 27px;
+}
+
+#areasavepop {
+    text-align: left;
+    width: 482px;
+    height: 198px;
+    padding: 0;
+    float: left;
+    background-color: white;
+    clear: none;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+#dialogBox {
+    width: 500px;
+    height: 230px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#btnNo {
+    display: block;
+    /*width: 44px;*/
+    width: 165px;
+    float: left;
+    padding: 0;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 1px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnNo:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+/*#btnCancel {
+    display: block;
+    width: 158px;
+    float: left;
+    height: 30px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+    border-radius: 5px;
+}*/
+#btnCancel {
+    display: block;
+    width: 225px;
+    float: left;
+    height: 30px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+    border-radius: 5px;
+}
+    #btnCancel:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+/*#btnOk {
+    display: block;
+    width: 110px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}*/
+#btnOk {
+    display: block;
+    width: 178px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+
+    #btnOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+        @media only screen and (min-width: 200px) {
+    .secFooterSprache {
+    margin-top: 4px;
+    margin-left: 76px;
+    width: 69%;
+    height: 95%;
+    float: right;
+}
+    }
+
+    @media only screen and (min-width: 1680px) {
+    .secFooterSprache {
+    margin-top: 4px;
+    margin-left: 76px;
+    width: 69%;
+    height: 95%;
+    float: right;
+}
+}
+    @media only screen and (min-width: 1700px) {
+    .secFooterSprache {
+    margin-top: 4px;
+    margin-left: 76px;
+    width: 66%;
+    height: 95%;
+    float: right;
+}
+}
+    @media only screen and (min-width: 1900px) {
+    .secFooterSprache {
+    margin-top: 4px;
+    margin-left: 76px;
+    width: 66%;
+    height: 95%;
+    float: right;
+}
+}

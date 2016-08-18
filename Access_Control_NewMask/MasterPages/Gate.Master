@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Gate.master.cs" Inherits="Access_Control_NewMask.MasterPages.Gate" ClientIDMode="Static" %>
+
+<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script src="../Scripts/moment.js"></script>
+    <script src="../Scripts/jquery-2.2.3.js"></script>
+    <script type="text/javascript">
+        var allowZUTEdit = true;
+    </script>
+    <script src="../Scripts/Gate.js"></script>
+    <link href="../Styles/Gate.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="MainForm" runat="server">
+        <dx:ASPxLoadingPanel ID="InitialPageLoadPanel" CssClass="loadingarea" Font-Bold="false" LoadingDivStyle-CssClass="loadingarea" BackgroundImage-Repeat="NoRepeat" Border-BorderStyle="none"
+            ShowImage="true" ForeColor="Black" Image-Height="115px" Font-Size="Medium" runat="server" ClientIDMode="Static" Text="<%$ Resources:localizedText, LoadingText %>"
+            ClientInstanceName="InitialPageLoadPanel" Modal="true" LoadingDivStyle-BackgroundImage-Repeat="NoRepeat" Theme="">
+            <Image Width="55px" SpriteProperties-CssClass="ImageLoadingDiv" Height="55px" Url="../Images/FormImages/rotating1.gif"></Image>
+        </dx:ASPxLoadingPanel>
+        <div id="dashboardmain">
+            <div id="mainmenutop">
+                <div id="MainHeader">
+                    <section class="MainheaderSec">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True">
+                        </asp:ScriptManager>
+                        <asp:Button ID="btnDashboard" runat="server" Text="Dashboard" CssClass="btnDashboard" />
+                    </section>
+                    <section class="MainheaderSec1">
+                        <section class="secPlaceHolder"></section>
+                    </section>
+                    <section class="MainheaderSec2">
+                        <asp:Label ID="PageTitleLbl" runat="server" Text="" CssClass="companylbl"></asp:Label>
+                        <asp:Label ID="pagenamelbl" runat="server" Text="" CssClass="pagenamelbl"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="" CssClass="solutionversionlbl"></asp:Label>
+
+                    </section>
+                    <section class="MainheaderSec3">
+                        <asp:Button ID="Button1" runat="server" Text="Login/Logout" CssClass="btnLogoutsolution" OnClick="btnLogout_Click" />
+                    </section>
+                </div>
+            </div>
+            <div id="companyDetails">
+                <div class="dvnsLeft">
+                    <div id="contentarea">
+                        <section class="dashboardbuttons">
+                            <section class="secPersoanlButton">
+                                <asp:Button ID="btnPersonalCheck" runat="server" Text="<%$ Resources:localizedText, personnelcheck  %>" CssClass="btnpersonal" />
+                                <%-- <asp:CheckBox ID="chkPersonal" runat="server" CssClass="chkPersonal" />--%>
+                            </section>
+                            <section class="btnModulesmembers3">
+                                <asp:Button ID="btnGateMembers" runat="server" Text="<%$ Resources:localizedText, memberscheck  %>" CssClass="btnmembers" />
+                            </section>
+                            <section class="secvisarea">
+                                <asp:Button ID="btnGateVisitor" runat="server" Text="<%$ Resources:localizedText, visitor  %>" CssClass="btnVisitors" />
+                            </section>
+                            <section class="btndisplaypanel">
+                                <asp:Button ID="btnDisplayPanel" runat="server" Text="<%$ Resources:localizedText, displayPanel %>" CssClass="displaypanelpic" />
+                            </section>
+                            <section class="btninfochk" style="display:none;">
+                                <asp:Button ID="btnInfo" runat="server" Text="<%$ Resources:localizedText, info  %>" CssClass="infoButton" />
+                                <%--       <section class="secChkInfo">
+                                <asp:CheckBox ID="chkInfo" runat="server" CssClass="chkInfo" />
+                            </section>--%>
+                            </section>
+                            <asp:Button ID="btnGate" runat="server" Text="<%$ Resources:localizedText, gateMonitor  %>" CssClass="backtogate" />
+                        </section>
+                    </div>
+                </div>
+
+
+                <div class="dvnsRight">
+                    <section class="secContHolder">
+                        <asp:ContentPlaceHolder ID="ContentHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                    <section class="footer">
+                        <section class="footerLeft">
+                            <asp:ContentPlaceHolder ID="FooterLeft" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                        <section class="footerRight">
+                            <asp:ContentPlaceHolder ID="FooterRight" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="Contentbottomarea" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+    </form>
+</body>
+</html>

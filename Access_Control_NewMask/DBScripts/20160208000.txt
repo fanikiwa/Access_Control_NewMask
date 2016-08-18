@@ -1,0 +1,10 @@
+KruAll_PZE.dacpac
+Accounts.sql
+AC_Permissions.sql
+Colors.sql
+Countries.sql
+Pers_Type.sql
+Status_Static.sql
+TerminalOEM.sql
+Terminals.sql
+VehicleTypes.sql

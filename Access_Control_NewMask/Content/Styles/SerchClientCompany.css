@@ -1,0 +1,874 @@
+﻿.ContentAreaDiv {
+    width: 100%;
+    height: 100%;
+}
+
+/*.TopContentAreaDiv {
+    width: 100%;
+    height: 10%;
+    min-height: 65px;
+    display: inline-flex;
+    background-color: rgba(174, 202, 240, 1);
+}*/
+.TopContentAreaDiv {
+    width: 100%;
+    min-height: 65px;
+    display: inline-flex;
+}
+
+.MidContentAreaDiv {
+    width: 100%;
+    height: 83%;
+}
+
+.secLeftTop {
+    float: left;
+    width: 48%;
+    height: 99%;
+    background-color: transparent;
+}
+
+.secLeftTopse {
+    float: left;
+    width: 49%;
+    height: 99%;
+    background-color: transparent;
+}
+
+.secLeftTopL {
+    width: 52%;
+    float: left;
+}
+
+.secLeftTopL2 {
+    width: 51%;
+    float: left;
+}
+
+.secLeftTopL2sd {
+    width: 50%;
+    float: left;
+}
+
+.secLeftTopR2 {
+    width: 43%;
+    float: left;
+}
+
+.secLeftTopR2sd {
+    width: 47%;
+    float: left;
+}
+
+.secLeftTopR {
+    width: 42%;
+    float: left;
+}
+.secLeftTopR3 {
+    width: 45%;
+    float: left;
+}
+
+.lblsecT {
+    width: 32%;
+    min-width: 100px;
+    margin-right: 5px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+.lblsecT2 {
+    width: 16%;
+    min-width: 76px;
+    margin-right: 0px;
+    float: left;
+    margin-left: 4px;
+    margin-top: 20px;
+}
+
+
+
+.lblsecTNew {
+    width: 5%;
+    min-width: 100px;
+    margin-right: 0px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.lblsecTlft {
+    width: 36%;
+    min-width: 100px;
+    margin-right: 5px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.lblsecTlft2 {
+    width: 37%;
+    min-width: 100px;
+    margin-right: 5px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.ddlistT {
+    width: 45%;
+    min-width: 100px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+.ddlistT2 {
+    width: 59%;
+    min-width: 100px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+
+.ddlistTNew {
+    width: 10%;
+    min-width: 100px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.ddlistTlft {
+    width: 48%;
+    min-width: 100px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.lblsec2T {
+    width: 54%;
+    margin-right: 2px;
+    min-width: 94px;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lblsec2Tsdf {
+    width: 37%;
+    margin-right: 2px;
+    min-width: 93px;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 200px) {
+    .lblsec2Tsdfnew {
+        width: 37%;
+        margin-right: 2px;
+        min-width: 102px;
+        float: left;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .ddlist2Twenew {
+        width: 56%;
+        min-width: 92px;
+        height: 25px;
+        float: left;
+        border-radius: 5px;
+        margin-top: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .lblsec2Tsdfnew {
+        width: 37%;
+        margin-right: 2px;
+        min-width: 93px;
+        float: left;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .ddlist2Twenew {
+        width: 60%;
+        min-width: 92px;
+        height: 25px;
+        float: left;
+        border-radius: 5px;
+        margin-top: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 1900px) {
+    .lblsec2Tsdfnew {
+        width: 37%;
+        margin-right: 2px;
+        min-width: 93px;
+        float: left;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .ddlist2Twenew {
+        width: 60%;
+        min-width: 92px;
+        height: 25px;
+        float: left;
+        border-radius: 5px;
+        margin-top: 18px;
+    }
+}
+
+/*end of media query*/
+.lblsec2Tsdfa {
+    width: 37%;
+    margin-right: 2px;
+    min-width: 105px;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lblsec2Tssd {
+    width: 36%;
+    margin-right: 2px;
+    min-width: 105px;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+.lblsec2Tsd {
+    width: 40%;
+    margin-right: 2px;
+    min-width: 79px;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lblsec2TsNew {
+    width: 5%;
+    margin-right: 2px;
+    min-width: 79px;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.ddlist2T {
+    width: 40%;
+    min-width: 92px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.ddlist2Twe {
+    width: 60%;
+    min-width: 92px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.ddlist2Tweasd {
+    width: 55%;
+    min-width: 92px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.ddlist2Tsd {
+    width: 53%;
+    min-width: 90px;
+    height: 25px;
+    float: right;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+.ddlist2Tasad {
+    width: 20%;
+    min-width: 86px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+
+.ddlist2TNew {
+    width: 10%;
+    min-width: 100px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.secRightTop {
+    float: left;
+    width: 52%;
+    height: 99%;
+    background-color: transparent;
+}
+
+.secRightTopwe {
+    float: left;
+    width: 48%;
+    height: 99%;
+    background-color: transparent;
+}
+
+.secLeftMid {
+    float: left;
+    width: 40%;
+    height: 99%;
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+.secLeftMidFv {
+    float: left;
+    width: 47%;
+    height: 99%;
+    background-color: transparent;
+    margin-left: 1%;
+}
+
+    .secLeftMidFv tbody, .secLeftMidFv tr, .secLeftMidFv td, .secLeftMid2 {
+        height: 100%;
+        width: 100%;
+    }
+
+.topsecLeftMid {
+    width: 100%;
+    height: 6%;
+    float: left;
+}
+.secTitleData{
+    width:49%;
+    float:left;
+    height:100%;
+}
+.secTitleData{
+    width:49%;
+    float:left;
+    height:100%;
+}
+.secTitleSelection {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.lblheader {
+    font-weight: 600;
+    margin-left: 3px;
+}
+.btmsecLeftMid {
+    width: 76%;
+    height: 89%;
+    float: left;
+}
+
+.btmsecLeftMidcreatenew {
+    width: 46%;
+    height: 100%;
+    float: left;
+    border-radius: 5px;
+    display:none;
+}
+
+
+.innersec {
+    /*border-radius: 5px;*/
+    /*border: 1px solid grey;*/
+    margin-left: 2px;
+    width: 710px;
+    height: 100%;
+    /*border-radius: 5px;*/
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+.innersec2 {
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.innersec2b {
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: 2px;
+    width: 100%;
+    height: 94%;
+    overflow-y: auto;
+}
+
+.upperbtmsecLeftMid {
+    height: 45%;
+    width: 100%;
+    float: left;
+}
+.secdiv {
+    width: 100%;
+    height: 24%;
+    padding-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+
+.secdivleft {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.lblsec {
+    width: 20%;
+    min-width: 78px;
+    margin-right: 0px;
+    float: left;
+    margin-left: 0px;
+}
+.lblsecnew {
+     width: 25%;
+    min-width: 80px;
+    margin-right: 12px;
+    float: left;
+    margin-left: 0px;
+}
+
+.lblsecrff {
+    width: 35%;
+    min-width: 109px;
+    float: left;
+}
+
+.btnInfo {
+    width: 25px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-image: url('/Images/FormImages/terminal-info.png');
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-position-y: 2px;
+    background-position-x: 3px;
+}
+
+    .btnInfo:hover:enabled {
+        background-color: white;
+        border-color: black;
+    }
+
+.txtsec {
+    width: 50%;
+    min-width: 100px;
+    /*height: 20px;*/
+    float: left;
+    /*border-radius: 5px;*/
+    height: 25px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px; 
+    outline: 0;
+
+}
+
+.bunddlist {
+    width: 51%;
+    min-width: 100px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+}
+
+.bunddlistsdf {
+    width: 48%;
+    min-width: 96px;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.secdivright {
+    width: 49%;
+    float: left;
+    height: 100%;
+}
+
+.secLeftCntrls {
+    width: 92%;
+    float: left;
+    height: 100%;
+}
+
+.secRightCntrls {
+    width: 7%;
+    height: 100%;
+    float: right;
+}
+.lblsec2 {
+  width: 27%;
+    margin-right: 2px;
+    min-width: 80px;
+    float: left;
+    text-align: left;
+}
+
+
+.txtsec2 {
+ width: 26%;
+    min-width: 83px;
+    float: left;
+    height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+}
+
+.lowerbtmsecLeftMid {
+    height: 55%;
+    width: 100%;
+    float: left;
+}
+
+.lowerbtmsecLeftMidL {
+   width: 50.5%;
+    height: 100%;
+    float: left;
+}
+
+.secdiv2 {
+    width: 100%;
+    height: 19%;
+    float: left;
+}
+
+.lblsec3 {
+  width: 27%;
+    min-width: 90px;
+    margin-right: 5px;
+    float: left;
+    margin-left: 5px;
+}
+
+.txtsec3 {
+    width: 52%;
+    min-width: 100px;
+    /*height: 20px;*/
+    float: left;
+    /*border-radius: 5px;*/
+    height: 25px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px; 
+    outline: 0;
+}
+.txtPhone {
+    width: 52%;
+    min-width: 100px;
+    /*height: 20px;*/
+    float: left;
+    /*border-radius: 5px;*/
+    height: 25px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px; 
+    outline: 0;
+}
+.txtMemo {
+    width: 76%;
+    height: 88%;
+    min-height: 93px;
+    border-radius: 5px;
+}
+
+
+
+.topsec {
+    height: 10%;
+    min-height: 30px;
+    width: 88%;
+}
+
+.btmsec {
+    height: 90%;
+    width: 96%;
+}
+
+.lowerbtmsecLeftMidR {
+    width: 47%;
+    height: 95%;
+    float: left;
+}
+
+.secRightMid {
+    float: left;
+    width: 50%;
+    height: 99%;
+    background-color: transparent;
+}
+
+.topsecRightMid {
+    width: 100%;
+    height: 6%;
+    float: left;
+}
+
+.topsecRightMidNew {
+    width: 100%;
+    height: 6%;
+    min-height: 36px;
+    background-color: #FEF2CE;
+    float: left;
+}
+.secCalendar {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.lblClndrNr {
+    width: 2%;
+    float: left;
+    min-width: 100px;
+    margin-left: 1.5%;
+    margin-top: 8px;
+}
+
+.lblClndrNrKldnr {
+    width: 9%;
+    float: left;
+    min-width: 100px;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.txtClndrNr {
+    width: 4%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+    min-width: 70px;
+    margin-top: 5px;
+}
+
+.txtClndrNrKldr {
+    width: 5%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+    min-width: 70px;
+    margin-top: 5px;
+}
+
+.txtClndrDsc {
+    border-radius: 5px;
+    width: 19%;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+.txtClndrDscKldr {
+    border-radius: 5px;
+    width: 12.5%;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+.lblClndrDsc {
+    width: 2%;
+    float: left;
+    min-width: 80px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.lblClndrDscKldr {
+    width: 8%;
+    float: left;
+    min-width: 80px;
+    margin-left: 9.5%;
+    margin-top: 8px;
+}
+
+.btmsecRightMid {
+    width: 100%;
+    height: 86%;
+    float: left;
+}
+
+input[type='text'].dxeEditArea_Office2003Blue, input[type='password'].dxeEditArea_Office2003Blue {
+    height: 19px;
+    margin-bottom: 0px;
+    /*text-align: right;*/
+}
+.visitorlonig{
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 69%;
+    float: left;
+    font-size: 23px;
+    margin-top: 12px;
+}
+.BottomFooterBtnsLeftnew_vis {
+    padding: 1px;
+    margin-left: 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+    background-position: 10px center;
+        background-color:transparent;
+    color: #0094ff;
+    text-decoration: underline;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 9px;
+}
+.BottomFooterBtnsLeftnew_vis:hover:enabled {
+ cursor:pointer;
+}
+.BottomFooterBtnsLeftsave {
+    padding: 1px;
+    margin-left: 14px;
+    border: 1px solid grey;
+    color: #249024;
+        background-color:transparent;
+    text-decoration: underline;
+    border-radius: 5px;
+    float: left;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 9px;
+}
+.BottomFooterBtnsLeftsave:hover:enabled {
+  cursor:pointer;
+}
+.BottomFooterBtnsLeftdelete {
+    padding: 1px;
+    margin-left: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+    background-position: 10px center;
+    color: #f00;
+    text-decoration: underline;
+        background-color:transparent;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 9px;
+}
+.BottomFooterBtnBack {
+    padding: 1px;
+    margin-right: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: right;
+    background-position: 10px center;
+    color: #f00;
+    text-decoration: underline;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 9px;
+}
+
+.BottomFooterBtnsLeftdelete:hover:enabled {
+cursor:pointer;
+}
+
+.BottomFooterBtnBack:hover:enabled {
+cursor:pointer;
+}
+
+
+
+
+.ControlSectionnewclient {
+    /*height: 6%;
+    min-height: 56px;
+    width: 42.6%;
+    margin-top: 5px;
+    margin-left: 22.2%;
+    background: -moz-linear-gradient(50% 100% 90deg,rgba(217, 57, 15, 1) 0.54%,rgba(225, 97, 63, 1) 54.3%,rgba(217, 57, 15, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(217, 57, 15, 1) 0.54%, rgba(225, 97, 63, 1) 54.3%, rgba(217, 57, 15, 1) 100%);
+    background: -webkit-gradient(linear,50% 100% ,50% 0% ,color-stop(0.0054,rgba(217, 57, 15, 1) ),color-stop(0.543,rgba(225, 97, 63, 1) ),color-stop(1,rgba(217, 57, 15, 1) ));
+    background: -o-linear-gradient(90deg, rgba(217, 57, 15, 1) 0.54%, rgba(225, 97, 63, 1) 54.3%, rgba(217, 57, 15, 1) 100%);
+    background: -ms-linear-gradient(90deg, rgba(217, 57, 15, 1) 0.54%, rgba(225, 97, 63, 1) 54.3%, rgba(217, 57, 15, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#D9390F', endColorstr='#D9390F' ,GradientType=0)";
+    background: linear-gradient(0deg, rgba(217, 57, 15, 1) 0.54%, rgba(225, 97, 63, 1) 54.3%, rgba(217, 57, 15, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D9390F',endColorstr='#D9390F' , GradientType=0);*/
+    height: 7%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    clear: both;
+    min-height: 65px;
+}

@@ -1,0 +1,1364 @@
+﻿.divMain {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.sectionTop {
+    height: 8%;
+    width: 100%;
+    padding-top: 3px;
+    min-height: 77px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    float: left;
+    clear: both;
+}
+
+.sectionTopLeft {
+    width: 74%;
+    height: 100%;
+    float: left;
+    margin-left: 4px;
+}
+
+.secTopleftlabels {
+    width: 100%;
+    height: 40%;
+    float: left;
+}
+
+.secTopleftDrpdwns {
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+
+.sectionTopRight {
+    width: 25%;
+    height: 100%;
+    float: right;
+    margin-right: 4px;
+}
+
+.secSearchProfiles {
+    width: 40%;
+    height: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.top1Left {
+    width: 100%;
+    height: 8%;
+    float: left;
+}
+
+
+.secLablesDivisions5 {
+    width: 22%;
+    height: 100%;
+    float: left;
+}
+
+.secDivisions {
+    width: 6%;
+    height: 100%;
+    float: left;
+    min-width: 96px;
+}
+
+.secDivisions2 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    min-width: 187px;
+    margin-left: 9px;
+}
+
+.secDivisions3 {
+    width: 7%;
+    height: 100%;
+    float: left;
+    min-width: 86px;
+    margin-left: 10px;
+}
+
+.secMidTop {
+    width: 8%;
+    height: 100%;
+    float: left;
+    min-width: 72px;
+}
+
+.lblZutrtt {
+    width: 83%;
+    text-align: left;
+    float: left;
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+.topSecmid {
+    width: 7%;
+    height: 100%;
+    float: left;
+    min-width: 84px;
+    margin-left: 9px;
+}
+
+.drpZutrttID {
+    width: 98%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+}
+
+.secDivisions4 {
+    width: 24%;
+    height: 100%;
+    float: left;
+    min-width: 134px;
+}
+
+.secDivisions4New {
+    width: 21%;
+    height: 100%;
+    float: left;
+    min-width: 112px;
+}
+
+.secDivisions5 {
+    width: 14%;
+    height: 100%;
+    float: right;
+    min-width: 155px;
+    margin-right: 3%;
+}
+
+.secDivisions5bttm {
+    width: 12%;
+    height: 63%;
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+
+.chkbox {
+    margin-left: 60px;
+    float: left;
+}
+
+.drpDwnSecTop {
+    width: 80%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+}
+
+.drpDwnSecTophg {
+    width: 82%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.drpDwnSecTopssd {
+    width: 89%;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 0px;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+}
+
+.drpDwnSecTop1 {
+    width: 70%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.drpDwnSecTopoipu {
+    width: 99%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+
+.txtSecTop1 {
+    width: 95%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+}
+
+.txtSecTop1dsds {
+    width: 98%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+}
+
+.drpDwnSecTop2 {
+    width: 70%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.drpDwnSecTopoi {
+    width: 95%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+}
+
+.txtSecTop2 {
+    width: 81%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.drpDwnSecTop3 {
+    width: 91%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+
+.txtSecTop4 {
+    width: 99%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.lblTopSection {
+    width: 98%;
+    font-size: 14px;
+    float: left;
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+.lblTopSectionc {
+    width: 92%;
+    font-size: 14px;
+    float: left;
+    margin-left: 1px;
+    margin-top: 8px;
+}
+
+
+.lblTopSectionsd {
+    width: 94%;
+    font-size: 14px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+.lblTopSections {
+    width: 88%;
+    font-size: 14px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 8px;
+}
+
+.lblTopSection3 {
+    width: 98%;
+    font-size: 14px;
+    float: left;
+    margin-top: 8px;
+}
+
+.lblTopSection2 {
+    width: 98%;
+    font-size: 14px;
+    float: left;
+    margin-left: 11px;
+    margin-top: 8px;
+}
+
+.lblgrpPrflNo {
+    width: 98%;
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+
+.lblaccsPrflNo {
+    width: 98%;
+    float: left;
+    margin-left: 1px;
+}
+
+.lblaccsdsc {
+    width: 98%;
+    float: left;
+}
+
+.secToplefttextboxes {
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+
+
+
+.sectionGrid {
+    width: 99%;
+    height: 58%;
+    float: left;
+    margin-left: 5px;
+}
+
+.tableRowMain {
+    width: 100%;
+    float: left;
+    height: 10%;
+    border-collapse: collapse;
+    margin-left: 2px;
+}
+
+.grid {
+    width: 91.1%;
+    float: left;
+    margin-left: 2px;
+    min-width: 766px;
+}
+
+.tableRow {
+    width: 99%;
+    height: 94%;
+}
+
+.tableCell1 {
+    width: 8.7%;
+    height: 100%;
+    border: 1px solid #94b6e8;
+    text-align: center;
+}
+
+.tableCell {
+    width: 5.5%;
+    height: 100%;
+    border: 1px solid #94b6e8;
+    text-align: center;
+}
+
+.sectionMemo {
+    width: 100%;
+    height: 25%;
+    float: left;
+}
+
+.secMemoHeader {
+    width: 100%;
+    height: 15%;
+    float: left;
+}
+
+.lblMemo {
+    width: 98%;
+    font-size: 14px;
+    float: left;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.secMemo {
+    width: 100%;
+    height: 90%;
+    float: left;
+}
+
+.txtMemo {
+    width: 99%;
+    height: 98%;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1) !important;
+    -webkit-box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+}
+
+#overlayAC {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flameAC {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#dialogBoxAC {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#btnOkAC {
+    display: block;
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnOkAC:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnNoAC {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnNoAC:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnCancelAC {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnCancelAC:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+
+@media only screen and (min-width : 200px) {
+    .lblgrpPrfldesc {
+    width: 97%;
+    float: left;
+    margin-left: 3px;
+    text-align:center;
+}
+    .secBottomRight {
+        width: 33%;
+        height: 98%;
+        float: right;
+        border-radius: 5px;
+        overflow-y: auto;
+        margin-top: 5px;
+        background-color: white;
+        margin-right: 5px;
+    }
+
+    .secBottomLeft {
+        width: 66%;
+        height: 98%;
+        float: left;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-left: 4px;
+    }
+
+    .sectionBottom {
+        width: 100%;
+        height: 89%;
+        float: left;
+        margin-top: 0%;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .colorIndicator {
+        width: 73px;
+        height: 100%;
+        border: none;
+    }
+
+    .colorEditOne {
+        width: 12%;
+        height: 25px;
+        float: left;
+        margin-left: 5px;
+    }
+
+
+    .colorEditTwo {
+        width: 12%;
+        height: 25px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .txtColorSmple {
+        width: 52px;
+        float: left;
+        margin-left: 5px;
+        text-align: center;
+        height: 25px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+
+    .lblColorOne {
+        width: 14%;
+        min-width: 40px;
+        float: left;
+    }
+
+    .lblColorTwo {
+        width: 14%;
+        min-width: 40px;
+        float: left;
+        margin-left: 6px;
+    }
+
+
+    .lblSampleText {
+        width: 4%;
+        min-width: 44px;
+        float: left;
+        margin-left: 1px;
+    }
+
+    .secLablesDivisions {
+        width: 7%;
+        height: 100%;
+        float: left;
+        margin-right: 1px;
+        min-width: 83px;
+    }
+
+    .lblZtrt {
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+
+    .txtZutrttID {
+        width: 88%;
+        height: 25px;
+        float: left;
+        border-radius: 5px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+    .secLablesDivisions2 {
+        width: 18%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLablesDivisions3 {
+        width: 7%;
+        height: 100%;
+        float: left;
+        min-width: 67px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .secLablesDivisions4 {
+        width: 15%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLablesDivisions42 {
+        width: 15%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .txtGpNo {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtGpdesc {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtApNo {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtAdesc {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width : 1680px) {
+
+    .lblgrpPrfldesc {
+    width: 97%;
+    float: left;
+    margin-left: 3px;
+    text-align:center;
+}
+    .secBottomRight {
+        width: 33%;
+        height: 98%;
+        float: right;
+        border-radius: 5px;
+        overflow-y: auto;
+        margin-top: 5px;
+        background-color: white;
+        margin-right: 5px;
+    }
+
+    .secBottomLeft {
+        width: 66%;
+        height: 98%;
+        float: left;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-left: 4px;
+    }
+
+    .sectionBottom {
+        width: 100%;
+        height: 89%;
+        float: left;
+        margin-top: 0%;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .colorIndicator {
+        width: 86px;
+        height: 100%;
+        border: none;
+    }
+
+    .colorEditOne {
+        width: 12%;
+        height: 25px;
+        float: left;
+        margin-left: 5px;
+    }
+
+
+    .colorEditTwo {
+        width: 12%;
+        height: 25px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .txtColorSmple {
+        width: 9%;
+        float: left;
+        margin-left: 22px;
+        text-align: center;
+        height: 25px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblColorOne {
+        width: 14%;
+        min-width: 40px;
+        float: left;
+    }
+
+    .lblColorTwo {
+        width: 14%;
+        min-width: 40px;
+        float: left;
+        margin-left: 6px;
+    }
+
+
+    .lblSampleText {
+        width: 4%;
+        min-width: 44px;
+        float: left;
+        margin-left: 1px;
+    }
+
+    .secLablesDivisions {
+        width: 7%;
+        height: 100%;
+        float: left;
+        margin-right: 1px;
+        min-width: 83px;
+    }
+
+    .lblZtrt {
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+
+    .txtZutrttID {
+        width: 88%;
+        height: 25px;
+        float: left;
+        border-radius: 5px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+    .secLablesDivisions2 {
+        width: 18%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLablesDivisions3 {
+        width: 7%;
+        height: 100%;
+        float: left;
+        min-width: 67px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .secLablesDivisions4 {
+        width: 15%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLablesDivisions42 {
+        width: 15%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .txtGpNo {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtGpdesc {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtApNo {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtAdesc {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width : 1700px) {
+    .lblgrpPrfldesc {
+    width: 97%;
+    float: left;
+    margin-left: 3px;
+    text-align:left;
+}
+    .secBottomRight {
+        width: 33%;
+        height: 98%;
+        float: right;
+        border-radius: 5px;
+        overflow-y: auto;
+        margin-top: 5px;
+        background-color: white;
+        margin-right: 5px;
+    }
+
+    .secBottomLeft {
+        width: 66%;
+        height: 98%;
+        float: left;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-left: 4px;
+    }
+
+    .sectionBottom {
+        width: 100%;
+        height: 89%;
+        float: left;
+        margin-top: 1%;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .colorIndicator {
+        width: 84px;
+        height: 100%;
+        border: none;
+    }
+
+    .colorEditOne {
+        width: 9%;
+        height: 25px;
+        float: left;
+        margin-left: 2px;
+    }
+
+    .colorEditTwo {
+        width: 8%;
+        height: 25px;
+        float: left;
+        margin-left: 5px;
+    }
+
+
+    .txtColorSmple {
+        width: 6%;
+        float: left;
+        margin-left: 5px;
+        text-align: center;
+        height: 25px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblColorOne {
+        width: 10%;
+        min-width: 40px;
+        float: left;
+    }
+
+    .lblColorTwo {
+        width: 10%;
+        min-width: 40px;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    .lblSampleText {
+        width: 4%;
+        min-width: 44px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .secLablesDivisions {
+        width: 7%;
+        height: 100%;
+        float: left;
+        margin-right: 1px;
+        min-width: 91px;
+    }
+
+
+    .lblZtrt {
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+
+    .txtZutrttID {
+        width: 88%;
+        height: 25px;
+        float: left;
+        border-radius: 5px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+    .secLablesDivisions2 {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .secLablesDivisions3 {
+        width: 7%;
+        height: 100%;
+        float: left;
+        min-width: 91px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+
+    .secLablesDivisions4 {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLablesDivisions42 {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+    .txtGpNo {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtGpdesc {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtApNo {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtAdesc {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width : 1900px) {
+    .lblgrpPrfldesc {
+    width: 97%;
+    float: left;
+    margin-left: 3px;
+    text-align:left;
+}
+    .secBottomRight {
+        width: 28%;
+        height: 98%;
+        float: right;
+        border-radius: 5px;
+        overflow-y: auto;
+        margin-top: 5px;
+        background-color: white;
+        margin-right: 5px;
+    }
+
+    .secBottomLeft {
+        width: 70%;
+        height: 98%;
+        float: left;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-left: 4px;
+    }
+
+    .sectionBottom {
+        width: 100%;
+        height: 89%;
+        float: left;
+        margin-top: 1%;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .colorIndicator {
+        width: 85px;
+        height: 100%;
+        border: none;
+    }
+
+    .colorEditOne {
+        width: 9%;
+        height: 25px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .colorEditTwo {
+        width: 9%;
+        height: 25px;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    .txtColorSmple {
+        width: 9%;
+        float: left;
+        margin-left: 4px;
+        text-align: center;
+        height: 25px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+
+    .lblColorOne {
+        width: 10%;
+        min-width: 40px;
+        float: left;
+        margin-left: 9px;
+    }
+
+    .lblColorTwo {
+        width: 10%;
+        min-width: 40px;
+        float: left;
+        margin-left: 8px;
+    }
+
+
+    .lblSampleText {
+        width: 4%;
+        min-width: 44px;
+        float: left;
+        margin-left: 8px;
+    }
+
+    .secLablesDivisions {
+        width: 7%;
+        height: 100%;
+        float: left;
+        margin-right: 1px;
+        min-width: 91px;
+    }
+
+
+    .lblZtrt {
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+
+    .txtZutrttID {
+        width: 88%;
+        height: 25px;
+        float: left;
+        border-radius: 5px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+    .secLablesDivisions2 {
+        width: 22%;
+        height: 100%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .secLablesDivisions3 {
+        width: 7%;
+        height: 100%;
+        float: left;
+        min-width: 91px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+
+    .secLablesDivisions4 {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLablesDivisions42 {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+    .txtGpNo {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtGpdesc {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtApNo {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .txtAdesc {
+        width: 24%;
+        float: left;
+        height: 20px;
+        border-radius: 5px;
+    }
+}
+
+#btnBackOk {
+    display: block;
+    width: 110px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen;
+    border-radius: 5px;
+}
+
+
+    #btnBackOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+
+#btnNo {
+    display: block;
+    /*width: 44px;*/
+    width: 165px;
+    float: left;
+    padding: 0;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 1px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnNo:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }

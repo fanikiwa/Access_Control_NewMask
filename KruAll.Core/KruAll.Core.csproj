@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5720A1D6-A972-432D-8E6E-780118C5A1F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KruAll.Core</RootNamespace>
+    <AssemblyName>KruAll.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Migrations\201607210908550_command.cs" />
+    <Compile Include="Migrations\201607210908550_command.Designer.cs">
+      <DependentUpon>201607210908550_command.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Absence.cs" />
+    <Compile Include="Models\Abteilungen.cs" />
+    <Compile Include="Models\AccessCalendar.cs" />
+    <Compile Include="Models\AccessCalendarMonth.cs" />
+    <Compile Include="Models\AccessCalendarProfile.cs" />
+    <Compile Include="Models\AccessControlLog.cs" />
+    <Compile Include="Models\AccessGroup.cs" />
+    <Compile Include="Models\AccessGroupEmployee.cs" />
+    <Compile Include="Models\AccessPlanGroupDoorMapping.cs" />
+    <Compile Include="Models\AccessProfileAccessGroupMapping.cs" />
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\Accounts_Day.cs" />
+    <Compile Include="Models\Accounts_Month.cs" />
+    <Compile Include="Models\Accounts_Week.cs" />
+    <Compile Include="Models\Accounts_Year.cs" />
+    <Compile Include="Models\AC_PermissionMapping.cs" />
+    <Compile Include="Models\AC_PermissionProfile.cs" />
+    <Compile Include="Models\AC_Permissions.cs" />
+    <Compile Include="Models\AC_PersPasswords.cs" />
+    <Compile Include="Models\AC_PersPasswordsProfile.cs" />
+    <Compile Include="Models\AC_PersProfileADMapping.cs" />
+    <Compile Include="Models\AC_PersProfileMapping.cs" />
+    <Compile Include="Models\AC_ReportList.cs" />
+    <Compile Include="Models\AC_ReportListChecks.cs" />
+    <Compile Include="Models\AC_Reports.cs" />
+    <Compile Include="Models\AC_ReportSettings.cs" />
+    <Compile Include="Models\AC_vwPersonelAccessPlan.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\Area.cs" />
+    <Compile Include="Models\AuditHist.cs" />
+    <Compile Include="Models\BookingPair.cs" />
+    <Compile Include="Models\Break.cs" />
+    <Compile Include="Models\BreaksMapped.cs" />
+    <Compile Include="Models\BreaksType.cs" />
+    <Compile Include="Models\BuildingPlan.cs" />
+    <Compile Include="Models\CCAccount.cs" />
+    <Compile Include="Models\CellPhoneMaster.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Color.cs" />
+    <Compile Include="Models\CostCenter.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\DailyAccountTime.cs" />
+    <Compile Include="Models\DailyBooking.cs" />
+    <Compile Include="Models\DailyBookingsReport.cs" />
+    <Compile Include="Models\DailyCalendar.cs" />
+    <Compile Include="Models\DailyCalendarMapped.cs" />
+    <Compile Include="Models\DailyProgram.cs" />
+    <Compile Include="Models\DailyProgramMapped.cs" />
+    <Compile Include="Models\DatafoxTerminalInstance.cs" />
+    <Compile Include="Models\DatafoxTerminalReader.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\DF_TIME.cs" />
+    <Compile Include="Models\DP_Shifts.cs" />
+    <Compile Include="Models\DynamicColumn.cs" />
+    <Compile Include="Models\DynamicField.cs" />
+    <Compile Include="Models\DynamicFieldsMember.cs" />
+    <Compile Include="Models\EmpAdditionalInfo.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeAbsence.cs" />
+    <Compile Include="Models\EmployeeInfo.cs" />
+    <Compile Include="Models\EmployeePhoto.cs" />
+    <Compile Include="Models\EmployeeTariff.cs" />
+    <Compile Include="Models\ERP_Anrede.cs" />
+    <Compile Include="Models\ERP_KAnsprechp.cs" />
+    <Compile Include="Models\ERP_Kunden.cs" />
+    <Compile Include="Models\ERP_KundenGr.cs" />
+    <Compile Include="Models\ERP_KundenGrMark.cs" />
+    <Compile Include="Models\ERP_KundenMark.cs" />
+    <Compile Include="Models\ERP_Länder.cs" />
+    <Compile Include="Models\ERP_SoftwareContractStatus.cs" />
+    <Compile Include="Models\ERP_SoftwareModules.cs" />
+    <Compile Include="Models\ERP_SoftwareUpdateService.cs" />
+    <Compile Include="Models\FingerPrint.cs" />
+    <Compile Include="Models\FingerprintPassword.cs" />
+    <Compile Include="Models\Global_Settings.cs" />
+    <Compile Include="Models\GroupAccessProfile.cs" />
+    <Compile Include="Models\Holiday.cs" />
+    <Compile Include="Models\HolidayAccessPlam_with_DateTime.cs" />
+    <Compile Include="Models\HolidayCalendar.cs" />
+    <Compile Include="Models\HolidayCalendarMonth.cs" />
+    <Compile Include="Models\HolidayCalendar_with_DateTime.cs" />
+    <Compile Include="Models\HolidayPlanAccessProfileMonth.cs" />
+    <Compile Include="Models\HolidayPlanCalendar.cs" />
+    <Compile Include="Models\HolidayPlanCalendarMapped.cs" />
+    <Compile Include="Models\HolidayPlanCalendarMonth.cs" />
+    <Compile Include="Models\HolidayPlanCalendarMonthMapped.cs" />
+    <Compile Include="Models\JC_Activities.cs" />
+    <Compile Include="Models\JC_Currency.cs" />
+    <Compile Include="Models\JC_Projects.cs" />
+    <Compile Include="Models\Kostenstellen.cs" />
+    <Compile Include="Models\KrutecPZE.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\LocationsFederalState.cs" />
+    <Compile Include="Models\MapCalendar.cs" />
+    <Compile Include="Models\MapCalendarMapped.cs" />
+    <Compile Include="Models\MapCalendarMonth.cs" />
+    <Compile Include="Models\MapCalendarMonthMapped.cs" />
+    <Compile Include="Models\MemberAccessGroup.cs" />
+    <Compile Include="Models\MemberCommonInfo.cs" />
+    <Compile Include="Models\MemberDrivingLicense.cs" />
+    <Compile Include="Models\MemberDuration.cs" />
+    <Compile Include="Models\MemberDynamicField.cs" />
+    <Compile Include="Models\MemberGroup.cs" />
+    <Compile Include="Models\MemberHealthCard.cs" />
+    <Compile Include="Models\MemberIdentityCard.cs" />
+    <Compile Include="Models\MemberPassport.cs" />
+    <Compile Include="Models\MembersAccessPlanMapping.cs" />
+    <Compile Include="Models\MembersData.cs" />
+    <Compile Include="Models\MembersTransponder.cs" />
+    <Compile Include="Models\MenuTable.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\PZE_Entities.cs" />
+    <Compile Include="Models\MonthlyCalendar.cs" />
+    <Compile Include="Models\MonthlyCalendarMapped.cs" />
+    <Compile Include="Models\MV_AccessControlLogs.cs" />
+    <Compile Include="Models\MV_AccessControlTransactionPersonel.cs" />
+    <Compile Include="Models\MV_TerminalReaderBuildingPlans.cs" />
+    <Compile Include="Models\Personal.cs" />
+    <Compile Include="Models\Personalstamm.cs" />
+    <Compile Include="Models\PersonnelTariff.cs" />
+    <Compile Include="Models\Pers_AccessGroups.cs" />
+    <Compile Include="Models\Pers_AccessPlanDuration.cs" />
+    <Compile Include="Models\Pers_AdditionalInfo.cs" />
+    <Compile Include="Models\Pers_Archive.cs" />
+    <Compile Include="Models\Pers_Areas.cs" />
+    <Compile Include="Models\Pers_Client.cs" />
+    <Compile Include="Models\Pers_Contact.cs" />
+    <Compile Include="Models\Pers_CostCenters.cs" />
+    <Compile Include="Models\Pers_Departments.cs" />
+    <Compile Include="Models\Pers_DrivingLicense.cs" />
+    <Compile Include="Models\Pers_DynamicFields.cs" />
+    <Compile Include="Models\Pers_HealthCard.cs" />
+    <Compile Include="Models\Pers_IdentityCard.cs" />
+    <Compile Include="Models\Pers_Locations.cs" />
+    <Compile Include="Models\Pers_Passport.cs" />
+    <Compile Include="Models\Pers_Photo.cs" />
+    <Compile Include="Models\Pers_PinCode.cs" />
+    <Compile Include="Models\Pers_Transponders.cs" />
+    <Compile Include="Models\Pers_Type.cs" />
+    <Compile Include="Models\Pers_Vehicles.cs" />
+    <Compile Include="Models\Pers_Visitors.cs" />
+    <Compile Include="Models\PlannedCalendar.cs" />
+    <Compile Include="Models\PlannedCalendarMapped.cs" />
+    <Compile Include="Models\PlannedCalendarTime.cs" />
+    <Compile Include="Models\PlannedCalendarTimeMapped.cs" />
+    <Compile Include="Models\Portal_Audit.cs" />
+    <Compile Include="Models\Portal_PermissionMapping.cs" />
+    <Compile Include="Models\Portal_PermissionProfile.cs" />
+    <Compile Include="Models\Portal_Permissions.cs" />
+    <Compile Include="Models\Portal_ProfileUSerMapping.cs" />
+    <Compile Include="Models\Portal_Users.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\RawBooking.cs" />
+    <Compile Include="Models\ReaderAccessPlan.cs" />
+    <Compile Include="Models\ReaderAssigned.cs" />
+    <Compile Include="Models\ReaderVisitorPlan.cs" />
+    <Compile Include="Repositories\AbteilungRepository.cs" />
+    <Compile Include="Repositories\AccessCalendarMonthRepository.cs" />
+    <Compile Include="Repositories\AccessCalendarRepository.cs" />
+    <Compile Include="Repositories\AccessControlBookingRepository.cs" />
+    <Compile Include="Repositories\AccessControlLogsRepository.cs" />
+    <Compile Include="Repositories\AccessGroupProfileMappingRepository.cs" />
+    <Compile Include="Repositories\AccessGroupRepository.cs" />
+    <Compile Include="Repositories\AccessMemberListsChecksRepository.cs" />
+    <Compile Include="Repositories\AccessMemberReportsRepository.cs" />
+    <Compile Include="Repositories\AccessPersonalListsChecksRepository.cs" />
+    <Compile Include="Repositories\AccessPlanGroupDoorMappingRepository.cs" />
+    <Compile Include="Repositories\AccessPlanGroupRepository.cs" />
+    <Compile Include="Repositories\AccessPlanMembersMappingRepository.cs" />
+    <Compile Include="Repositories\AccessPlanPersMappingRepository.cs" />
+    <Compile Include="Repositories\AccessPlanRepository.cs" />
+    <Compile Include="Repositories\AccessReportMemberListsRepository.cs" />
+    <Compile Include="Repositories\AccessReportPersonalListsRepository.cs" />
+    <Compile Include="Repositories\AccessReportsChecks.cs" />
+    <Compile Include="Repositories\AccessReportsRepository.cs" />
+    <Compile Include="Repositories\AccessVisitorReportsRepository.cs" />
+    <Compile Include="Repositories\AssignReaderRepository.cs" />
+    <Compile Include="Repositories\Base\KruAllBaseRepository.cs" />
+    <Compile Include="Repositories\Base\KrutecBaseRepository.cs" />
+    <Compile Include="Repositories\BuildingPlanRepository.cs" />
+    <Compile Include="Repositories\CardPrint.cs" />
+    <Compile Include="Repositories\ClientsRepository.cs" />
+    <Compile Include="Repositories\CostCenterRepository.cs" />
+    <Compile Include="Repositories\DepartmentRepository.cs" />
+    <Compile Include="Repositories\DynamicFieldsMemberRepository.cs" />
+    <Compile Include="Repositories\DynamicFieldsRepository.cs" />
+    <Compile Include="Repositories\GlobalSettingRepository.cs" />
+    <Compile Include="Repositories\HolidayCalendarMonthRepository.cs" />
+    <Compile Include="Repositories\HolidayCalendarRepository.cs" />
+    <Compile Include="Repositories\HolidayPlanAccessProfileMonthRepository.cs" />
+    <Compile Include="Repositories\HolidayPlanCalendarMappedRepository.cs" />
+    <Compile Include="Repositories\HolidayPlanCalendarMonthMappedRepository.cs" />
+    <Compile Include="Repositories\HolidayPlanCalendarMonthRepository.cs" />
+    <Compile Include="Repositories\HolidayPlanCalendarRepository.cs" />
+    <Compile Include="Repositories\HolidayRepository.cs" />
+    <Compile Include="Repositories\HolidayScheduleRepository.cs" />
+    <Compile Include="Repositories\KostenstellenRepository.cs" />
+    <Compile Include="Repositories\LocationFederalStateRepository.cs" />
+    <Compile Include="Repositories\LocationRepository.cs" />
+    <Compile Include="Repositories\MemberAccessGroupsRepository.cs" />
+    <Compile Include="Repositories\MemberCommonInfoRepository.cs" />
+    <Compile Include="Repositories\MemberDrivingLicenseRepository.cs" />
+    <Compile Include="Repositories\MemberDurationRepository.cs" />
+    <Compile Include="Repositories\MemberGroupsRepositories.cs" />
+    <Compile Include="Repositories\MemberHealthCardRepository.cs" />
+    <Compile Include="Repositories\MemberIdentityCardRepository.cs" />
+    <Compile Include="Repositories\MemberPassportRepository.cs" />
+    <Compile Include="Repositories\MembersAccessPlanMappingRepository.cs" />
+    <Compile Include="Repositories\MembersDataInactiveRepository.cs" />
+    <Compile Include="Repositories\MembersDataRepository.cs" />
+    <Compile Include="Repositories\MembersTranspondersRepository.cs" />
+    <Compile Include="Repositories\PermissionMappingRepository.cs" />
+    <Compile Include="Repositories\PermissionProfileRepository.cs" />
+    <Compile Include="Repositories\PersAccessGroupsRepository.cs" />
+    <Compile Include="Repositories\PersAccessPlanDurationRepository.cs" />
+    <Compile Include="Repositories\PersAdditionalInfoRepository.cs" />
+    <Compile Include="Repositories\PersArchiveRepository.cs" />
+    <Compile Include="Repositories\PersClientRepository.cs" />
+    <Compile Include="Repositories\PersContactRepository.cs" />
+    <Compile Include="Repositories\PersContactsRepository.cs" />
+    <Compile Include="Repositories\PersCostCenterRepository.cs" />
+    <Compile Include="Repositories\PersCostCentreRepository.cs" />
+    <Compile Include="Repositories\PersDataRepository.cs" />
+    <Compile Include="Repositories\PersDepartmentRepository.cs" />
+    <Compile Include="Repositories\PersDrivingLicenseRepository.cs" />
+    <Compile Include="Repositories\PersDynamicFieldsRepository.cs" />
+    <Compile Include="Repositories\PersHealthCardRepository.cs" />
+    <Compile Include="Repositories\PersIdentityCardRepository.cs" />
+    <Compile Include="Repositories\PersImageRepository.cs" />
+    <Compile Include="Repositories\PersLocationRepository.cs" />
+    <Compile Include="Repositories\PersLocationsRepository.cs" />
+    <Compile Include="Repositories\PersonalDocumentRepository.cs" />
+    <Compile Include="Repositories\PersonalRepository.cs" />
+    <Compile Include="Repositories\PersonalstammStammRepository.cs" />
+    <Compile Include="Repositories\PersonnelInactiveRepository.cs" />
+    <Compile Include="Repositories\PersonnelRepository.cs" />
+    <Compile Include="Repositories\PersonTypeRepository.cs" />
+    <Compile Include="Repositories\PersPassportRepository.cs" />
+    <Compile Include="Repositories\PersPasswordsRepository.cs" />
+    <Compile Include="Repositories\PersPinCodeRepository.cs" />
+    <Compile Include="Repositories\PersProfileADMappingRepository.cs" />
+    <Compile Include="Repositories\PersProfileMappingRepository.cs" />
+    <Compile Include="Repositories\PersTranspondersRepository.cs" />
+    <Compile Include="Repositories\PersVehicleRepository.cs" />
+    <Compile Include="Repositories\PersVisitorsRepository.cs" />
+    <Compile Include="Repositories\ReaderAccessPlanRepository.cs" />
+    <Compile Include="Repositories\ReaderVisitorPlanRepository.cs" />
+    <Compile Include="Repositories\RV_AccessProfilesPerTerminalRepository.cs" />
+    <Compile Include="Repositories\SalutationsRepository.cs" />
+    <Compile Include="Repositories\SwitchPlanRepository.cs" />
+    <Compile Include="Repositories\TerminalConfigRepository.cs" />
+    <Compile Include="Repositories\TerminalGroupMappingRepository.cs" />
+    <Compile Include="Repositories\TerminalGroupsRepository.cs" />
+    <Compile Include="Repositories\TerminalRepository.cs" />
+    <Compile Include="Repositories\VehicleTypeRepository.cs" />
+    <Compile Include="Repositories\ViewMemberCardInfoRepository.cs" />
+    <Compile Include="Repositories\ViewTerminalGroupMappingRepository.cs" />
+    <Compile Include="Repositories\ViewTerminalInfoRepository.cs" />
+    <Compile Include="Repositories\ViewTerminalReaderRepository.cs" />
+    <Compile Include="Repositories\View_AccessLogsRepository.cs" />
+    <Compile Include="Repositories\View_MemberAccessLogRepositoy.cs" />
+    <Compile Include="Repositories\VisitorAccessTimeRepository.cs" />
+    <Compile Include="Repositories\VisitorCompanyRepository.cs" />
+    <Compile Include="Repositories\VisitorPlanRepository.cs" />
+    <Compile Include="Repositories\VisitorPresentLogRepository.cs" />
+    <Compile Include="Repositories\VisitorRepository.cs" />
+    <Compile Include="Repositories\VisitorTranspondersRepository.cs" />
+    <Compile Include="Repositories\VisitorVehicleRepository.cs" />
+    <Compile Include="Repositories\vwAccessProfileRepository.cs" />
+    <Compile Include="Repositories\VwHolidayCalendeRepository2.cs" />
+    <Compile Include="Repositories\VwPersonnelDataRepository.cs" />
+    <Compile Include="Repositories\vwPersPasswordsProfileRepository.cs" />
+    <Compile Include="Repositories\vwPersPinCodeRepository.cs" />
+    <Compile Include="Repositories\vwSwitchProfileRepository.cs" />
+    <Compile Include="Repositories\WerkeRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Repositories\ZuttritProfileRepository.cs" />
+    <Compile Include="Repositories\ZuttritProfilesTimeFramesRepository.cs" />
+    <Compile Include="Models\ResourceEvent.cs" />
+    <Compile Include="Models\ResourceEventMapped.cs" />
+    <Compile Include="Models\Room.cs" />
+    <Compile Include="Models\RV_AccessPlanAccessCalendar.cs" />
+    <Compile Include="Models\RV_AccessPlanPersonnel.cs" />
+    <Compile Include="Models\RV_AccessProfilesPerTerminal.cs" />
+    <Compile Include="Models\RV_HolidayCalendar.cs" />
+    <Compile Include="Models\RV_HolidayCalendarAccessPlan.cs" />
+    <Compile Include="Models\RV_HolidayCalendarNames.cs" />
+    <Compile Include="Models\RV_HolidayPlanAccessPlan.cs" />
+    <Compile Include="Models\RV_HolidayPlanAccessProfilesPerTerminal.cs" />
+    <Compile Include="Models\RV_HolidayPlanPerTerminal.cs" />
+    <Compile Include="Models\RV_HolidayPlanSwitchPlan.cs" />
+    <Compile Include="Models\RV_SwitchPlanSwitchCalendar.cs" />
+    <Compile Include="Models\RV_SwitchProfileGroupedPerTerminal.cs" />
+    <Compile Include="Models\RV_VisitorPlanAccessCalendar.cs" />
+    <Compile Include="Models\RV_VisitorPlanVisitors.cs" />
+    <Compile Include="Models\SCP.cs" />
+    <Compile Include="Models\Session.cs" />
+    <Compile Include="Models\Shift.cs" />
+    <Compile Include="Models\ShiftResource.cs" />
+    <Compile Include="Models\ShiftResourceBac.cs" />
+    <Compile Include="Models\Shift_Breaks.cs" />
+    <Compile Include="Models\Specialday.cs" />
+    <Compile Include="Models\Status_Dynamic.cs" />
+    <Compile Include="Models\Status_Static.cs" />
+    <Compile Include="Models\Supplier.cs" />
+    <Compile Include="Models\Surcharge.cs" />
+    <Compile Include="Models\SurchargeDay.cs" />
+    <Compile Include="Models\SurchargeMapped.cs" />
+    <Compile Include="Models\SurchargesAccountsMapping.cs" />
+    <Compile Include="Models\SwitchCalendar.cs" />
+    <Compile Include="Models\SwitchCalendarMapped.cs" />
+    <Compile Include="Models\SwitchCalendarMonth.cs" />
+    <Compile Include="Models\SwitchCalendarMonthMapped.cs" />
+    <Compile Include="Models\SwitchCalendarProfile.cs" />
+    <Compile Include="Models\SwitchPlan.cs" />
+    <Compile Include="Models\SwitchProfile.cs" />
+    <Compile Include="Models\SwitchProfilePair.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Models\Tariff.cs" />
+    <Compile Include="Models\TariffCalendar.cs" />
+    <Compile Include="Models\TA_BookingsReport.cs" />
+    <Compile Include="Models\TA_BookingsReportAbsences.cs" />
+    <Compile Include="Models\TA_BookingsReportAccounts.cs" />
+    <Compile Include="Models\TA_BookingsReportTitles.cs" />
+    <Compile Include="Models\TA_BookingsReportTypes.cs" />
+    <Compile Include="Models\TA_PersonalGroupMapping.cs" />
+    <Compile Include="Models\TA_TerminalGroupMapping.cs" />
+    <Compile Include="Models\TA_TerminalGroups.cs" />
+    <Compile Include="Models\TbAccessPlan.cs" />
+    <Compile Include="Models\TbAccessPlanGroup.cs" />
+    <Compile Include="Models\TbAccessPlanMembersMapping.cs" />
+    <Compile Include="Models\TbAccessPlanPersMapping.cs" />
+    <Compile Include="Models\TbAcessPlanReaderMapping.cs" />
+    <Compile Include="Models\TbVisitorPlan.cs" />
+    <Compile Include="Models\Terminal.cs" />
+    <Compile Include="Models\TerminalBookingRawData.cs" />
+    <Compile Include="Models\TerminalConfig.cs" />
+    <Compile Include="Models\TerminalConnect.cs" />
+    <Compile Include="Models\TerminalConnectionType.cs" />
+    <Compile Include="Models\TerminalDatafoxFunction.cs" />
+    <Compile Include="Models\TerminalFunctionKey.cs" />
+    <Compile Include="Models\TerminalGroup.cs" />
+    <Compile Include="Models\TerminalGroupMapping.cs" />
+    <Compile Include="Models\TerminalInfo.cs" />
+    <Compile Include="Models\TerminalInfoText.cs" />
+    <Compile Include="Models\TerminalOEM.cs" />
+    <Compile Include="Models\TerminalOEMNew.cs" />
+    <Compile Include="Models\TerminalReader.cs" />
+    <Compile Include="Models\TerminalReadersStatic.cs" />
+    <Compile Include="Models\TerminalSignalBreak.cs" />
+    <Compile Include="Models\TerminalsNew.cs" />
+    <Compile Include="Models\TerminalUtility.cs" />
+    <Compile Include="Models\TimeRanx.cs" />
+    <Compile Include="Models\Transponder.cs" />
+    <Compile Include="Models\UserRole.cs" />
+    <Compile Include="Models\VehicleType.cs" />
+    <Compile Include="Models\ViewMemberCardsInfo.cs" />
+    <Compile Include="Models\ViewTA_TerminalGroupMapping.cs" />
+    <Compile Include="Models\ViewTerminalGroupMapping.cs" />
+    <Compile Include="Models\View_AccessCalendarProfiles.cs" />
+    <Compile Include="Models\View_AccessLogs.cs" />
+    <Compile Include="Models\View_CardAllocationOverview.cs" />
+    <Compile Include="Models\View_DFHoliday.cs" />
+    <Compile Include="Models\View_ERPSoftwareUpdateService.cs" />
+    <Compile Include="Models\View_MemberAccessLog.cs" />
+    <Compile Include="Models\View_ReaderBuildingPlan.cs" />
+    <Compile Include="Models\View_SwitchTimes.cs" />
+    <Compile Include="Models\View_SwitchTimesCalendarProfiles.cs" />
+    <Compile Include="Models\View_TeminalInformation.cs" />
+    <Compile Include="Models\View_TerminalAccessProfiles.cs" />
+    <Compile Include="Models\View_TerminalFunction.cs" />
+    <Compile Include="Models\View_TerminalHolidays.cs" />
+    <Compile Include="Models\View_TerminalReader.cs" />
+    <Compile Include="Models\View_Transponders.cs" />
+    <Compile Include="Models\View_VisitorAccessLog.cs" />
+    <Compile Include="Models\View_VisitorEntryLog.cs" />
+    <Compile Include="Models\VirtualPersonalGroupsMapping.cs" />
+    <Compile Include="Models\VirtualTerminal.cs" />
+    <Compile Include="Models\VirtualTerminalCommunicationSetting.cs" />
+    <Compile Include="Models\VirtualTerminalFunctionKey.cs" />
+    <Compile Include="Models\VirtualTerminalGroup.cs" />
+    <Compile Include="Models\VirtualTerminalGroupsMapping.cs" />
+    <Compile Include="Models\VirtualTerminalInputSetting.cs" />
+    <Compile Include="Models\Visitor.cs" />
+    <Compile Include="Models\VisitorAccessTime.cs" />
+    <Compile Include="Models\VisitorAdditionalInfo.cs" />
+    <Compile Include="Models\VisitorApplication.cs" />
+    <Compile Include="Models\VisitorCompanyTb.cs" />
+    <Compile Include="Models\VisitorContact.cs" />
+    <Compile Include="Models\VisitorPlanGroup.cs" />
+    <Compile Include="Models\VisitorTransponder.cs" />
+    <Compile Include="Models\VisitorType.cs" />
+    <Compile Include="Models\Visitor_Vehicle.cs" />
+    <Compile Include="Models\VIS_PersPasswordsProfile.cs" />
+    <Compile Include="Models\VwHolidayCalender.cs" />
+    <Compile Include="Models\VwPersDataZUT.cs" />
+    <Compile Include="Models\VwPersonnelData.cs" />
+    <Compile Include="Models\vwPersPinCode.cs" />
+    <Compile Include="Models\vwSwitchProfile.cs" />
+    <Compile Include="Models\vwVisitorCompany.cs" />
+    <Compile Include="Models\vw_PermissionMapping.cs" />
+    <Compile Include="Models\vw_PortalKunden.cs" />
+    <Compile Include="Models\vw_PortalUserProfile.cs" />
+    <Compile Include="Models\vw_PortalUsersProfilePermissionMapping.cs" />
+    <Compile Include="Models\vw_users.cs" />
+    <Compile Include="Models\Werke.cs" />
+    <Compile Include="Models\WorkedHoursAcc.cs" />
+    <Compile Include="Models\ZuttritProfile.cs" />
+    <Compile Include="Models\ZuttritProfilesTimeFrame.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CodeFirstReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201607210908550_command.resx">
+      <DependentUpon>201607210908550_command.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

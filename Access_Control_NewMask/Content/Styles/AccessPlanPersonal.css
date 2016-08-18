@@ -1,0 +1,1290 @@
+﻿.accPlnMainContent {
+    width: 100%;
+    height: 100%;
+    float: none;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+
+.topSection {
+    width: 100%;
+    height: 12%;
+    float: left;
+    border: 1px solid grey;
+}
+
+.sectionTop {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-color: rgba(173, 201, 239, 1);
+}
+
+.sectionLeft {
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.divsnLeft {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.divsnLeftBttm1 {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.divsnLeftBttm2 {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.arrowImg {
+    width: 2%;
+    float: left;
+}
+
+.btnHover:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+
+.searchzutarea {
+    background-image: url('/images/FormImages/search.png');
+    float: right;
+    background-repeat: no-repeat;
+    margin-right: 2%;
+    border: none;
+    margin-top: 5px;
+    height: 25px;
+    width: 24px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+}
+
+.divnsLeft5 {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.lblTopSec {
+    width: 42%;
+    float: left;
+    min-width: 160px;
+}
+
+.lblTopSecg {
+    width: 41%;
+    float: left;
+    min-width: 142px;
+}
+
+.lblTopSecd {
+    width: 42%;
+    float: left;
+    min-width: 158px;
+}
+
+.lblTopSecr {
+    width: 42%;
+    float: left;
+    min-width: 105px;
+}
+
+.lblTopSec3 {
+    width: 42%;
+    float: left;
+    min-width: 101px;
+}
+
+.lblTopSec2 {
+    width: 42%;
+    float: left;
+    min-width: 142px;
+}
+
+.txtTopSec {
+    width: 31%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.txtTopSecg {
+    width: 37%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.txtTopSecd {
+    width: 30%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.drpTopsec {
+    width: 31%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    min-width: 77px;
+}
+
+.drpTopsecr {
+    width: 31%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    min-width: 83px;
+}
+
+.drpTopsec3 {
+    width: 31%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    min-width: 115px;
+}
+
+.drpTopsec2 {
+    width: 40%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    min-width: 92px;
+}
+
+.divsnLeft2 {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.divsnLeft3 {
+    width: 23%;
+    height: 100%;
+    float: left;
+}
+
+.divsnLeftBttm3 {
+    width: 12%;
+    height: 100%;
+    float: left;
+}
+
+.divsnLeftBttm4 {
+    width: 12%;
+    height: 100%;
+    float: left;
+}
+
+.divsnLeftBttm5 {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.divsnLeft4 {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.btnTopSec {
+    width: 23%;
+    float: left;
+    height: 27px;
+    min-width: 110px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+    .btnTopSec:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.sectionRight {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.btnSearchAll {
+    width: 25px;
+    height: 25px;
+    float: right;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url('../../Images/FormImages/searchDB.png');
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-position-y: 5px;
+    background-position-x: 5px;
+}
+
+    .btnSearchAll:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.sectionBttm {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-color: #fff2c8;
+}
+
+.midSection {
+    width: 100%;
+    height: 10%;
+    float: left;
+    min-width: 1136px;
+}
+
+.secMidLeft {
+    width: 80%;
+    height: 100%;
+    float: left;
+    min-width: 973px;
+}
+
+.secMidRight {
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+/*start of media query*/
+
+@media only screen and (min-width: 200px) {
+    .lblMidSec {
+        width: 28%;
+        float: left;
+        min-width: 100px;
+        margin-left: 5%;
+    }
+
+    .MidContentAreaDiv {
+        width: 100%;
+        float: left;
+        height: 89%;
+        margin-top: 1%;
+        border: 1px solid grey;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .midDivns {
+        width: 100%;
+        height: 40%;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .lblMidSecbis {
+        width: 11%;
+        float: left;
+        min-width: 30px;
+        margin-top: 3px;
+    }
+
+    .lblMidSec4 {
+        width: 37%;
+        float: left;
+        min-width: 151px;
+    }
+
+    .txtMidSec {
+        width: 54%;
+        float: left;
+        margin-left: 6px;
+        height: 25px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblMidSec2 {
+        width: 13%;
+        float: left;
+    }
+
+    .lblMidSec3 {
+        width: 35%;
+        float: left;
+        min-width: 138px;
+    }
+
+
+    .txtContnr {
+        width: 39%;
+        height: 20px;
+        border-radius: 5px;
+        float: left;
+    }
+
+    .drpContainerNo {
+        width: 41%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .drpMidSec {
+        width: 81%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .drpMidSec2 {
+        width: 85%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .cboPersNrToShort {
+        width: 85%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .drpMidSec3 {
+        width: 44%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+        margin-left: 8px;
+    }
+
+    .cboPersNrShort {
+        width: 43%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+        margin-left: 8px;
+    }
+
+    .sec2 {
+        width: 20%;
+        height: 100%;
+        float: left;
+        min-width: 196px;
+        margin-left: 7px;
+    }
+
+    .sec3 {
+        width: 47%;
+        height: 100%;
+        float: left;
+        min-width: 377px;
+        margin-left: 5px;
+    }
+
+    .midSecRght1 {
+        width: 58%;
+        height: 100%;
+        float: left;
+        min-width: 207px;
+    }
+
+    .midSecRght2 {
+        width: 38%;
+        height: 100%;
+        float: left;
+        min-width: 154px;
+        margin-left: 10px;
+    }
+
+    .gridSection {
+        width: 99%;
+        height: 67%;
+        float: left;
+        padding: 5px;
+        overflow-y: auto;
+        margin-top: 6px;
+    }
+
+    .gridSectionNew {
+        width: 98%;
+        height: 87%;
+        float: left;
+        padding: 5px;
+        overflow-y: auto;
+        margin-top: 6px;
+    }
+
+
+    .divsLft {
+        width: 64%;
+        float: left;
+        height: 100%;
+    }
+
+    .divsRght {
+        width: 14%;
+        float: right;
+        height: 38%;
+    }
+
+
+    .sec1 {
+        width: 31%;
+        height: 100%;
+        float: left;
+        min-width: 287px;
+    }
+
+    .drpMidSec5 {
+        width: 61%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .btnFtrMid {
+        width: 20%;
+        text-align: center;
+        height: 30px;
+        border: none !important;
+        border-radius: 5px;
+        float: right;
+        min-width: 100px;
+        margin-right: 5px;
+        margin-top: 8px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+        background-repeat: no-repeat;
+    }
+
+        .btnFtrMid:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+        }
+
+    .secMidRightnew {
+        width: 14%;
+        height: 40%;
+        float: right;
+    }
+
+    .btnMidSecRight {
+        background-position: center;
+        height: 47px !important;
+        border: none !important;
+        border-radius: 5px;
+        background-image: url('../../Images/FormImages/refresh.png') !important;
+        background-repeat: no-repeat;
+        float: right;
+        min-width: 51px !important;
+        margin-right: 19px !important;
+        margin-top: 5px !important;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+        .btnMidSecRight:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+        }
+}
+
+@media only screen and (min-width: 1700px) {
+    .lblMidSec {
+        width: 28%;
+        float: left;
+        min-width: 100px;
+        margin-left: 5%;
+    }
+
+    .MidContentAreaDiv {
+        width: 100%;
+        float: left;
+        height: 89%;
+        margin-top: 1%;
+        border: 1px solid grey;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+
+    .midDivns {
+        width: 100%;
+        height: 40%;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .lblMidSecbis {
+        width: 11%;
+        float: left;
+        min-width: 30px;
+        margin-top: 3px;
+    }
+
+    .lblMidSec4 {
+        width: 37%;
+        float: left;
+        min-width: 151px;
+    }
+
+    .txtMidSec {
+        width: 54%;
+        float: left;
+        margin-left: 6px;
+        height: 25px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblMidSec2 {
+        width: 13%;
+        float: left;
+    }
+
+    .lblMidSec3 {
+        width: 35%;
+        float: left;
+        min-width: 138px;
+    }
+
+
+    .txtContnr {
+        width: 39%;
+        height: 20px;
+        border-radius: 5px;
+        float: left;
+    }
+
+    .drpContainerNo {
+        width: 41%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .drpMidSec {
+        width: 81%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .drpMidSec2 {
+        width: 85%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .cboPersNrToShort {
+        width: 85%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+.drpMidSec3 {
+    width: 57%;
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px #808080;
+    float: left;
+    margin-left: 8px;
+}
+
+  .cboPersNrShort {
+    width: 57%;
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px #808080;
+    float: left;
+    margin-left: 8px;
+}
+
+    .sec2 {
+        width: 22%;
+        height: 100%;
+        float: left;
+        min-width: 230px;
+        margin-left: 10px;
+    }
+
+    .sec3 {
+        width: 48%;
+        height: 100%;
+        float: left;
+        min-width: 377px;
+        margin-left: 10px;
+    }
+
+  .midSecRght1 {
+    width: 58%;
+    height: 100%;
+    float: left;
+    min-width: 235px;
+}
+
+    .midSecRght2 {
+        width: 39%;
+        height: 100%;
+        float: left;
+        min-width: 154px;
+        margin-left: 10px;
+    }
+
+    .gridSection {
+        width: 99%;
+        height: 67%;
+        float: left;
+        padding: 5px;
+        overflow-y: auto;
+        margin-top: 6px;
+    }
+
+    .gridSectionNew {
+        width: 99%;
+        height: 87%;
+        float: left;
+        padding: 5px;
+        overflow-y: auto;
+        margin-top: 6px;
+    }
+
+    .divsLft {
+        width: 64%;
+        float: left;
+        height: 100%;
+    }
+
+    .divsRght {
+        width: 14%;
+        float: right;
+        height: 38%;
+    }
+
+
+    .sec1 {
+        width: 27%;
+        height: 100%;
+        float: left;
+        min-width: 297px;
+    }
+
+    .drpMidSec5 {
+        width: 61%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .btnFtrMid {
+        width: 20%;
+        text-align: center;
+        height: 30px;
+        border: none !important;
+        border-radius: 5px;
+        float: right;
+        min-width: 100px;
+        margin-right: 5px;
+        margin-top: 8px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+        background-repeat: no-repeat;
+    }
+
+        .btnFtrMid:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+        }
+
+    .secMidRightnew {
+        width: 14%;
+        height: 48%;
+        float: right;
+    }
+
+    .btnMidSecRight {
+    background-position: center;
+    height: 47px !important;
+    border: none !important;
+    border-radius: 5px;
+    background-image: url('../../Images/FormImages/refresh.png') !important;
+    background-repeat: no-repeat;
+    float: right;
+    min-width: 51px !important;
+    margin-right: 19px !important;
+    margin-top: 12px !important;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+        .btnMidSecRight:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+        }
+}
+
+@media only screen and (min-width: 1900px) {
+
+    .lblMidSec {
+        width: 28%;
+        float: left;
+        min-width: 100px;
+        margin-left: 5%;
+    }
+
+    .MidContentAreaDiv {
+        width: 100%;
+        float: left;
+        height: 91%;
+        margin-top: 1%;
+        border: 1px solid grey;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .midDivns {
+        width: 100%;
+        height: 40%;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .lblMidSecbis {
+        width: 11%;
+        float: left;
+        min-width: 30px;
+        margin-top: 3px;
+    }
+
+    .lblMidSec4 {
+        width: 37%;
+        float: left;
+        min-width: 151px;
+    }
+
+    .txtMidSec {
+        width: 54%;
+        float: left;
+        margin-left: 6px;
+        height: 25px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblMidSec2 {
+        width: 13%;
+        float: left;
+    }
+
+    .lblMidSec3 {
+        width: 35%;
+        float: left;
+        min-width: 138px;
+    }
+
+
+    .txtContnr {
+        width: 39%;
+        height: 20px;
+        border-radius: 5px;
+        float: left;
+    }
+
+    .drpContainerNo {
+        width: 41%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .drpMidSec {
+        width: 81%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .drpMidSec2 {
+        width: 85%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .cboPersNrToShort {
+        width: 85%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .drpMidSec3 {
+        width: 59%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+        margin-left: 8px;
+    }
+
+    .cboPersNrShort {
+        width: 58%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+        margin-left: 8px;
+    }
+
+    .sec2 {
+        width: 22%;
+        height: 100%;
+        float: left;
+        min-width: 230px;
+        margin-left: 10px;
+    }
+
+    .sec3 {
+        width: 48%;
+        height: 100%;
+        float: left;
+        min-width: 377px;
+        margin-left: 10px;
+    }
+
+    .midSecRght1 {
+        width: 59%;
+        height: 100%;
+        float: left;
+        min-width: 235px;
+    }
+
+    .midSecRght2 {
+        width: 39%;
+        height: 100%;
+        float: left;
+        min-width: 154px;
+        margin-left: 10px;
+    }
+
+    .gridSection {
+        width: 99%;
+        height: 67%;
+        float: left;
+        padding: 5px;
+        overflow-y: auto;
+        margin-top: 6px;
+    }
+
+    .gridSectionNew {
+        width: 99%;
+        height: 87%;
+        float: left;
+        padding: 5px;
+        overflow-y: auto;
+        margin-top: 6px;
+    }
+
+    .divsLft {
+        width: 64%;
+        float: left;
+        height: 100%;
+    }
+
+    .divsRght {
+        width: 14%;
+        float: right;
+        height: 38%;
+    }
+
+
+    .sec1 {
+        width: 27%;
+        height: 100%;
+        float: left;
+        min-width: 297px;
+    }
+
+    .drpMidSec5 {
+        width: 61%;
+        height: 25px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        float: left;
+    }
+
+    .btnFtrMid {
+        width: 20%;
+        text-align: center;
+        height: 30px;
+        border: none !important;
+        border-radius: 5px;
+        float: right;
+        min-width: 100px;
+        margin-right: 5px;
+        margin-top: 8px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+        background-repeat: no-repeat;
+    }
+
+        .btnFtrMid:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+        }
+
+    .secMidRightnew {
+        width: 14%;
+        height: 45%;
+        float: right;
+    }
+
+    .btnMidSecRight {
+        background-position: center;
+        height: 47px !important;
+        border: none !important;
+        border-radius: 5px;
+        background-image: url('../../Images/FormImages/refresh.png') !important;
+        background-repeat: no-repeat;
+        float: right;
+        min-width: 51px !important;
+        margin-right: 19px !important;
+        margin-top: 27px !important;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+        .btnMidSecRight:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+        }
+}
+
+/*end of media query*/
+
+.memberbutton2:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+
+/*prompts classes*/
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flame {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#lbltitletop {
+    width: 91%;
+    float: left;
+    clear: none;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+.stopPic {
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+    padding: 5px;
+    clear: both;
+}
+
+#promptbtnclose {
+    width: 25px;
+    float: right;
+    margin-right: 8px;
+    clear: none;
+    height: 25px;
+    background-image: url('../../Images/FormImages/promptclose.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+}
+
+#lbltitlemsg {
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 10px;
+    float: left;
+    height: 40%;
+    text-align: left;
+    clear: both;
+}
+
+#prompttopclose {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    clear: none;
+    height: 27px;
+}
+
+#areasavepop {
+    text-align: left;
+    width: 482px;
+    height: 198px;
+    padding: 0;
+    float: left;
+    background-color: white;
+    clear: none;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+#dialogBox {
+    width: 500px;
+    height: 230px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#btnOk {
+    display: block;
+    width: 25px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+    border-radius: 5px;
+}
+
+    #btnOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#btnNo {
+    display: block;
+    width: 44px;
+    float: left;
+    padding: 0;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnNo:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#btnCancel {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnCancel:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+.dxeButtonEditSys {
+    border-collapse: separate;
+    border-spacing: 0px !important;
+}
+
+
+.btnAll {
+    /*background-image: url('../../Images/FormImages/all.png');*/
+    background-position-x: 5px;
+    background-position-y: 3px;
+    text-align: center;
+}
+
+.btnCopy2 {
+    background-image: url('/images/FormImages/copy.png');
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.btnSelect {
+    /*background-image: url('../../Images/FormImages/picked.png');*/
+    background-position-x: 2px;
+    background-position-y: 4px;
+    text-align: center;
+}
+
+.dxeButtonEditSys td.dxic {
+    padding: 2px 3px 4px 2px;
+    overflow: hidden;
+}

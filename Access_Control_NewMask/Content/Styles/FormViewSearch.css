@@ -1,0 +1,150 @@
+﻿.empFormViewNav {
+    float: right;
+    height: 50px;
+}
+.empFormViewNavrefresh {
+    float: right;
+    height: 50px;
+}
+.empFormViewNavnew {
+    float: right;
+    height: 50px;
+    width: 18%;
+}
+
+.empFormViewNav > section {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.empFormViewNav section span {
+    display: block;
+}
+
+.empFormViewNav section input {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-size:contain;
+}
+
+    .empFormViewNav section input:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+.fvNavSearch {
+    width: 80px;
+}
+
+.fvNavPrevious {
+}
+
+.fvNavCurrentEmpNum {
+    width: 50px;
+}
+
+.fvNavTotalEmpNum {
+    width: 50px;
+}
+
+.fvNavNext {
+}
+
+.btnFvNavPrev, .btnFvNavNext, .searchAllEmp {
+    background-position-x: 1px;
+    background-position-y: 1px;
+}
+
+.btnFvNavPrev {
+    background-image: url('../../images/FormImages/ArrowLeft.png');
+    background-repeat: no-repeat;
+}
+
+.btnFvNavNext {
+    background-image: url('../../images/FormImages/ArrowRight.png');
+    background-repeat: no-repeat;
+}
+
+.searchAllEmp {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+.searchAllEmpnew {
+    background-image: url('/images/FormImages/search.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: White;
+    border-style: None;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+    .searchAllEmpnew:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.searchfltright {
+    float: right;
+    margin-right: 5px;
+    background-image: url('/images/FormImages/search.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.searchfltrighte {
+    float: left;
+    margin-right: 5px;
+    background-image: url('/images/FormImages/search.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.searchfltright:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.searchfltrighte:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+
+@media only screen and (min-width: 200px) {
+    .fvNavSearch {
+        width: 38px;
+    }
+
+    .fvNavCurrentEmpNum {
+        width: 47px;
+    }
+
+    .fvNavTotalEmpNum {
+        width: 43px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .fvNavSearch {
+        width: 46px;
+    }
+
+    .fvNavCurrentEmpNum {
+        width: 47px;
+    }
+
+    .fvNavTotalEmpNum {
+        width: 43px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+}

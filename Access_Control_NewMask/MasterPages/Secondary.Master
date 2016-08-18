@@ -1,0 +1,217 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Secondary.master.cs" ClientIDMode="Static" Inherits="Access_Control_NewMask.MasterPages.Secondary" %>
+
+<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script src="../Scripts/moment.js"></script>
+    <script src="../Scripts/jquery-2.2.3.js"></script>
+    <script type="text/javascript">
+        var allowZUTEdit = true;
+    </script>
+    <script src="../Scripts/Secondary.js"></script>
+    <link href="../Styles/Secondary.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function doTime() {
+
+            //$( "#lblCompanyName" ).text( moment().format( "HH" ) + ":" + moment().format( "mm" ) );
+            $("#lblCompanyName").text(moment().format("DD") + "." + moment().format("MM") + "." + moment().format("YYYY"));
+        }
+
+        $(function () {
+            setInterval(doTime, 1);
+
+        });
+    </script>
+</head>
+<body>
+    <form id="MainForm" runat="server">
+        <dx:ASPxLoadingPanel ID="InitialPageLoadPanel" CssClass="loadingarea" Font-Bold="false" LoadingDivStyle-CssClass="loadingarea" BackgroundImage-Repeat="NoRepeat" Border-BorderStyle="none"
+            ShowImage="true" ForeColor="Black" Image-Height="115px" Font-Size="Medium" runat="server" ClientIDMode="Static" Text="<%$ Resources:localizedText, LoadingText %>"
+            ClientInstanceName="InitialPageLoadPanel" Modal="true" LoadingDivStyle-BackgroundImage-Repeat="NoRepeat" Theme="">
+            <Image Width="55px" SpriteProperties-CssClass="ImageLoadingDiv" Height="55px" Url="../Images/FormImages/rotating1.gif"></Image>
+        </dx:ASPxLoadingPanel>
+        <div id="dashboardmain">
+            <div id="mainmenutop">
+                <div id="MainHeader">
+                    <section class="MainheaderSec">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True">
+                        </asp:ScriptManager>
+                        <asp:Button ID="btnDashboard" runat="server" Text="Dashboard" CssClass="btnDashboard" OnClick="btnDashboard_Click" />
+                    </section>
+                    <section class="MainheaderSec1">
+                        <section class="secPlaceHolder"></section>
+                    </section>
+                    <section class="MainheaderSec2">
+                        <asp:Label ID="PageTitleLbl" runat="server" Text="" CssClass="companylbl"></asp:Label>
+                        <asp:Label ID="pagenamelbl" runat="server" Text="" CssClass="pagenamelbl"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="" CssClass="solutionversionlbl"></asp:Label>
+                    </section>
+                    <section class="MainheaderSec3">
+                        <asp:Button ID="Button1" runat="server" Text="Login/Logout" CssClass="btnLogoutsolution" OnClick="btnLogout_Click" />
+                    </section>
+                </div>
+            </div>
+            <div id="companyDetails">
+                <div class="dvnsLeft">
+                    <div id="contentarea">
+                        <div id="navcontentarea" class="NavPanel">
+                            <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" Font-Names="Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif" Font-Size="12px" Style="min-width: 150px" Height="100%" CssClass="navigatetop" GroupSpacing="0px">
+                                <Groups>
+                                    <dx:NavBarGroup Text="<%$ Resources:localizedText, masterdatapersonal %>" AllowDragging="False" ShowExpandButton="False" AllowExpanding="False" HeaderStyle-CssClass="newheight">
+                                        <Items>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, personelinavctive %>" NavigateUrl="../Content/PersonalInactive.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, memberinactive2 %>" NavigateUrl="../Content/MembersInactive.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, companychanged %>" NavigateUrl="../Content/Customer.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, location2 %>" NavigateUrl="../Content/Locations.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, departmentsControl %>" NavigateUrl="../Content/Department_New.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, costcenters %>" NavigateUrl="../Content/CostCenter_New.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, visitorCompany %>" NavigateUrl="../Content/VisitorCompany.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, vehicleTypes %>" NavigateUrl="../Content/Vehicles.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, studioGroup %>" NavigateUrl="../Content/MembersGroup.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, contractDuration %>" NavigateUrl="../Content/MemberContractDuration.aspx"></dx:NavBarItem>
+
+                                        </Items>
+                                        <HeaderStyle BackColor="#006158" />
+                                        <HeaderStyle ForeColor="White" />
+                                    </dx:NavBarGroup>
+                                    <dx:NavBarGroup Text="<%$ Resources:localizedText, accessSettings %>" AllowDragging="False" ShowExpandButton="False" AllowExpanding="False" HeaderStyle-CssClass="newheight">
+                                        <Items>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, accessProfileTitle %>" NavigateUrl="../Content/AccessProfile.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, accessCalendar %>" NavigateUrl="../Content/AccessKalendar.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, switchingProfiles %>" NavigateUrl="../Content/Switchprofile.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, switchingCalender %>" NavigateUrl="../Content/SwitchCalender.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, eventCalendar %>" NavigateUrl="../Content/HolidayCalender.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, holidayPlan %>" NavigateUrl="../Content/Holidayplan.aspx"></dx:NavBarItem>
+
+
+                                        </Items>
+                                        <HeaderStyle BackColor="#c19a57" />
+                                        <HeaderStyle ForeColor="White" />
+                                    </dx:NavBarGroup>
+
+                                    <dx:NavBarGroup Text="<%$ Resources:localizedText, generalsettings %>" AllowDragging="False" ShowExpandButton="False" AllowExpanding="False" HeaderStyle-CssClass="newheight">
+                                        <Items>
+                                            <%--<dx:NavBarItem Text="<%$ Resources:localizedText, Dashboardsettings %>" NavigateUrl="../Content/DashboardSettings.aspx"></dx:NavBarItem>--%>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, language %>" NavigateUrl="../Content/Language.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, rightsassign %>" NavigateUrl="../Content/RightsAssignment.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, rightsSettings %>" NavigateUrl="../Content/RightsSettings.aspx"></dx:NavBarItem>
+
+
+                                        </Items>
+                                        <HeaderStyle BackColor="#f37467" />
+                                        <HeaderStyle ForeColor="White" />
+                                    </dx:NavBarGroup>
+                                    <dx:NavBarGroup Text="<%$ Resources:localizedText, groupSettings %>" AllowDragging="False" ShowExpandButton="False" AllowExpanding="False" HeaderStyle-CssClass="newheight">
+                                        <Items>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, accessprofilgroup %>" NavigateUrl="../Content/AccessProfileGroup.aspx"></dx:NavBarItem>
+                                            <dx:NavBarItem Text="<%$ Resources:localizedText, accessplangro %>" NavigateUrl="../Content/AccessPlanAccessGroup.aspx"></dx:NavBarItem>
+                                            <%--     <dx:NavBarItem Text="<%$ Resources:localizedText, buildingplangroup %>" NavigateUrl="../Content/BuildingPlanGroup.aspx" ></dx:NavBarItem>--%>
+                                        </Items>
+                                        <HeaderStyle BackColor="#5ab9dc" />
+                                        <HeaderStyle ForeColor="White" />
+                                    </dx:NavBarGroup>
+                                </Groups>
+                            </dx:ASPxNavBar>
+                            <asp:ContentPlaceHolder ID="ModuleNavBar" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <div class="dvnsRight">
+
+                    <section class="secContHolder">
+                        <asp:ContentPlaceHolder ID="ContentHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                    <section class="footer">
+                        <section class="footerLeft">
+                            <asp:ContentPlaceHolder ID="FooterLeft" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                        <section class="footerRight">
+                            <asp:ContentPlaceHolder ID="FooterRight" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="Contentbottomarea" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <div id="promptsPlaceHolder" style="display: none;" class="promptWrapper">
+            <div id="__SavePrompt" style="display: none; width: 100%; height: 100%;">
+                <div class="prompttopclose">
+                    <asp:Label ID="Label4" runat="server" Text="Zutritts" CssClass="lbltitletop"></asp:Label>
+                    <%--<asp:Button ID="btnXClosePromptDialog2" runat="server" Text="" CssClass="promptbtnclose" />--%>
+                    <asp:Button ID="btnSavePromptCancel" runat="server" Text="" CssClass="promptbtnclose" />
+                </div>
+                <section class="warningpop">
+                    <%--  <div class="secPromptImg">
+                    <img src="../../Images/FormImages/stop-savex100.png" alt="Stop" class="promptImg" align="middle" />
+                </div>--%>
+                    <div class="secPicHolder">
+                        <%-- image placeholder --%>
+                        <img src="../Images/FormImages/stop-save2-02.png" class="imageClass" />
+                    </div>
+                    <div class="secPromptMsg2">
+                        <asp:Label ID="lblSaveTextHeader" runat="server" Text="<%$ Resources:localizedText, backSaveText%>"></asp:Label>
+                        <%-- saveChangesWarning --%>
+                        <%--Möchten Sie die getätigten Änderungen speichern ?--%>
+                    </div>
+                    <div class="secPromptFooter2">
+                        <asp:Button ID="btnSavePromptOk" CssClass="promptButton" Text="<%$ Resources:localizedText, newSaveWarning %>" runat="server" />
+                        <%--<button id="btnOk" onclick="SaveChangesRedirect()"></button>--%>
+                        <asp:Button ID="btnSavePromptNo" CssClass="promptButton" Text="<%$ Resources:localizedText, newNoText %>" runat="server" />
+                        <%--<button id="btnNo" onclick="BackToBuildingPlan()"></button>--%>
+                        <%--<asp:Button ID="btnSavePromptCancel" Style="display: none;" CssClass="promptButton promptButtonCancel" Text="<%$ Resources:localizedText, cancel %>" runat="server" />--%>
+                        <%--<button id="btnCancel" onclick="resetAssignReder()"></button>--%>
+                    </div>
+                </section>
+            </div>
+
+            <div id="__WarningPrompt" style="display: none; width: 100%; height: 100%;">
+                <div class="prompttopclose">
+                    <asp:Label ID="Label5" runat="server" Text="Zutritts" CssClass="lbltitletop"></asp:Label>
+                    <%--<asp:Button ID="btnXCloseWarningPromptDialog" runat="server" Text="" CssClass="promptbtnclose" />--%>
+                    <asp:Button ID="btnWarningPromptCancel" runat="server" Text="" CssClass="promptbtnclose" />
+                </div>
+                <section class="warningpop">
+                    <div class="secPromptImg">
+                        <img src="../../Images/FormImages/stopx100.png" alt="Stop" class="promptImg" align="middle" />
+                    </div>
+                    <div class="secPromptMsg">
+                        <asp:Label ID="lblDeleteText" runat="server" Text="Sind Sie sicher das Sie das tatsächlich löschen wollen?"></asp:Label>
+                    </div>
+                    <div class="secPromptFooter">
+                        <asp:Button ID="btnWarningPromptOk" CssClass="promptButton" Text="<%$ Resources:localizedText, yes %>" runat="server" />
+                        <asp:Button ID="btnWarningPromptNo" CssClass="promptButton" Text="<%$ Resources:localizedText, no %>" runat="server" />
+                        <%--<asp:Button ID="btnWarningPromptCancel" CssClass="promptButton promptButtonCancel" Text="<%$ Resources:localizedText, cancel %>" runat="server" />--%>
+                    </div>
+                </section>
+            </div>
+
+            <div id="__InfoPrompt" style="display: none; width: 100%; height: 100%;">
+                <div class="prompttopclose">
+                    <asp:Label ID="Label1" runat="server" Text="Zutritts" CssClass="lbltitletop"></asp:Label>
+                    <asp:Button ID="Button2" runat="server" Text="" CssClass="promptbtnclose" />
+                </div>
+                <div class="secPromptImg">
+                    <img src="../../Images/FormImages/greeninfo-01.png" alt="Info" class="promptImg" align="middle" />
+                </div>
+                <div class="secPromptMsg"></div>
+                <div class="secPromptFooter">
+                    <asp:Button ID="btnInfoPromptOk" CssClass="promptButton" Text="<%$ Resources:localizedText, yes %>" runat="server" />
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

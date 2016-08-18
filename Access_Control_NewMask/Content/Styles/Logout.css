@@ -1,0 +1,150 @@
+﻿
+.Wrapper {
+    color: #333;
+    width: 560px;
+    height: 290px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    border-style: solid;
+    border-color: #000000;
+    border-color: rgba(0, 0, 0, 0.55);
+    border-width: 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#AECCE1', GradientType=0);
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.companyname {
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #088073;
+    color: rgb(8, 128, 115);
+    width: 98%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+#oWrapper {
+    border: 1px solid #666;
+    border-radius: 5px;
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    color: #333;
+    padding: 5px;
+    /*position: absolute;*/
+    position: relative;
+    width: 560px;
+    height: 320px;
+    top: 20%;
+    left: 26%;
+    /*width: 550px;
+    height: 300px;
+    top: 50%;
+    left: 55%;
+
+    margin-top: -150px;
+    margin-left: -326px;*/
+    background: #2ab0ed; /* Old browsers */
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%); /* IE10+ */
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 ); /* IE6-9 */
+    /*z-index: 1000;*/
+}
+
+
+#MasterPage {
+    position: relative;
+    z-index: -10;
+}
+
+.labelSection {
+    width: 100%;
+    height: 40%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.lblTitle {
+    /*Font-Size: 20px;*/
+    Color: rgba(0,0,0,1);
+    /*font-weight: 100;*/
+}
+
+.buttonSection {
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+}
+
+.jaButtonSection {
+    height: 100%;
+    width: 43%;
+    float: left;
+}
+
+.neinButtonSection {
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+
+.buttonStyle {
+    width: 63%;
+    min-width: 150px;
+    height: 40px;
+    /*border: 1px solid grey;*/
+    /*font-size: small;*/
+    border-radius: 5px;
+    padding: 5px 0 5px 50px;
+    background-position-y: 2.5px;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+}
+
+.buttonStylenew {
+    width: 63%;
+    min-width: 150px;
+    height: 40px;
+    /*border: 1px solid grey;*/
+    /*font-size: small;*/
+    border-radius: 5px;
+    padding: 5px 0 5px 50px;
+    background-position-y: 2.5px;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.buttonStyle:enabled:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.btnJa {
+    background-image: url('../../Images/FormImages/yes-logout.png');
+    float: right;
+    background-position: 5px center;
+    border: 1px solid gray;
+}
+
+.btnNein {
+    background-image: url('../../Images/FormImages/no-logout.png');
+    float: left;
+    background-position: 5px center;
+    border: 1px solid gray;
+}

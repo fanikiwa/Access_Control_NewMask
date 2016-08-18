@@ -1,0 +1,9377 @@
+﻿
+
+
+.ContentAreaDiv {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.TopContentAreaDiv {
+    height: 7%;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    ss clear: both;
+    min-height: 65px;
+}
+
+#AEHeaderLeftDiv, #AEHeaderRightDiv {
+    float: left;
+}
+
+#AEHeaderLeftDiv {
+    width: 85%;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+#AEHeaderRightDiv {
+    width: 15%;
+    margin-top: 5px;
+    margin-right: 4px;
+    display: none;
+}
+
+
+
+.showReports {
+    /*float: left;
+    height: 91%;
+    width: 100%;
+    margin-top: 1%;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;*/
+        width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.showReportsDocViewer {
+    float: left;
+    height: 91%;
+    width: 100%;
+    margin-top: 1%;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    overflow-y: auto;
+}
+
+.showReportsPersonal {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+
+.newProtocol {
+    width: 133px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: darkblue !important;
+    padding: 0;
+}
+
+
+.saveProtocol {
+    width: 164px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 2px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+    padding: 0;
+}
+
+.deleteProtocol {
+    width: 151px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    padding: 0;
+}
+
+.btnPrintReport {
+    width: 155px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 7px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: rgb(255, 88, 0) !important;
+    padding: 0;
+}
+
+
+
+.setHover {
+    cursor: pointer;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flame {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+
+
+
+
+
+#lbltitletop {
+    width: 91%;
+    float: left;
+    clear: none;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+.stopPic {
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+    padding: 5px;
+    clear: both;
+}
+
+
+#promptbtnclose {
+    width: 25px;
+    float: right;
+    margin-right: 8px;
+    clear: none;
+    height: 25px;
+    background-image: url('../../Images/FormImages/promptclose.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+}
+/*#lbltitlemsg {
+    color: red;
+    width: 100%;
+    font-size: 24px;
+    margin-left: 10px;
+    float: left;
+    height: 37%;
+    text-align: left;
+    clear: both;
+}*/
+
+#lbltitlemsg {
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 10px;
+    float: left;
+    height: 40%;
+    text-align: left;
+    clear: both;
+}
+
+#prompttopclose {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    clear: none;
+    height: 27px;
+}
+
+#areasavepop {
+    text-align: left;
+    width: 482px;
+    height: 198px;
+    padding: 0;
+    float: left;
+    background-color: white;
+    clear: none;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+
+#dialogBox {
+    width: 500px;
+    height: 230px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#btnNo {
+    display: block;
+    width: 160px;
+    float: left;
+    padding: 0;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 1px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnNo:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#btnCancel {
+    display: block;
+    width: 203px;
+    float: left;
+    height: 30px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+    border-radius: 5px;
+}
+
+    #btnCancel:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+
+#btnOk {
+    display: block;
+    width: 156px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#btnBackOk {
+    display: block;
+    width: 110px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen;
+    border-radius: 5px;
+}
+
+    #btnBackOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+    .btnNewDisplay {
+    /*display:none;*/
+}
+
+.btnBttmLft {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    float: left;
+    margin-top: 5px;
+}
+
+.lblgendernew {
+    float: left;
+    width: 8%;
+}
+
+.btnPrint {
+    /*display: none;*/
+    background-image: url('../../Images/FormImages/printerarea1.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 1px;
+    background-size: contain;
+    background-position: center;
+    border: 1px solid gray;
+}
+
+    .btnPrint:hover:enabled {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+.mainBody {
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    border-bottom: none !important;
+}
+
+.reportConfiguaration {
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    border-bottom: none !important;
+}
+
+/*.mainBodyTop {
+    height: 14%;
+    width: 99%;
+    float: left;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-radius: 5px;
+        background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}*/
+
+.mainBodyTop {
+    height: 13%;
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+
+.mainBodyTop1 {
+    height: 84%;
+    width: 100%;
+    padding-top: 8px;
+    float: left;
+}
+
+
+.mainBodyTop2 {
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: #d0e4f7;
+}
+
+.mainBodyTop1leftlblvon {
+    height: 100%;
+    width: 14%;
+    float: left;
+}
+
+.drpreportvon {
+    width: 100%;
+    height: 25px;
+    float: left;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 11px;
+}
+
+.mainBodyTop1leftdrp2 {
+    height: 100%;
+    width: 71%;
+    float: left;
+    min-width: 103px;
+}
+
+.mainBodyTop1left5 {
+    height: 100%;
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+}
+
+.mainBodyTop1left1 {
+    height: 75%;
+    width: 100%;
+    float: left;
+}
+
+.mainBodyTop2 {
+    height: 25%;
+    width: 100%;
+    float: left;
+    background-color: #ffe7a2;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.mainBodyTop2left {
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+
+.mainBodyTop2right {
+    height: 100%;
+    width: 30%;
+    float: right;
+}
+
+
+
+.griddatemoverleft {
+    height: 100%;
+    float: left;
+    width: 13%;
+}
+
+.lblhorSecHeadertop {
+       width: 22%;
+    margin-left: 0px;
+    margin-top: 0px;
+    float: left;
+}
+
+.chkHrstop {
+   width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 0px;
+}
+
+@media only screen and (min-width: 200px) {
+    .secholdingarea1b_new {
+    float: left;
+    height: 99%;
+    margin-right: 0px;
+    width: 11%;
+}
+
+    .secholdingarea1_new {
+    float: left;
+    height: 99%;
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 12%;
+}
+
+  
+    .lblDateTitle_New {
+    width: 4%;
+    float: left;
+    margin-top: 28px;
+    margin-left:7px;
+}
+
+    /*.lblSecTwoControls {
+        height: 14%;
+        float: left;
+        width: 100%;
+        clear: none;
+    }*/
+
+    .lblSecTwoControls {
+        height: 17%;
+        float: left;
+        width: 100%;
+        clear: none;
+        margin-top: 6px;
+    }
+
+    .lblSecThreeControls {
+        height: 12%;
+        float: left;
+        width: 100%;
+        clear: none;
+        margin-top: 5px;
+    }
+
+    .topSection {
+        width: 100%;
+        height: 5%;
+        min-height: 20px;
+        float: left;
+    }
+
+    .secTopLeft {
+        width: 46%;
+        height: 100%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .secTopLeft2 {
+        width: 41%;
+        height: 100%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .lblAccProtocolNr {
+        width: 19.9%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .txtAccProtclNr {
+        width: 13%;
+        min-width: 62px;
+        height: 25px;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 8px;
+        margin-right:7px;
+    }
+
+    .lblprint {
+        width: 100%;
+        color: #54A3EE;
+        float: left;
+        margin-top: 12px;
+        margin-left: 10px;
+        margin-right: 4px;
+    }
+
+    .lblprselect {
+        width: 45%;
+        color: #54a3ee;
+        text-align: left;
+        float: left;
+        margin-top: 0px;
+        margin-left: 21px;
+        margin-right: 0px;
+    }
+
+    
+.lblobjectarea {
+    width: 29%;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-right: -1px;
+}
+
+.lblobjectarea2 {
+    width: 24%;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+    margin-left: 19px;
+}
+
+
+
+    .lblobjectareatitle {
+        width: 93%;
+        text-align: center;
+        float: left;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 4px;
+        padding-bottom: 4px;
+        padding-right: 0px;
+    }
+
+    .chkobjpers {
+        float: left;
+        margin-left: 0px;
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    .lblprselectprotocal {
+        width: 49%;
+        color: #54A3EE;
+        text-align: left;
+        float: left;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 4px;
+    }
+
+    
+.lblProtocolDesc {
+    width: 13%;
+    float: left;
+    margin-top: 12px;
+    margin-right: 1px;
+}
+
+
+    .txtProtocolDesc {
+        width: 36.5%;
+        height: 25px;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 8px;
+    }
+
+
+
+    .secTopRight {
+        width: 49%;
+        height: 100%;
+        float: left;
+    }
+
+    .secTopRight2 {
+        width: 52%;
+        height: 100%;
+        float: left;
+    }
+
+    .fluidarea {
+        width: 100%;
+        clear: both;
+        min-height: 25px;
+        float: left;
+    }
+
+    .bttmSec {
+        width: 100%;
+        height: 90%;
+        float: left;
+    }
+
+    .secLeftControls {
+        width: 65%;
+        height: 100%;
+        float: left;
+        margin-left: 1%;
+    }
+
+
+    .secControlsOne {
+        width: 100%;
+        float: left;
+        height: 10%;
+    }
+
+
+    .secDvnOne {
+        width: 34%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .SecControlsThreeDvns {
+        width: 100%;
+        height: 14%;
+        float: left;
+    }
+
+    .secHeightDvn {
+        width: 100%;
+        height: 50%;
+        float: left;
+    }
+
+    .lblDtPckrFrm {
+        width: 41%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .dtFrom {
+        width: 51%;
+        height: 25px;
+        float: left;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+
+
+    .lblTmPckrFrm {
+        width: 41%;
+        float: left;
+        margin-top: 9px;
+        border-radius: 5px;
+    }
+
+    .tmFrom {
+        width: 51%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+
+    .lblDtPckrTo {
+        width: 15%;
+        float: left;
+        margin-top: 10px;
+    }
+
+
+    .dtTo {
+        width: 70%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .lblTmPckrTo {
+        width: 15%;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .tmTo {
+        width: 70%;
+        height: 25px;
+        float: left;
+        margin-top: 4px;
+        border-radius: 5px;
+    }
+
+    .secDvnTwo {
+        width: 24%;
+        height: 100%;
+        float: left;
+        margin-left: 4%;
+    }
+
+
+    .secDvnThree {
+        width: 36%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLeftHeaders {
+        width: 31%;
+        height: 100%;
+        float: left;
+        margin-left: 8%;
+    }
+
+    .lblSecTwoControlssmall {
+        height: 34%;
+        float: left;
+        width: 91%;
+        clear: none;
+        margin-top: 8px;
+    }
+
+.secRightTablesmall {
+    width: 22%;
+    height: 33px;
+    float: right;
+    margin-right: 2%;
+}
+
+
+
+    .secRightTable {
+        width: 61%;
+        height: 85%;
+        margin-top: 2px;
+        float: left;
+    }
+
+    /*.secRightTable2 {
+        width: 61%;
+        height: 60%;
+        float: left;
+    }*/
+    .secRightTable2 {
+        width: 61%;
+        height: 95%;
+        float: left;
+    }
+
+    .secRightTable3 {
+        width: 61%;
+        height: 95%;
+        float: left;
+    }
+
+    .secTitle {
+        width: 100%;
+        height: 3%;
+        min-height: 14px;
+        float: left;
+    }
+
+    .lblTitle {
+        width: 100%;
+        float: left;
+        color: #54A3EE;
+    }
+
+    .rowOne {
+        width: 100%;
+        height: 35px;
+    }
+
+    .tblCell {
+        border: 1px solid gray;
+    }
+
+    .chkTable {
+        margin-left: 38%;
+        margin-right: auto;
+        clear: none;
+        float: left;
+        background-repeat: no-repeat;
+    }
+
+    #chkPersShortTermCard, #chkObjShortTermCard, #chkPersLongTermCard, #chkObjLongTermCard, #chkPersonalPersName, #chkObjPersName, #chkPersonalPersCC, #chkObjPersCC, #chkObjCompany, #chkPersCompany, #chkObjPersonalPersLoc, #chkPersonalPersLoc, #chkObjPersDept, #chkPersonalPersDept {
+        display: none;
+    }
+
+    #chkObjLocation, #chkReaderPersLoc, #chkObjBuilding, #chkPersReaderBuiding, #chkObjLevel, #chkPersReaderLevel, #chkObjRoom, #chkReaderRoom, #chkObjDoor, #chkPersReaderDoor {
+        display: none;
+    }
+
+    #chkObjDate, #chkPersonalDate, #chkObjTime, #chkPersTime {
+        display: none;
+    }
+
+    input[type=checkbox] + label::before {
+        display: block;
+        content: url('/Images/FormImages/red.png');
+        position: relative;
+        width: 20px;
+        float: left;
+        margin-left: 42%;
+        cursor: pointer;
+        margin-top: 3px;
+    }
+
+
+    input[type=checkbox]:checked + label::before {
+        content: url('/Images/FormImages/red1.png');
+        cursor: pointer;
+    }
+
+    .tblCell2 {
+        border: 1px solid gray;
+        width: 50%;
+    }
+
+    .rowTwo {
+        width: 100%;
+        height: 35px;
+    }
+
+    .mainTableClass {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secControlsTwo {
+        width: 100%;
+        float: left;
+        height: 27%;
+    }
+
+    .secFivDvns {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .lblSecControlsTwo {
+        width: 41%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .lblSecControlsTwobis {
+        width: 4%;
+        float: left;
+        min-width: 38px;
+        margin-top: 6px;
+    }
+
+    .cboSecControlsTwo {
+        width: 51%;
+        float: left;
+        height: 25px;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 0px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+
+
+    .cboSecControlsTwoBis {
+        width: 68%;
+        float: left;
+        height: 25px;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 0px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+
+    .secControlsThree {
+        width: 100%;
+        float: left;
+        height: 37%;
+    }
+
+    .secRightGrid {
+        width: 33%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .secHeader {
+        width: 100%;
+        height: 4%;
+        min-height: 15px;
+        float: left;
+    }
+
+    .lblgrdNr {
+        width: 12%;
+        float: left;
+    }
+
+    .lblgrdDesc {
+        width: 6%;
+        float: left;
+    }
+
+    .secGrid {
+        width: 100%;
+        height: 86%;
+        float: left;
+        overflow-y: auto;
+    }
+
+
+
+.lblAccProtNr {
+    width: 9.2%;
+    float: left;
+    margin-top: 27px;
+    margin-left: 6px;
+}
+
+
+
+    .cboAccsPrtNr {
+        width: 6%;
+        height: 25px;
+        float: left;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 2px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        margin-top: 23px;
+        min-width: 62px;
+        margin-right: 5px;
+    }
+
+   
+.lblAccProtDesc {
+    width: 6%;
+    float: left;
+    margin-top: 28px;
+    margin-right: 2px;
+}
+
+
+    .cboAccProtDesc {
+        width: 17%;
+        height: 25px;
+        float: left;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 2px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        margin-top: 23px;
+    }
+
+
+
+    .lblDateTitle {
+        width: 3%;
+        float: left;
+        margin-top: 28px;
+        margin-left: 10px;
+    }
+
+    .lblDtDisp {
+        width: 6%;
+        float: left;
+        color: #54a3ee;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 28px;
+    }
+
+    .lblCheckToday {
+        width: 3.4%;
+        float: left;
+        margin-left: 5px;
+        margin-top: 28px;
+    }
+
+    .chkToday {
+        float: left;
+        margin-left: 0px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblPreviousDay {
+        width: 3%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+        min-width: 56px;
+    }
+
+    .chkPreviousDay {
+        float: left;
+        margin-left: 1px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblThisWk {
+        width: 6%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+
+    .chkThisWk {
+        float: left;
+        margin-left: 5px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblLastWk {
+        width: 7%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+
+    .chkLastWk {
+        float: left;
+        margin-left: 5px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblThisMonth {
+        width: 6.1%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+
+
+    .chkThisMonth {
+        float: left;
+        margin-left: 5px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblLastMonth {
+        width: 6%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+
+    .chkLastmonth {
+        float: left;
+        margin-left: 5px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+
+
+    #MainContdiv {
+    float: left;
+    height: 91%;
+    width: 100%;
+    margin-top: 1%;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+    .lblTempDesc {
+        width: 12%;
+        margin-left: 4%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .txtTempNr {
+        width: 12%;
+        min-width: 70px;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtTempDesc {
+        width: 40%;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .secLeftSelectionBttm {
+        width: 100%;
+        height: 88%;
+        float: left;
+        margin-top: 5px;
+        border: 1px solid gray;
+        padding-bottom: 4px;
+    }
+
+    .horSectionsHeaders {
+        width: 100%;
+        height: 4%;
+        min-height: 11px;
+        float: left;
+    }
+
+    .lblhorSecHeader {
+        width: 46%;
+        margin-left: 8%;
+        float: left;
+        color: maroon;
+    }
+
+    .horSections {
+        width: 100%;
+        height: 6%;
+        min-height: 14px;
+        float: left;
+    }
+
+    .secRightHistory {
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-left: 2%;
+        overflow-y: auto;
+    }
+
+    .lblLocationFrom {
+        width: 15%;
+        float: left;
+        margin-left: 9%;
+        margin-top: 3px;
+    }
+
+    .cboLocationFrom {
+        width: 24%;
+        height: 25px;
+        border-radius: 5px;
+        float: left;
+        margin-right: 6px;
+    }
+
+    .lblLocationTo {
+        width: 4%;
+        min-width: 20px;
+        margin-left: 1%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .cboLocationTo {
+        width: 25%;
+        height: 25px;
+        border-radius: 5px;
+        float: left;
+    }
+
+
+    .topInputSec {
+        width: 45%;
+        height: 52%;
+        float: left;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+
+    .lblTempNr2 {
+        width: 12%;
+        margin-left: 8%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .lblTempDesc2 {
+        width: 12%;
+        margin-left: 4%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .cboTempNrSelection {
+        width: 12%;
+        min-width: 70px;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+    .cboDescTopSelection {
+        width: 40%;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+
+    .lblTime_Zeit {
+        width: 12%;
+        float: left;
+        margin-left: 9%;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+
+    .chkTime {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .lblHrs_Uhzeit {
+        width: 15%;
+        float: left;
+        margin-left: 9%;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+
+    .chkHrs {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .loggedInUser {
+        width: 80%;
+        height: 25px;
+        float: left;
+        margin-left: 13%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblCreatedBy {
+        width: 32%;
+        float: left;
+        display: inline-block;
+        margin-left: 3%;
+    }
+
+    .lblPersNameText {
+        width: 60%;
+        float: left;
+        display: inline-block;
+    }
+
+    .topRight1 {
+        width: 50%;
+        float: left;
+        height: 100%;
+    }
+
+    .topRight2 {
+        width: 41%;
+        height: 100%;
+        float: left;
+    }
+      .topRight2b {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblPrintMode {
+        width: 42%;
+        float: left;
+        font-weight: 600;
+    }
+
+    .lblTimeHrsMode {
+        width: 20%;
+        float: left;
+        margin-left: 1%;
+    }
+
+    .topRight3 {
+        width: 13%;
+        float: left;
+        height: 100%;
+    }
+
+    .cboSelection {
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        margin-top: 6px;
+    }
+
+    .lblTagOne {
+        width: 33%;
+        float: left;
+        margin-top: 6px;
+        margin-left: 1px;
+    }
+
+
+    .lblPersNrDiff {
+        width: 36%;
+        float: left;
+        margin-left: 1px;
+        margin-top: 7px;
+        font-size: 12px;
+    }
+
+    .lblDate {
+        width: 15%;
+        float: left;
+        margin-top: 10px;
+    }
+
+
+    .lblDtFrom {
+        width: 8%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .cboDateFrom {
+        width: 5%;
+        height: 25px;
+        float: left;
+    }
+
+    .lblDtFromTitle {
+        width: 6%;
+        float: left;
+        margin-top: 9px;
+    }
+
+    .lblPrintDate {
+        width: 16%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 9%;
+    }
+
+    .lblDateTo {
+        width: 5%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 8px;
+        padding-right: 4px;
+    }
+
+    .lblDateToTitle {
+        width: 4%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .lblHrsToTitle {
+        width: 9%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .cboDateTo {
+        width: 5%;
+        height: 25px;
+        float: left;
+    }
+
+
+
+
+    .lblLeftOnenew {
+        width: 11%;
+        float: left;
+        margin-left: 1px;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .lblLeftOneFirm2 {
+        width: 14.5%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+    }
+
+    .lblLeftOneFirm2new {
+        width: 25%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+    }
+
+    .lblFax {
+        width: 21%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblpersonaltelefax {
+        float: left;
+        width: 12%;
+        color: dodgerblue;
+    }
+
+    .lblLeftOneFirm3 {
+        width: 18%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblNalitionality {
+        float: left;
+        width: 12.5%;
+        color: dodgerblue;
+    }
+
+    .lblpersonallocasion {
+        float: left;
+        width: 12%;
+        color: dodgerblue;
+    }
+
+    .lblLeftOne6 {
+        width: 27%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftOne6newab {
+        width: 24%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftOne5 {
+        width: 12%;
+        display: inline-block;
+        float: left;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .lblpersonalmobil {
+        float: left;
+        width: 11%;
+        color: dodgerblue;
+    }
+
+    .lblpersonalStreetnew {
+        float: left;
+        width: 11%;
+        color: dodgerblue;
+    }
+
+    .lblLeftLblThreeConffsn {
+        width: 11%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOneSwift {
+        width: 11%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOnePrtNew {
+        width: 11%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOne3 {
+        width: 11%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOne6new2 {
+        width: 23%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftFourlblnew2 {
+        width: 12%;
+        display: inline-block;
+        float: left;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .reportarea {
+        width: 91%;
+        height: 100%;
+        background: white;
+        overflow-y: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+
+    .reports {
+        width: 91%;
+        height: 100%;
+        background: white;
+        overflow-y: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .centerAlign1 {
+        width: 99%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        margin-top: 2px;
+        height: 99%;
+        overflow-y: auto;
+    }
+
+
+    .mainBodymid1 {
+        height: 6%;
+        width: 99%;
+        float: left;
+        margin-left: 8px;
+        margin-top: 0px;
+        border-radius: 5px;
+    }
+
+    .mainBodymid1per {
+        height: 100%;
+        width: 21%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1loc {
+        height: 100%;
+        width: 19%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1name {
+        height: 100%;
+        width: 19%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1cost {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1dep {
+        height: 100%;
+        width: 19%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1cost {
+        height: 100%;
+        width: 15%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1arrow {
+        height: 78%;
+        width: 5%;
+        float: right;
+        margin-top: 4px;
+        margin-right: 20px;
+        border: 1px solid gray;
+        background-color: white;
+    }
+
+    .txtreport {
+        width: 29%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 110px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportname {
+        width: 58%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 138px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportloc {
+        width: 66%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+
+    .txtreportdept {
+        width: 62%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 131px;
+        margin-left: 3px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportcost {
+        width: 40%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 81px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+
+
+    .lblreportper {
+        width: 38%;
+        height: 67%;
+        float: left;
+        margin-left: 10px;
+        min-width: 81px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportname {
+        width: 6%;
+        height: 67%;
+        float: left;
+        margin-left: 7px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportloc {
+        width: 28%;
+        height: 67%;
+        float: left;
+        margin-left: -6px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+
+    .lblreportldept {
+        width: 8%;
+        height: 67%;
+        float: left;
+        margin-left: 5px;
+        min-width: 67px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+
+    .lblreportlcost {
+        width: 28%;
+        height: 67%;
+        float: left;
+        min-width: 81px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+
+    .Gruppen4 {
+        height: 20px;
+        width: 59%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-top: 4px;
+        border-radius: 5px;
+        float: left;
+    }
+
+    .centerAlign {
+        width: 59%;
+        padding: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    .lblMonthTitle {
+        width: 19%;
+        float: left;
+        font-weight: 600;
+        margin-top: 7px;
+        min-width: 50px;
+        margin-left: 1px;
+    }
+
+    .mainBodyTop2leftnrdev {
+        height: 100%;
+        width: 19%;
+        float: left;
+    }
+
+
+    .Gruppen2 {
+        height: 22px;
+        width: 45%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 3px;
+        margin-top: 4px;
+        border-radius: 5px;
+        float: left;
+        min-width: 48px;
+    }
+
+    .Gruppen1 {
+        width: 16%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 9px;
+        margin-top: 7px;
+        float: left;
+        min-width: 49px;
+        font-weight: 600;
+    }
+
+    .drpreport3 {
+        width: 98%;
+        height: 25px;
+        float: left;
+        margin-left: 4px;
+        margin-top: 4px;
+        border-radius: 5px;
+        background-color: #f69679;
+    }
+
+    .secMonthSelection {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .mainBodyTop2leftnr {
+        height: 100%;
+        width: 13%;
+        float: left;
+    }
+
+
+    .mainBodyTop1left4 {
+        height: 100%;
+        width: 12%;
+        float: left;
+        margin-left: 3px;
+    }
+
+
+    .mainBodyTop2leftname {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-left: 1px;
+    }
+
+    .mainBodyTop1leftlblmid {
+        height: 100%;
+        width: 57%;
+        float: left;
+    }
+
+
+    .mainBodyTop1leftlbl {
+        height: 100%;
+        width: 35%;
+        float: left;
+    }
+
+    .mainBodyTop1leftlbl2 {
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+
+    .drpreport {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateFrom {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateTo {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtPerName {
+        width: 80%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-left: 12%;
+    }
+
+    .drpreportnew {
+        width: 98%;
+        height: 23px;
+        float: left;
+        margin-top: 2px;
+        margin-left: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblDateTitle {
+        width: 10%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 9%;
+    }
+
+    .mainBodyTop1left2 {
+        height: 100%;
+        width: 14%;
+        float: left;
+        margin-left: 2px;
+        min-width: 166px;
+    }
+
+
+    .mainBodyTop1left3 {
+        height: 100%;
+        width: 64%;
+        float: left;
+        margin-left: 3px;
+    }
+
+    .selectionOne {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .selectionTwo {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .secSettngsLeft {
+        width: 63%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblDPTitle {
+        width: 19%;
+        float: left;
+        margin-top: 8px;
+        margin-left: 15%;
+    }
+
+
+
+    .txtDPId {
+        width: 10%;
+        height: 25px;
+        min-width: 40px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 5px;
+    }
+
+    .cboDP {
+        width: 42%;
+        height: 26px;
+        float: left;
+        margin-top: 4px;
+        margin-left: 8px;
+        border-radius: 5px;
+    }
+
+    .lblHeader2 {
+        width: 24%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-top: 6px;
+    }
+
+    .lbl1 {
+        width: 21%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 1%;
+        margin-top: 7px;
+    }
+
+    .lbl2 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 3%;
+        margin-top: 7px;
+    }
+
+    .lbl3 {
+        width: 24%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-top: 7px;
+    }
+
+
+
+    .lbl4 {
+        width: 21%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 3%;
+        margin-top: 7px;
+    }
+
+
+    .lbl5 {
+        width: 23%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-top: 7px;
+    }
+
+    .lblHeader3 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+    }
+
+    .lblHeader4 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+        margin-top: 0px;
+    }
+
+
+    .lblHeader5 {
+        width: 29%;
+        min-width: 40px;
+        float: left;
+        margin-top: 0px;
+    }
+
+    .chkSttngs {
+        width: 18px;
+        height: 18px;
+        float: left;
+    }
+
+    .lblHeaderTxt {
+        width: 100%;
+        float: left;
+        font-weight: 600;
+        margin-top: 9px;
+        text-align: center;
+    }
+
+    .secSettngsRight {
+        width: 37%;
+        height: 100%;
+        float: left;
+    }
+
+    .selectionThree {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .mainBodyTop1left {
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+
+
+    .lblList {
+        width: 37%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 8px;
+        margin-top: 7px;
+        float: left;
+        min-width: 59px;
+        font-weight: 600;
+    }
+
+
+    .Gruppen1New {
+        width: 21%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 1px;
+        margin-top: 7px;
+        float: left;
+        min-width: 54px;
+        font-weight: 600;
+    }
+
+
+    .mainBodyTop1leftdrp {
+        height: 100%;
+        width: 49%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftdrp4 {
+        height: 100%;
+        width: 43%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftdrp4New {
+        height: 100%;
+        width: 77%;
+        float: left;
+        min-width: 103px;
+    }
+
+
+    .btnFvNavNextRpt {
+        background-image: url('../../Images/FormImages/frontright.png');
+        background-repeat: no-repeat;
+        width: 46%;
+        height: 24px;
+        float: left;
+        margin-top: 0px;
+        border: none;
+        background-position: right;
+        background-position-y: 4px;
+        background-position-x: 2px;
+        margin-left: 4px;
+        background-color: white;
+    }
+
+    .btnFvNavPrevRpt {
+        width: 44%;
+        height: 24px;
+        float: left;
+        background-image: url('../../images/FormImages/backleft.png');
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        border-radius: 0px;
+        border: none;
+        background-position: left;
+        background-position-y: 4px;
+        background-position-x: 3px;
+        background-color: white;
+    }
+
+    .secAll {
+        width: 42%;
+        float: right;
+        height: 72%;
+        border: 1px solid gray;
+        margin-top: 5px;
+        margin-right: 2%;
+    }
+
+    .secContDatePckr {
+        width: 98%;
+        height: 99%;
+        float: left;
+        padding-left: 0px;
+    }
+
+    .drpreportvon2 {
+        width: 100%;
+        height: 20px !important;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        margin-left: 11px;
+    }
+
+
+    .lblDateto {
+        width: 5%;
+        float: left;
+        min-width: 30px;
+        margin-left: 6px;
+        margin-top: 3px;
+        text-align: right;
+        padding-right: 6px;
+        font-weight: 600;
+    }
+
+    .chk1controllast {
+        float: left;
+        clear: none;
+        margin-top: 5px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .secholdingarea1 {
+        border: 1px solid grey;
+        float: left;
+        height: 99%;
+        margin-left: 1px;
+        margin-right: 1px;
+        width: 14%;
+    }
+
+
+    .secholdingarea1b {
+        border: 1px solid grey;
+        float: left;
+        height: 99%;
+        margin-right: 0px;
+        width: 15%;
+    }
+
+    .btnorientation1 {
+        height: 2px;
+        width: 2px;
+        text-indent: -9999px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        clear: none;
+        background-image: url('../../Images/FormImages/portrait1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    .btnorientation2 {
+        height: 2px;
+        width: 2px;
+        text-indent: -9999px;
+        margin-left: 5px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        clear: none;
+        background-image: url('../../Images/FormImages/landscape1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .txtlandscape {
+        width: 5%;
+        min-width: 80px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-top: 4px;
+        text-align: left;
+    }
+
+    .txtportrait {
+        width: 5%;
+        min-width: 80px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        font-weight: 600;
+        margin-top: 4px;
+        text-align: left;
+    }
+
+    .lblDateFrom {
+        width: 5%;
+        float: left;
+        min-width: 30px;
+        margin-top: 3px;
+        font-weight: 600;
+    }
+
+    .secDateindividual {
+        width: 99%;
+        height: 55%;
+        float: left;
+    }
+
+    .griddatemover2 {
+        width: 34%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 23px;
+        vertical-align: top;
+        margin-top: 6px;
+        margin-left: 1px;
+        float: left;
+    }
+
+
+
+    .griddatemover3 {
+        width: 36%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 22px;
+        vertical-align: top;
+        margin-top: 0px;
+        margin-left: 1px;
+        float: left;
+    }
+
+    .lblreport {
+        width: 96%;
+        height: 26%;
+        float: left;
+        margin-left: 7px;
+        min-width: 117px;
+        margin-top: 4px;
+    }
+
+    .lblBis {
+        width: 30%;
+        height: 30%;
+        float: left;
+        min-width: 40px;
+        margin-top: 3px;
+        text-align: center;
+    }
+
+
+    .txtDisply {
+        width: 54%;
+        float: left;
+        height: 21px;
+        margin-top: 0px;
+        background-color: white;
+        text-align: center;
+        border: 1px solid gray;
+    }
+
+    .TopDivRightnew {
+        height: 100%;
+        width: 24%;
+        float: left;
+    }
+
+
+    .txtinfo {
+        height: 29px;
+        width: 15%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-top: 2px;
+        border-radius: 5px;
+        float: left;
+        margin-left: 3px;
+        font-weight: 600;
+        background-color: #f69679;
+        min-width: 103px;
+    }
+
+
+    .griddatemover {
+        width: 70%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 25px;
+        vertical-align: top;
+        margin-top: 4px;
+        margin-left: 1px;
+    }
+}
+@media only screen and (min-width: 1680px) {
+    .secholdingarea1b_new {
+    float: left;
+    height: 99%;
+    margin-right: 0px;
+    width: 11%;
+}
+
+    .secholdingarea1_new {
+    float: left;
+    height: 99%;
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 10%;
+}
+
+  
+    .lblDateTitle_New {
+    width: 4%;
+    float: left;
+    margin-top: 28px;
+    margin-left:7px;
+}
+
+    /*.lblSecTwoControls {
+        height: 14%;
+        float: left;
+        width: 100%;
+        clear: none;
+    }*/
+
+    .lblSecTwoControls {
+        height: 17%;
+        float: left;
+        width: 100%;
+        clear: none;
+        margin-top: 6px;
+    }
+
+    .lblSecThreeControls {
+        height: 12%;
+        float: left;
+        width: 100%;
+        clear: none;
+        margin-top: 5px;
+    }
+
+    .topSection {
+        width: 100%;
+        height: 5%;
+        min-height: 20px;
+        float: left;
+    }
+
+    .secTopLeft {
+        width: 46%;
+        height: 100%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .secTopLeft2 {
+        width: 41%;
+        height: 100%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .lblAccProtocolNr {
+        width: 19.9%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .txtAccProtclNr {
+        width: 13%;
+        min-width: 62px;
+        height: 25px;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 8px;
+        margin-right:7px;
+    }
+
+    .lblprint {
+        width: 100%;
+        color: #54A3EE;
+        float: left;
+        margin-top: 12px;
+        margin-left: 10px;
+        margin-right: 4px;
+    }
+
+    .lblprselect {
+        width: 45%;
+        color: #54a3ee;
+        text-align: left;
+        float: left;
+        margin-top: 0px;
+        margin-left: 21px;
+        margin-right: 0px;
+    }
+
+    
+.lblobjectarea {
+    width: 29%;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-right: -1px;
+}
+
+.lblobjectarea2 {
+    width: 24%;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+    margin-left: 19px;
+}
+
+
+
+    .lblobjectareatitle {
+        width: 93%;
+        text-align: center;
+        float: left;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 4px;
+        padding-bottom: 4px;
+        padding-right: 0px;
+    }
+
+    .chkobjpers {
+        float: left;
+        margin-left: 0px;
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    .lblprselectprotocal {
+        width: 49%;
+        color: #54A3EE;
+        text-align: left;
+        float: left;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 4px;
+    }
+
+    
+.lblProtocolDesc {
+    width: 13%;
+    float: left;
+    margin-top: 12px;
+    margin-right: 1px;
+}
+
+
+    .txtProtocolDesc {
+        width: 36.5%;
+        height: 25px;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 8px;
+    }
+
+
+
+    .secTopRight {
+        width: 49%;
+        height: 100%;
+        float: left;
+    }
+
+    .secTopRight2 {
+        width: 52%;
+        height: 100%;
+        float: left;
+    }
+
+    .fluidarea {
+        width: 100%;
+        clear: both;
+        min-height: 25px;
+        float: left;
+    }
+
+    .bttmSec {
+        width: 100%;
+        height: 90%;
+        float: left;
+    }
+
+    .secLeftControls {
+        width: 65%;
+        height: 100%;
+        float: left;
+        margin-left: 1%;
+    }
+
+
+    .secControlsOne {
+        width: 100%;
+        float: left;
+        height: 10%;
+    }
+
+
+    .secDvnOne {
+        width: 34%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .SecControlsThreeDvns {
+        width: 100%;
+        height: 14%;
+        float: left;
+    }
+
+    .secHeightDvn {
+        width: 100%;
+        height: 50%;
+        float: left;
+    }
+
+    .lblDtPckrFrm {
+        width: 41%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .dtFrom {
+        width: 51%;
+        height: 25px;
+        float: left;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+
+
+    .lblTmPckrFrm {
+        width: 41%;
+        float: left;
+        margin-top: 9px;
+        border-radius: 5px;
+    }
+
+    .tmFrom {
+        width: 51%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+
+    .lblDtPckrTo {
+        width: 15%;
+        float: left;
+        margin-top: 10px;
+    }
+
+
+    .dtTo {
+        width: 70%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .lblTmPckrTo {
+        width: 15%;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .tmTo {
+        width: 70%;
+        height: 25px;
+        float: left;
+        margin-top: 4px;
+        border-radius: 5px;
+    }
+
+    .secDvnTwo {
+        width: 24%;
+        height: 100%;
+        float: left;
+        margin-left: 4%;
+    }
+
+
+    .secDvnThree {
+        width: 36%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLeftHeaders {
+        width: 31%;
+        height: 100%;
+        float: left;
+        margin-left: 8%;
+    }
+
+    .lblSecTwoControlssmall {
+        height: 34%;
+        float: left;
+        width: 91%;
+        clear: none;
+        margin-top: 8px;
+    }
+
+.secRightTablesmall {
+    width: 22%;
+    height: 33px;
+    float: right;
+    margin-right: 2%;
+}
+
+
+
+    .secRightTable {
+        width: 61%;
+        height: 85%;
+        margin-top: 2px;
+        float: left;
+    }
+
+    /*.secRightTable2 {
+        width: 61%;
+        height: 60%;
+        float: left;
+    }*/
+    .secRightTable2 {
+        width: 61%;
+        height: 95%;
+        float: left;
+    }
+
+    .secRightTable3 {
+        width: 61%;
+        height: 95%;
+        float: left;
+    }
+
+    .secTitle {
+        width: 100%;
+        height: 3%;
+        min-height: 14px;
+        float: left;
+    }
+
+    .lblTitle {
+        width: 100%;
+        float: left;
+        color: #54A3EE;
+    }
+
+    .rowOne {
+        width: 100%;
+        height: 35px;
+    }
+
+    .tblCell {
+        border: 1px solid gray;
+    }
+
+    .chkTable {
+        margin-left: 38%;
+        margin-right: auto;
+        clear: none;
+        float: left;
+        background-repeat: no-repeat;
+    }
+
+    #chkPersShortTermCard, #chkObjShortTermCard, #chkPersLongTermCard, #chkObjLongTermCard, #chkPersonalPersName, #chkObjPersName, #chkPersonalPersCC, #chkObjPersCC, #chkObjCompany, #chkPersCompany, #chkObjPersonalPersLoc, #chkPersonalPersLoc, #chkObjPersDept, #chkPersonalPersDept {
+        display: none;
+    }
+
+    #chkObjLocation, #chkReaderPersLoc, #chkObjBuilding, #chkPersReaderBuiding, #chkObjLevel, #chkPersReaderLevel, #chkObjRoom, #chkReaderRoom, #chkObjDoor, #chkPersReaderDoor {
+        display: none;
+    }
+
+    #chkObjDate, #chkPersonalDate, #chkObjTime, #chkPersTime {
+        display: none;
+    }
+
+    input[type=checkbox] + label::before {
+        display: block;
+        content: url('/Images/FormImages/red.png');
+        position: relative;
+        width: 20px;
+        float: left;
+        margin-left: 42%;
+        cursor: pointer;
+        margin-top: 3px;
+    }
+
+
+    input[type=checkbox]:checked + label::before {
+        content: url('/Images/FormImages/red1.png');
+        cursor: pointer;
+    }
+
+    .tblCell2 {
+        border: 1px solid gray;
+        width: 50%;
+    }
+
+    .rowTwo {
+        width: 100%;
+        height: 35px;
+    }
+
+    .mainTableClass {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secControlsTwo {
+        width: 100%;
+        float: left;
+        height: 27%;
+    }
+
+    .secFivDvns {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .lblSecControlsTwo {
+        width: 41%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .lblSecControlsTwobis {
+        width: 4%;
+        float: left;
+        min-width: 38px;
+        margin-top: 6px;
+    }
+
+    .cboSecControlsTwo {
+        width: 51%;
+        float: left;
+        height: 25px;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 0px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+
+
+    .cboSecControlsTwoBis {
+        width: 68%;
+        float: left;
+        height: 25px;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 0px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+
+    .secControlsThree {
+        width: 100%;
+        float: left;
+        height: 37%;
+    }
+
+    .secRightGrid {
+        width: 33%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .secHeader {
+        width: 100%;
+        height: 4%;
+        min-height: 15px;
+        float: left;
+    }
+
+    .lblgrdNr {
+        width: 12%;
+        float: left;
+    }
+
+    .lblgrdDesc {
+        width: 6%;
+        float: left;
+    }
+
+    .secGrid {
+        width: 100%;
+        height: 86%;
+        float: left;
+        overflow-y: auto;
+    }
+
+
+
+.lblAccProtNr {
+    width: 9.2%;
+    float: left;
+    margin-top: 27px;
+    margin-left: 6px;
+}
+
+
+
+    .cboAccsPrtNr {
+        width: 6%;
+        height: 25px;
+        float: left;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 2px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        margin-top: 23px;
+        min-width: 62px;
+        margin-right: 5px;
+    }
+
+   
+.lblAccProtDesc {
+    width: 6%;
+    float: left;
+    margin-top: 28px;
+    margin-right: 2px;
+}
+
+
+    .cboAccProtDesc {
+        width: 17%;
+        height: 25px;
+        float: left;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 2px;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 2px 2px #808080;
+        margin-top: 23px;
+    }
+
+
+
+
+.lblDateTitle {
+    width: 11%;
+    float: left;
+    margin-left: 9px;
+}
+
+
+    .lblDtDisp {
+        width: 6%;
+        float: left;
+        color: #54a3ee;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 28px;
+    }
+
+    .lblCheckToday {
+        width: 3.4%;
+        float: left;
+        margin-left: 5px;
+        margin-top: 28px;
+    }
+
+    .chkToday {
+        float: left;
+        margin-left: 0px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblPreviousDay {
+        width: 3%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+        min-width: 56px;
+    }
+
+    .chkPreviousDay {
+        float: left;
+        margin-left: 1px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblThisWk {
+        width: 6%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+
+    .chkThisWk {
+        float: left;
+        margin-left: 5px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblLastWk {
+        width: 7%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+
+    .chkLastWk {
+        float: left;
+        margin-left: 5px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblThisMonth {
+        width: 6.1%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+
+
+    .chkThisMonth {
+        float: left;
+        margin-left: 5px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+    .lblLastMonth {
+        width: 6%;
+        float: left;
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+
+    .chkLastmonth {
+        float: left;
+        margin-left: 5px;
+        height: 20px;
+        margin-top: 29px;
+    }
+
+
+
+    #MainContdiv {
+    float: left;
+    height: 91%;
+    width: 100%;
+    margin-top: 1%;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+    .lblTempDesc {
+        width: 12%;
+        margin-left: 4%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .txtTempNr {
+        width: 12%;
+        min-width: 70px;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtTempDesc {
+        width: 40%;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .secLeftSelectionBttm {
+        width: 100%;
+        height: 88%;
+        float: left;
+        margin-top: 5px;
+        border: 1px solid gray;
+        padding-bottom: 4px;
+    }
+
+    .horSectionsHeaders {
+        width: 100%;
+        height: 4%;
+        min-height: 11px;
+        float: left;
+    }
+
+    .lblhorSecHeader {
+        width: 46%;
+        margin-left: 8%;
+        float: left;
+        color: maroon;
+    }
+
+    .horSections {
+        width: 100%;
+        height: 6%;
+        min-height: 14px;
+        float: left;
+    }
+
+    .secRightHistory {
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-left: 2%;
+        overflow-y: auto;
+    }
+
+    .lblLocationFrom {
+        width: 15%;
+        float: left;
+        margin-left: 9%;
+        margin-top: 3px;
+    }
+
+    .cboLocationFrom {
+        width: 24%;
+        height: 25px;
+        border-radius: 5px;
+        float: left;
+        margin-right: 6px;
+    }
+
+    .lblLocationTo {
+        width: 4%;
+        min-width: 20px;
+        margin-left: 1%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .cboLocationTo {
+        width: 25%;
+        height: 25px;
+        border-radius: 5px;
+        float: left;
+    }
+
+
+    .topInputSec {
+        width: 45%;
+        height: 52%;
+        float: left;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+
+    .lblTempNr2 {
+        width: 12%;
+        margin-left: 8%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .lblTempDesc2 {
+        width: 12%;
+        margin-left: 4%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .cboTempNrSelection {
+        width: 12%;
+        min-width: 70px;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+    .cboDescTopSelection {
+        width: 40%;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+
+    .lblTime_Zeit {
+        width: 12%;
+        float: left;
+        margin-left: 9%;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+
+    .chkTime {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .lblHrs_Uhzeit {
+        width: 15%;
+        float: left;
+        margin-left: 9%;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+
+    .chkHrs {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .loggedInUser {
+        width: 80%;
+        height: 25px;
+        float: left;
+        margin-left: 0px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblCreatedBy {
+        width: 47%;
+        float: left;
+        display: inline-block;
+        margin-left: 1%;
+    }
+
+    .lblPersNameText {
+        width: 49%;
+        float: left;
+        display: inline-block;
+    }
+
+    .topRight1 {
+        width: 50%;
+        float: left;
+        height: 100%;
+    }
+
+    .topRight2 {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+    .topRight2b {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblPrintMode {
+        width: 100%;
+        float: left;
+        font-weight: 600;
+    }
+
+    .lblTimeHrsMode {
+        width: 20%;
+        float: left;
+        margin-left: 1%;
+    }
+
+    .topRight3 {
+        width: 13%;
+        float: left;
+        height: 100%;
+    }
+
+    .cboSelection {
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        margin-top: 6px;
+    }
+
+    .lblTagOne {
+        width: 33%;
+        float: left;
+        margin-top: 6px;
+        margin-left: 1px;
+    }
+
+
+    .lblPersNrDiff {
+        width: 36%;
+        float: left;
+        margin-left: 1px;
+        margin-top: 7px;
+        font-size: 12px;
+    }
+
+    .lblDate {
+        width: 15%;
+        float: left;
+        margin-top: 10px;
+    }
+
+
+    .lblDtFrom {
+        width: 8%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .cboDateFrom {
+        width: 5%;
+        height: 25px;
+        float: left;
+    }
+
+    .lblDtFromTitle {
+        width: 6%;
+        float: left;
+        margin-top: 9px;
+    }
+
+  
+.lblPrintDate {
+    width: 18%;
+    float: left;
+    margin-top: 9px;
+    margin-left: 1%;
+}
+
+
+    .lblDateTo {
+        width: 5%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 8px;
+        padding-right: 4px;
+    }
+
+    .lblDateToTitle {
+        width: 9%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .lblHrsToTitle {
+        width: 9%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .cboDateTo {
+        width: 5%;
+        height: 25px;
+        float: left;
+    }
+
+
+
+
+    .lblLeftOnenew {
+        width: 11%;
+        float: left;
+        margin-left: 1px;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .lblLeftOneFirm2 {
+        width: 14.5%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+    }
+
+    .lblLeftOneFirm2new {
+        width: 25%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+    }
+
+    .lblFax {
+        width: 21%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblpersonaltelefax {
+        float: left;
+        width: 12%;
+        color: dodgerblue;
+    }
+
+    .lblLeftOneFirm3 {
+        width: 18%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblNalitionality {
+        float: left;
+        width: 12.5%;
+        color: dodgerblue;
+    }
+
+    .lblpersonallocasion {
+        float: left;
+        width: 12%;
+        color: dodgerblue;
+    }
+
+    .lblLeftOne6 {
+        width: 27%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftOne6newab {
+        width: 24%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftOne5 {
+        width: 12%;
+        display: inline-block;
+        float: left;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .lblpersonalmobil {
+        float: left;
+        width: 11%;
+        color: dodgerblue;
+    }
+
+    .lblpersonalStreetnew {
+        float: left;
+        width: 11%;
+        color: dodgerblue;
+    }
+
+    .lblLeftLblThreeConffsn {
+        width: 11%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOneSwift {
+        width: 11%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOnePrtNew {
+        width: 11%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOne3 {
+        width: 11%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOne6new2 {
+        width: 23%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftFourlblnew2 {
+        width: 12%;
+        display: inline-block;
+        float: left;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .reportarea {
+        width: 91%;
+        height: 100%;
+        background: white;
+        overflow-y: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+
+    .reports {
+        width: 91%;
+        height: 100%;
+        background: white;
+        overflow-y: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .centerAlign1 {
+        width: 99%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        margin-top: 2px;
+        height: 99%;
+        overflow-y: auto;
+    }
+
+
+    .mainBodymid1 {
+        height: 6%;
+        width: 99%;
+        float: left;
+        margin-left: 8px;
+        margin-top: 0px;
+        border-radius: 5px;
+    }
+
+    .mainBodymid1per {
+        height: 100%;
+        width: 21%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1loc {
+        height: 100%;
+        width: 19%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1name {
+        height: 100%;
+        width: 19%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1cost {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1dep {
+        height: 100%;
+        width: 19%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1cost {
+        height: 100%;
+        width: 15%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1arrow {
+        height: 78%;
+        width: 5%;
+        float: right;
+        margin-top: 4px;
+        margin-right: 20px;
+        border: 1px solid gray;
+        background-color: white;
+    }
+
+    .txtreport {
+        width: 29%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 110px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportname {
+        width: 58%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 138px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportloc {
+        width: 66%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+
+    .txtreportdept {
+        width: 62%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 131px;
+        margin-left: 3px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportcost {
+        width: 40%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 81px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+
+
+    .lblreportper {
+        width: 38%;
+        height: 67%;
+        float: left;
+        margin-left: 10px;
+        min-width: 81px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportname {
+        width: 6%;
+        height: 67%;
+        float: left;
+        margin-left: 7px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportloc {
+        width: 28%;
+        height: 67%;
+        float: left;
+        margin-left: -6px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+
+    .lblreportldept {
+        width: 8%;
+        height: 67%;
+        float: left;
+        margin-left: 5px;
+        min-width: 67px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+
+    .lblreportlcost {
+        width: 28%;
+        height: 67%;
+        float: left;
+        min-width: 81px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+
+    .Gruppen4 {
+        height: 20px;
+        width: 59%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-top: 4px;
+        border-radius: 5px;
+        float: left;
+    }
+
+    .centerAlign {
+        width: 59%;
+        padding: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    .lblMonthTitle {
+        width: 19%;
+        float: left;
+        font-weight: 600;
+        margin-top: 7px;
+        min-width: 50px;
+        margin-left: 1px;
+    }
+
+    .mainBodyTop2leftnrdev {
+        height: 100%;
+        width: 19%;
+        float: left;
+    }
+
+
+    .Gruppen2 {
+        height: 22px;
+        width: 45%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 3px;
+        margin-top: 4px;
+        border-radius: 5px;
+        float: left;
+        min-width: 48px;
+    }
+
+    .Gruppen1 {
+        width: 16%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 9px;
+        margin-top: 7px;
+        float: left;
+        min-width: 49px;
+        font-weight: 600;
+    }
+
+    .drpreport3 {
+        width: 98%;
+        height: 25px;
+        float: left;
+        margin-left: 4px;
+        margin-top: 4px;
+        border-radius: 5px;
+        background-color: #f69679;
+    }
+
+    .secMonthSelection {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .mainBodyTop2leftnr {
+        height: 100%;
+        width: 13%;
+        float: left;
+    }
+
+
+    .mainBodyTop1left4 {
+        height: 100%;
+        width: 12%;
+        float: left;
+        margin-left: 3px;
+    }
+
+
+    .mainBodyTop2leftname {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-left: 1px;
+    }
+
+    .mainBodyTop1leftlblmid {
+        height: 100%;
+        width: 57%;
+        float: left;
+    }
+
+
+    .mainBodyTop1leftlbl {
+        height: 100%;
+        width: 35%;
+        float: left;
+    }
+
+    .mainBodyTop1leftlbl2 {
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+
+    .drpreport {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateFrom {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateTo {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtPerName {
+        width: 80%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-left: 12%;
+    }
+
+    .drpreportnew {
+        width: 98%;
+        height: 23px;
+        float: left;
+        margin-top: 7px;
+        margin-left: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    
+
+    .mainBodyTop1left2 {
+        height: 100%;
+        width: 14%;
+        float: left;
+        margin-left: 2px;
+        min-width: 166px;
+    }
+
+
+    .mainBodyTop1left3 {
+        height: 100%;
+        width: 66%;
+        float: left;
+        margin-left: 3px;
+    }
+
+    .selectionOne {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .selectionTwo {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .secSettngsLeft {
+        width: 63%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblDPTitle {
+        width: 19%;
+        float: left;
+        margin-top: 8px;
+        margin-left: 15%;
+    }
+
+
+
+    .txtDPId {
+        width: 10%;
+        height: 25px;
+        min-width: 40px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 5px;
+    }
+
+    .cboDP {
+        width: 42%;
+        height: 26px;
+        float: left;
+        margin-top: 4px;
+        margin-left: 8px;
+        border-radius: 5px;
+    }
+
+    .lblHeader2 {
+        width: 24%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-top: 6px;
+    }
+
+    .lbl1 {
+        width: 21%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 1%;
+        margin-top: 7px;
+    }
+
+    .lbl2 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 3%;
+        margin-top: 7px;
+    }
+
+    .lbl3 {
+        width: 24%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-top: 7px;
+    }
+
+
+
+    .lbl4 {
+        width: 21%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 3%;
+        margin-top: 7px;
+    }
+
+
+    .lbl5 {
+        width: 23%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-top: 7px;
+    }
+
+    .lblHeader3 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+    }
+
+    .lblHeader4 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+        margin-top: 0px;
+    }
+
+
+    .lblHeader5 {
+        width: 29%;
+        min-width: 40px;
+        float: left;
+        margin-top: 0px;
+    }
+
+    .chkSttngs {
+        width: 18px;
+        height: 18px;
+        float: left;
+    }
+
+    .lblHeaderTxt {
+        width: 100%;
+        float: left;
+        font-weight: 600;
+        margin-top: 9px;
+        text-align: center;
+    }
+
+    .secSettngsRight {
+        width: 37%;
+        height: 100%;
+        float: left;
+    }
+
+    .selectionThree {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .mainBodyTop1left {
+        height: 100%;
+        width: 19%;
+        float: left;
+    }
+
+
+    .lblList {
+        width: 37%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 8px;
+        margin-top: 7px;
+        float: left;
+        min-width: 59px;
+        font-weight: 600;
+    }
+
+
+    .Gruppen1New {
+        width: 21%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 1px;
+        margin-top: 7px;
+        float: left;
+        min-width: 54px;
+        font-weight: 600;
+    }
+
+
+    .mainBodyTop1leftdrp {
+        height: 100%;
+        width: 49%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftdrp4 {
+        height: 100%;
+        width: 43%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftdrp4New {
+        height: 100%;
+        width: 77%;
+        float: left;
+        min-width: 103px;
+    }
+
+
+    .btnFvNavNextRpt {
+        background-image: url('../../Images/FormImages/frontright.png');
+        background-repeat: no-repeat;
+        width: 46%;
+        height: 24px;
+        float: left;
+        margin-top: 0px;
+        border: none;
+        background-position: right;
+        background-position-y: 4px;
+        background-position-x: 2px;
+        margin-left: 4px;
+        background-color: white;
+    }
+
+    .btnFvNavPrevRpt {
+        width: 44%;
+        height: 24px;
+        float: left;
+        background-image: url('../../images/FormImages/backleft.png');
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        border-radius: 0px;
+        border: none;
+        background-position: left;
+        background-position-y: 4px;
+        background-position-x: 3px;
+        background-color: white;
+    }
+
+    .secAll {
+        width: 42%;
+        float: right;
+        height: 72%;
+        border: 1px solid gray;
+        margin-top: 5px;
+        margin-right: 2%;
+    }
+
+    .secContDatePckr {
+        width: 98%;
+        height: 99%;
+        float: left;
+        padding-left: 0px;
+    }
+
+    .drpreportvon2 {
+        width: 100%;
+        height: 20px !important;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        margin-left: 11px;
+    }
+
+
+    .lblDateto {
+        width: 5%;
+        float: left;
+        min-width: 30px;
+        margin-left: 6px;
+        margin-top: 3px;
+        text-align: right;
+        padding-right: 6px;
+        font-weight: 600;
+    }
+
+    .chk1controllast {
+        float: left;
+        clear: none;
+        margin-top: 5px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .secholdingarea1 {
+        border: 1px solid grey;
+        float: left;
+        height: 99%;
+        margin-left: 1px;
+        margin-right: 1px;
+        width: 14%;
+    }
+
+
+    .secholdingarea1b {
+        border: 1px solid grey;
+        float: left;
+        height: 99%;
+        margin-right: 0px;
+        width: 15%;
+    }
+
+    .btnorientation1 {
+        height: 2px;
+        width: 2px;
+        text-indent: -9999px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        clear: none;
+        background-image: url('../../Images/FormImages/portrait1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    .btnorientation2 {
+        height: 2px;
+        width: 2px;
+        text-indent: -9999px;
+        margin-left: 5px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        clear: none;
+        background-image: url('../../Images/FormImages/landscape1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .txtlandscape {
+        width: 5%;
+        min-width: 80px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-top: 4px;
+        text-align: left;
+    }
+
+    .txtportrait {
+        width: 5%;
+        min-width: 80px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        font-weight: 600;
+        margin-top: 4px;
+        text-align: left;
+    }
+
+    .lblDateFrom {
+        width: 5%;
+        float: left;
+        min-width: 30px;
+        margin-top: 3px;
+        font-weight: 600;
+    }
+
+    .secDateindividual {
+        width: 99%;
+        height: 55%;
+        float: left;
+    }
+
+    .griddatemover2 {
+        width: 34%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 23px;
+        vertical-align: top;
+        margin-top: 6px;
+        margin-left: 1px;
+        float: left;
+    }
+
+
+
+    .griddatemover3 {
+        width: 36%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 22px;
+        vertical-align: top;
+        margin-top: 0px;
+        margin-left: 1px;
+        float: left;
+    }
+
+    .lblreport {
+        width: 96%;
+        height: 26%;
+        float: left;
+        margin-left: 7px;
+        min-width: 117px;
+        margin-top: 4px;
+    }
+
+    .lblBis {
+        width: 30%;
+        height: 30%;
+        float: left;
+        min-width: 40px;
+        margin-top: 3px;
+        text-align: center;
+    }
+
+
+    .txtDisply {
+        width: 54%;
+        float: left;
+        height: 21px;
+        margin-top: 0px;
+        background-color: white;
+        text-align: center;
+        border: 1px solid gray;
+    }
+
+    .TopDivRightnew {
+        height: 100%;
+        width: 24%;
+        float: left;
+    }
+
+
+    .txtinfo {
+        height: 29px;
+        width: 15%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-top: 2px;
+        border-radius: 5px;
+        float: left;
+        margin-left: 3px;
+        font-weight: 600;
+        background-color: #f69679;
+        min-width: 103px;
+    }
+
+
+    .griddatemover {
+        width: 70%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 25px;
+        vertical-align: top;
+        margin-top: 4px;
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .secholdingarea1b_new {
+    float: left;
+    height: 99%;
+    margin-right: 0px;
+    width: 48%;
+}
+    .secholdingarea1_new {
+    float: left;
+    height: 99%;
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 45%;
+}
+    .lblDateTitle_New {
+    width: 3%;
+    float: left;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+    #MainContdiv {
+    float: left;
+    height: 91%;
+    width: 100%;
+    margin-top: 1%;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+    .lblTempDesc {
+        width: 12%;
+        margin-left: 4%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .txtTempNr {
+        width: 12%;
+        min-width: 70px;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtTempDesc {
+        width: 40%;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .secLeftSelectionBttm {
+        width: 100%;
+        height: 88%;
+        float: left;
+        margin-top: 5px;
+        border: 1px solid gray;
+        padding-bottom: 4px;
+    }
+
+    .horSectionsHeaders {
+        width: 100%;
+        height: 4%;
+        min-height: 11px;
+        float: left;
+    }
+
+    .lblhorSecHeader {
+        width: 46%;
+        margin-left: 8%;
+        float: left;
+        color: maroon;
+    }
+
+    .horSections {
+        width: 100%;
+        height: 6%;
+        min-height: 14px;
+        float: left;
+    }
+
+    .secRightHistory {
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-left: 2%;
+        overflow-y: auto;
+    }
+
+    .lblLocationFrom {
+        width: 15%;
+        float: left;
+        margin-left: 9%;
+        margin-top: 3px;
+    }
+
+    .cboLocationFrom {
+        width: 24%;
+        height: 25px;
+        border-radius: 5px;
+        float: left;
+        margin-right: 6px;
+    }
+
+    .lblLocationTo {
+        width: 4%;
+        min-width: 20px;
+        margin-left: 1%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .cboLocationTo {
+        width: 25%;
+        height: 25px;
+        border-radius: 5px;
+        float: left;
+    }
+
+
+    .topInputSec {
+        width: 45%;
+        height: 52%;
+        float: left;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+
+    .lblTempNr2 {
+        width: 12%;
+        margin-left: 8%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .lblTempDesc2 {
+        width: 12%;
+        margin-left: 4%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .cboTempNrSelection {
+        width: 12%;
+        min-width: 70px;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+    .cboDescTopSelection {
+        width: 40%;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+
+    .lblTime_Zeit {
+        width: 12%;
+        float: left;
+        margin-left: 9%;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+
+    .chkTime {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .lblHrs_Uhzeit {
+        width: 15%;
+        float: left;
+        margin-left: 9%;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+
+    .chkHrs {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .loggedInUser {
+        width: 80%;
+        height: 25px;
+        float: left;
+        margin-left: 13%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblCreatedBy {
+        width: 32%;
+        float: left;
+        display: inline-block;
+        margin-left: 3%;
+    }
+
+    .lblPersNameText {
+        width: 60%;
+        float: left;
+        display: inline-block;
+    }
+
+    .topRight1 {
+        width: 47%;
+        float: left;
+        height: 100%;
+    }
+
+    .topRight2 {
+        width: 39%;
+        height: 100%;
+        float: left;
+    }
+      .topRight2b {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblPrintMode {
+        width: 42%;
+        float: left;
+        font-weight: 600;
+    }
+
+
+    .lblTimeHrsMode {
+        width: 20%;
+        float: left;
+        margin-left: 1%;
+    }
+
+    .topRight3 {
+        width: 14%;
+        float: left;
+        height: 100%;
+    }
+
+    .cboSelection {
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        margin-top: 6px;
+    }
+
+    .lblTagOne {
+        width: 34%;
+        float: left;
+        margin-top: 6px;
+        margin-left: 9px;
+    }
+
+    .lblPersNrDiff {
+        width: 34%;
+        float: left;
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+
+    .lblDate {
+        width: 15%;
+        float: left;
+        margin-top: 10px;
+    }
+
+
+
+    .lblDtFrom {
+        width: 8%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .cboDateFrom {
+        width: 5%;
+        height: 25px;
+        float: left;
+    }
+
+    .lblDtFromTitle {
+        width: 6%;
+        float: left;
+        margin-top: 9px;
+    }
+
+    .lblPrintDate {
+        width: 16%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 9%;
+    }
+
+    .lblDateTo {
+        width: 5%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 8px;
+        padding-right: 4px;
+    }
+
+
+    .lblDateToTitle {
+        width: 4%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .lblHrsToTitle {
+        width: 9%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .cboDateTo {
+        width: 5%;
+        height: 25px;
+        float: left;
+    }
+
+    .lblLeftOnenew {
+        width: 11%;
+        float: left;
+        margin-left: 1px;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .lblLeftOneFirm2 {
+        width: 14.5%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+    }
+
+    .lblLeftOneFirm2new {
+        width: 25%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+    }
+
+    .lblFax {
+        width: 21%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblpersonaltelefax {
+        float: left;
+        width: 12%;
+        color: dodgerblue;
+    }
+
+    .lblLeftOneFirm3 {
+        width: 20%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblNalitionality {
+        float: left;
+        width: 12.5%;
+        color: dodgerblue;
+    }
+
+    .lblpersonallocasion {
+        float: left;
+        width: 12%;
+        color: dodgerblue;
+    }
+
+    .lblLeftOne6 {
+        width: 22%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftOne5 {
+        width: 12%;
+        display: inline-block;
+        float: left;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .lblpersonalmobil {
+        float: left;
+        width: 10%;
+        color: dodgerblue;
+    }
+
+    .lblpersonalStreetnew {
+        float: left;
+        width: 10.5%;
+        color: dodgerblue;
+    }
+
+    .lblLeftLblThreeConffsn {
+        width: 10%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOneSwift {
+        width: 10%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOnePrtNew {
+        width: 10%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOne3 {
+        width: 10%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOne6newab {
+        width: 22%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftOne6new2 {
+        width: 14%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftFourlblnew2 {
+        width: 12%;
+        display: inline-block;
+        float: left;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .reportarea {
+        width: 70%;
+        height: 99%;
+        background: white;
+        overflow-y: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3px;
+    }
+
+    .reports {
+        width: 70%;
+        height: 99%;
+        background: white;
+        overflow-y: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .centerAlign1 {
+        width: 97%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        margin-top: 2px;
+        height: 99%;
+        overflow-y: auto;
+    }
+
+    .mainBodymid1 {
+        height: 5%;
+        width: 99%;
+        float: left;
+        margin-left: 8px;
+        margin-bottom: 3px;
+        margin-top: 0px;
+        border-radius: 5px;
+    }
+
+    .mainBodymid1per {
+        height: 100%;
+        width: 21%;
+        float: left;
+        margin-top: 3px;
+    }
+
+
+    .mainBodymid1loc {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1name {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1dep {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1cost {
+        height: 100%;
+        width: 22%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1arrow {
+        height: 78%;
+        width: 4%;
+        float: right;
+        margin-top: 4px;
+        margin-right: 20px;
+        border: 1px solid gray;
+        background-color: white;
+    }
+
+    .txtreport {
+        width: 37%;
+        height: 25px;
+        float: left;
+        margin-top: 1px;
+        border-radius: 5px;
+        min-width: 128px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportname {
+        width: 66%;
+        height: 25px;
+        float: left;
+        margin-top: 1px;
+        border-radius: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportloc {
+        width: 66%;
+        height: 25px;
+        float: left;
+        margin-top: 1px;
+        border-radius: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportdept {
+        width: 66%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportcost {
+        width: 66%;
+        height: 25px;
+        float: left;
+        margin-top: 0px;
+        border-radius: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblreportper {
+        width: 32%;
+        height: 67%;
+        float: left;
+        margin-left: 10px;
+        min-width: 81px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportname {
+        width: 6%;
+        height: 67%;
+        float: left;
+        margin-left: 7px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportloc {
+        width: 28%;
+        height: 67%;
+        float: left;
+        margin-left: -6px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportldept {
+        width: 28%;
+        height: 67%;
+        float: left;
+        margin-left: 5px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportlcost {
+        width: 28%;
+        height: 67%;
+        float: left;
+        margin-left: 19px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .Gruppen4 {
+        height: 20px;
+        width: 66%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-top: 4px;
+        border-radius: 5px;
+        float: left;
+    }
+
+    .centerAlign {
+        width: 59%;
+        padding: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    .lblMonthTitle {
+        width: 19%;
+        float: left;
+        font-weight: 600;
+        margin-top: 7px;
+        min-width: 50px;
+        margin-left: 10px;
+    }
+
+    .mainBodyTop1leftlblmid {
+        height: 100%;
+        width: 51%;
+        float: left;
+    }
+
+    .mainBodyTop2leftnr {
+        height: 100%;
+        width: 13%;
+        float: left;
+    }
+
+    .secMonthSelection {
+        width: 22%;
+        height: 100%;
+        float: left;
+    }
+
+    .mainBodyTop2leftnrdev {
+        height: 100%;
+        width: 19%;
+        float: left;
+    }
+
+
+    .mainBodyTop2leftname {
+        height: 100%;
+        width: 18%;
+        float: left;
+        margin-left: 1px;
+    }
+
+    .mainBodyTop1left4 {
+        height: 100%;
+        width: 13%;
+        float: left;
+        margin-left: 29px;
+    }
+
+    .txtDispDateFrom {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateTo {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtPerName {
+        width: 80%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-left: 12%;
+    }
+
+    .drpreportnew {
+        width: 98%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        margin-left: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblDateTitle {
+        width: 10%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 9%;
+    }
+
+    .mainBodyTop1left3 {
+        height: 100%;
+        width: 63%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .selectionOne {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .selectionTwo {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .secSettngsLeft {
+        width: 63%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblDPTitle {
+        width: 19%;
+        float: left;
+        margin-top: 8px;
+        margin-left: 15%;
+    }
+
+
+    .txtDPId {
+        width: 10%;
+        height: 25px;
+        min-width: 40px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 5px;
+    }
+
+    .cboDP {
+        width: 42%;
+        height: 26px;
+        float: left;
+        margin-top: 4px;
+        margin-left: 8px;
+        border-radius: 5px;
+    }
+
+    .lblHeader2 {
+        width: 23%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-top: 6px;
+    }
+
+
+    .lbl1 {
+        width: 21%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 3%;
+        margin-top: 7px;
+    }
+
+    .lbl2 {
+        width: 21%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 3%;
+        margin-top: 7px;
+    }
+
+    .lbl3 {
+        width: 23%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-top: 7px;
+    }
+
+    .lbl4 {
+        width: 21%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 3%;
+        margin-top: 7px;
+    }
+
+    .lbl5 {
+        width: 23%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-top: 7px;
+    }
+
+    .lblHeader3 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+    }
+
+    .lblHeader4 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .lblHeader5 {
+        width: 25%;
+        min-width: 40px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .chkSttngs {
+        width: 20px;
+        height: 20px;
+        float: left;
+    }
+
+    .lblHeaderTxt {
+        width: 100%;
+        float: left;
+        font-weight: 600;
+        margin-top: 9px;
+        text-align: center;
+    }
+
+
+    .secSettngsRight {
+        width: 31%;
+        height: 100%;
+        float: left;
+    }
+
+    .selectionThree {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .mainBodyTop1left2 {
+        height: 100%;
+        width: 14%;
+        float: left;
+        margin-left: 10px;
+        min-width: 189px;
+    }
+
+    .mainBodyTop1left {
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+
+    .mainBodyTop1leftlbl2 {
+        height: 100%;
+        width: 14%;
+        float: left;
+    }
+
+    .mainBodyTop1leftlbl {
+        height: 100%;
+        width: 41%;
+        float: left;
+    }
+
+    .lblList {
+        width: 37%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 8px;
+        margin-top: 7px;
+        float: left;
+        min-width: 59px;
+        font-weight: 600;
+    }
+
+    .Gruppen1 {
+        width: 37%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 8px;
+        margin-top: 7px;
+        float: left;
+        min-width: 59px;
+        font-weight: 600;
+    }
+
+    .Gruppen1New {
+        width: 21%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 7px;
+        margin-top: 7px;
+        float: left;
+        min-width: 56px;
+        font-weight: 600;
+    }
+
+
+
+    .Gruppen2 {
+        height: 22px;
+        width: 45%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 3px;
+        margin-top: 4px;
+        border-radius: 5px;
+        float: left;
+        min-width: 48px;
+    }
+
+
+    .mainBodyTop1leftdrp {
+        height: 100%;
+        width: 59%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftdrp4 {
+        height: 100%;
+        width: 48%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftdrp4New {
+        height: 100%;
+        width: 48%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .btnFvNavNextRpt {
+        background-image: url('../../Images/FormImages/frontright.png');
+        background-repeat: no-repeat;
+        width: 41%;
+        height: 24px;
+        float: left;
+        margin-top: 0px;
+        border: none;
+        background-position: right;
+        background-position-y: 4px;
+        background-position-x: 2px;
+        margin-left: 7px;
+        background-color: white;
+    }
+
+    .btnFvNavPrevRpt {
+        width: 44%;
+        height: 24px;
+        float: left;
+        background-image: url('../../images/FormImages/backleft.png');
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        border-radius: 0px;
+        border: none;
+        background-position: left;
+        background-position-y: 4px;
+        background-position-x: 3px;
+        background-color: white;
+    }
+
+    .secAll {
+        width: 31%;
+        float: right;
+        height: 72%;
+        border: 1px solid gray;
+        margin-top: 5px;
+        margin-right: 2%;
+    }
+
+
+    .secContDatePckr {
+        width: 98%;
+        height: 80%;
+        float: left;
+        padding-left: 0px;
+    }
+
+
+    .drpreportvon2 {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 5px;
+        margin-left: 11px;
+    }
+
+    .drpreport {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .drpreport3 {
+        width: 97%;
+        height: 25px;
+        float: left;
+        margin-top: 4px;
+        border-radius: 5px;
+        background-color: #f69679;
+        margin-left: 7px;
+    }
+
+    .secDateindividual {
+        width: 98%;
+        height: 55%;
+        float: left;
+        margin-top: 1%;
+    }
+
+    .chk1controllast {
+        float: left;
+        clear: none;
+        margin-top: 11px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .secholdingarea1 {
+        border: 1px solid grey;
+        float: left;
+        height: 99%;
+        margin-left: 1px;
+        margin-right: 5px;
+        width: 12%;
+    }
+
+    .secholdingarea1b {
+        border: 1px solid grey;
+        float: left;
+        height: 99%;
+        margin-right: 0;
+        width: 13%;
+    }
+
+    .btnorientation1 {
+        height: 30px;
+        width: 32px;
+        text-indent: -9999px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        clear: none;
+        background-image: url('../../Images/FormImages/portrait1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .btnorientation2 {
+        height: 30px;
+        width: 35px;
+        text-indent: -9999px;
+        margin-left: 5px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        clear: none;
+        background-image: url('../../Images/FormImages/landscape1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .txtlandscape {
+        width: 5%;
+        min-width: 80px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-top: 8px;
+        text-align: left;
+    }
+
+    .txtportrait {
+        width: 5%;
+        min-width: 80px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        font-weight: 600;
+        margin-top: 8px;
+        text-align: left;
+    }
+
+    .lblDateFrom {
+        width: 5%;
+        float: left;
+        min-width: 31px;
+        margin-top: 9px;
+        font-weight: 600;
+    }
+
+    .lblDateto {
+        width: 5%;
+        float: left;
+        min-width: 30px;
+        margin-left: 6px;
+        margin-top: 10px;
+        text-align: right;
+        padding-right: 6px;
+        font-weight: 600;
+    }
+
+    .griddatemover2 {
+        width: 34%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 23px;
+        vertical-align: top;
+        margin-top: 6px;
+        margin-left: 1px;
+        float: left;
+    }
+
+
+
+    .griddatemover3 {
+        width: 38%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 22px;
+        vertical-align: top;
+        margin-top: 7px;
+        margin-left: 1px;
+        float: left;
+    }
+
+    .lblreport {
+        width: 88%;
+        height: 29%;
+        float: left;
+        margin-left: 10px;
+        min-width: 120px;
+    }
+
+    .TopDivRightnew {
+        height: 100%;
+        width: 31%;
+        float: left;
+    }
+
+
+    .lblBis {
+        width: 27%;
+        height: 23%;
+        float: left;
+        min-width: 29px;
+        margin-top: 6px;
+        text-align: center;
+    }
+
+    .txtDisply {
+        width: 58%;
+        float: left;
+        height: 21px;
+        margin-top: 0px;
+        background-color: white;
+        text-align: center;
+        border: 1px solid gray;
+    }
+
+
+    .txtinfo {
+        height: 29px;
+        width: 15%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-top: 2px;
+        border-radius: 5px;
+        float: left;
+        margin-left: 3px;
+        font-weight: 600;
+        background-color: #f69679;
+        min-width: 147px;
+    }
+
+
+    .griddatemover {
+        width: 73%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 25px;
+        vertical-align: top;
+        margin-top: 4px;
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .secholdingarea1b_new {
+    float: left;
+    height: 99%;
+    margin-right: 0px;
+    width: 48%;
+}
+    .secholdingarea1_new {
+    float: left;
+    height: 99%;
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 45%;
+}
+    .lblDateTitle_New {
+    width: 3%;
+    float: left;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+    #MainContdiv {
+    float: left;
+    height: 91%;
+    width: 100%;
+    margin-top: 1%;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+    .lblTempDesc {
+        width: 12%;
+        margin-left: 4%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .txtTempNr {
+        width: 12%;
+        min-width: 70px;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtTempDesc {
+        width: 40%;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .secLeftSelectionBttm {
+        width: 100%;
+        height: 88%;
+        float: left;
+        margin-top: 5px;
+        border: 1px solid gray;
+        padding-bottom: 4px;
+    }
+
+    .horSectionsHeaders {
+        width: 100%;
+        height: 4%;
+        min-height: 11px;
+        float: left;
+    }
+
+    .lblhorSecHeader {
+        width: 46%;
+        margin-left: 8%;
+        float: left;
+        color: maroon;
+    }
+
+    .horSections {
+        width: 100%;
+        height: 6%;
+        min-height: 14px;
+        float: left;
+    }
+
+    .secRightHistory {
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-left: 2%;
+        overflow-y: auto;
+    }
+
+    .lblLocationFrom {
+    width: 15%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 3px;
+    }
+
+    .cboLocationFrom {
+        width: 24%;
+        height: 25px;
+        border-radius: 5px;
+        float: left;
+        margin-right: 6px;
+    }
+
+    .lblLocationTo {
+        width: 4%;
+        min-width: 20px;
+        margin-left: 1%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .cboLocationTo {
+        width: 25%;
+        height: 25px;
+        border-radius: 5px;
+        float: left;
+    }
+
+
+    .topInputSec {
+        width: 45%;
+        height: 52%;
+        float: left;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+
+    .lblTempNr2 {
+        width: 12%;
+        margin-left: 8%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .lblTempDesc2 {
+        width: 12%;
+        margin-left: 4%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    .cboTempNrSelection {
+        width: 12%;
+        min-width: 70px;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+    .cboDescTopSelection {
+        width: 40%;
+        float: left;
+        height: 25px;
+        margin-top: 6px;
+        border-radius: 5px;
+    }
+
+
+    .lblTime_Zeit {
+        width: 12%;
+        float: left;
+        margin-left: 9%;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+
+    .chkTime {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .lblHrs_Uhzeit {
+        width: 15%;
+        float: left;
+        margin-left: 9%;
+        font-weight: 600;
+        margin-top: 7px;
+    }
+
+    .chkHrs {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .loggedInUser {
+        width: 80%;
+        height: 25px;
+        float: left;
+        margin-left: 12%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+
+    .lblCreatedBy {
+        width: 32%;
+        float: left;
+        display: inline-block;
+        margin-left: 3%;
+    }
+
+    .lblPersNameText {
+        width: 60%;
+        float: left;
+        display: inline-block;
+    }
+
+    .topRight1 {
+        width: 48%;
+        float: left;
+        height: 100%;
+    }
+
+    .topRight2 {
+        width: 32%;
+        height: 100%;
+        float: left;
+    }
+      .topRight2b {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+.lblPrintMode {
+    width: 56%;
+    float: left;
+    font-weight: 600;
+    margin-left: 12%;
+}
+
+.lblPrintModeobj {
+    width: 88%;
+    float: left;
+    margin-left: 12%;
+        font-weight: 600;
+}
+
+    .lblTimeHrsMode {
+        width: 31%;
+        float: left;
+        margin-left: 1%;
+    }
+
+
+    .topRight3 {
+        width: 14%;
+        float: left;
+        height: 100%;
+    }
+
+.topRight3perpekind {
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+    .cboSelection {
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        margin-top: 6px;
+    }
+
+    .lblTagOne {
+    width: 21%;
+    float: left;
+    margin-top: 6px;
+    margin-left: 8%;
+    font-weight: 600;
+    }
+
+    .lblPersNrDiff {
+    width: 21%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 7px;
+    font-weight: 600;
+    font-size: 14px;
+    }
+
+    .lblDate {
+     width: 7%;
+    float: left;
+    margin-top: 9px;
+    margin-left: 8%;
+    }
+
+    .lblDtFrom {
+        width: 5%;
+        float: left;
+        margin-top: 9px;
+    }
+
+    .lblDtFromTitle {
+        width: 6.6%;
+        float: left;
+        margin-top: 9px;
+    }
+
+
+    .lblPrintDate {
+        width: 17%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 9%;
+    }
+
+    .cboDateFrom {
+        width: 15%;
+        height: 25px;
+        float: left;
+    }
+
+    .lblDateTo {
+        width: 3%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+.lblDateToTitle {
+    width: 10%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 8px;
+    padding-right: 6px;
+}
+
+
+    .lblHrsToTitle {
+        width: 9.5%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .cboDateTo {
+        width: 15%;
+        height: 25px;
+        float: left;
+    }
+
+    .lblLeftOnenew {
+        width: 10%;
+        float: left;
+        margin-left: 1px;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .lblLeftOneFirm2 {
+        width: 14%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+    }
+
+    .lblLeftOneFirm2new {
+        width: 24%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+    }
+
+    .lblFax {
+        width: 21%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblpersonaltelefax {
+        float: left;
+        width: 12%;
+        color: dodgerblue;
+    }
+
+    .lblLeftOneFirm3 {
+        width: 20%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblNalitionality {
+        float: left;
+        width: 12.3%;
+        color: dodgerblue;
+    }
+
+    .lblpersonallocasion {
+        float: left;
+        width: 12%;
+        color: dodgerblue;
+    }
+
+    .lblLeftOne6 {
+        width: 28%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftOne6newab {
+        width: 22%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftOne5 {
+        width: 12%;
+        display: inline-block;
+        float: left;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .lblpersonalmobil {
+        float: left;
+        width: 10%;
+        color: dodgerblue;
+    }
+
+    .lblpersonalStreetnew {
+        float: left;
+        width: 10.5%;
+        color: dodgerblue;
+    }
+
+    .lblLeftLblThreeConffsn {
+        width: 10%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOneSwift {
+        width: 10%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOnePrtNew {
+        width: 10%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOne3 {
+        width: 10%;
+        float: left;
+        color: dodgerblue;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .lblLeftOne6new2 {
+        width: 14%;
+        float: left;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .lblLeftFourlblnew2 {
+        width: 12%;
+        display: inline-block;
+        float: left;
+        color: dodgerblue;
+        height: 100%;
+    }
+
+    .reportarea {
+        width: 70%;
+        height: 99%;
+        background: white;
+        overflow-y: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3px;
+    }
+
+    .reports {
+        width: 68%;
+        height: 99%;
+        background: white;
+        overflow-y: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .centerAlign1 {
+        width: 100%;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        margin-top: 2px;
+        height: 99%;
+        overflow-y: auto;
+    }
+
+    .mainBodymid1 {
+        height: 5%;
+        width: 99%;
+        float: left;
+        margin-left: 8px;
+        margin-bottom: 3px;
+        margin-top: 0px;
+        border-radius: 5px;
+    }
+
+
+    .mainBodymid1per {
+        height: 100%;
+        width: 15%;
+        float: left;
+        margin-top: 3px;
+    }
+
+
+    .mainBodymid1loc {
+        height: 100%;
+        width: 20%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1name {
+        height: 100%;
+        width: 21%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1dep {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1cost {
+        height: 100%;
+        width: 22%;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .mainBodymid1arrow {
+        height: 78%;
+        width: 4%;
+        float: right;
+        margin-top: 4px;
+        margin-right: 20px;
+        border: 1px solid gray;
+        background-color: white;
+    }
+
+    .Gruppen4 {
+        height: 20px;
+        width: 66%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-top: 4px;
+        border-radius: 5px;
+        float: left;
+    }
+
+    .centerAlign {
+        width: 59%;
+        padding: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    .lblMonthTitle {
+        width: 19%;
+        float: left;
+        font-weight: 600;
+        margin-top: 7px;
+        min-width: 50px;
+        margin-left: 10px;
+    }
+
+    .mainBodyTop1leftlblmid {
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+
+
+    .Gruppen2 {
+        height: 22px;
+        width: 45%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 3px;
+        margin-top: 4px;
+        border-radius: 5px;
+        float: left;
+        min-width: 48px;
+    }
+
+
+    .mainBodyTop2leftnr {
+        height: 100%;
+        width: 13%;
+        float: left;
+    }
+
+    .secMonthSelection {
+        width: 22%;
+        height: 100%;
+        float: left;
+    }
+
+    .mainBodyTop2leftnrdev {
+        height: 100%;
+        width: 19%;
+        float: left;
+    }
+
+
+    .mainBodyTop2leftname {
+        height: 100%;
+        width: 18%;
+        float: left;
+        margin-left: 0px;
+    }
+
+
+    .mainBodyTop1left4 {
+        height: 100%;
+        width: 15%;
+        float: left;
+        margin-left: 4px;
+    }
+
+    .txtDispDateFrom {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateTo {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtPerName {
+        width: 80%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-left: 12%;
+    }
+
+
+    .drpreportnew {
+        width: 98%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        margin-left: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblDateTitle {
+        width: 10%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 9%;
+    }
+
+    .mainBodyTop1left3 {
+        height: 100%;
+        width: 63%;
+        float: left;
+        margin-left: 6px;
+    }
+
+    .selectionOne {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .selectionTwo {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .secSettngsLeft {
+        width: 63%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblDPTitle {
+        width: 22%;
+        float: left;
+        margin-top: 8px;
+        margin-left: 17%;
+    }
+
+
+    .txtDPId {
+        width: 12%;
+        height: 25px;
+        min-width: 40px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+        margin-top: 5px;
+    }
+
+    .cboDP {
+        width: 42%;
+        height: 26px;
+        float: left;
+        margin-top: 4px;
+        margin-left: 8px;
+        border-radius: 5px;
+    }
+
+    .lblHeader2 {
+        width: 11%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-top: 6px;
+        margin-left: 9%;
+    }
+
+
+
+    .lbl1 {
+        width: 11%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 9%;
+        margin-top: 7px;
+    }
+
+    .lbl2 {
+        width: 11%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 9%;
+        margin-top: 7px;
+    }
+
+
+    .lbl3 {
+     width: 15%;
+    min-width: 40px;
+    float: left;
+    font-weight: 600;
+    margin-left: 8%;
+    margin-top: 7px;
+    }
+
+    .lbl4 {
+        width: 11%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 9%;
+        margin-top: 7px;
+    }
+
+
+    .lbl5 {
+        width: 11%;
+        min-width: 40px;
+        float: left;
+        font-weight: 600;
+        margin-left: 9%;
+        margin-top: 7px;
+    }
+
+
+    .lblHeader3 {
+        width: 20%;
+        min-width: 40px;
+        float: left;
+        margin-top: 7px;
+        font-weight: 600;
+    }
+
+    .lblHeader4 {
+        width: 20%;
+        min-width: 40px;
+        float: left;
+        margin-top: 7px;
+        margin-left: 4%;
+        font-weight: 600;
+    }
+
+    .lblHeader5 {
+        width: 26%;
+        min-width: 40px;
+        float: left;
+        margin-top: 7px;
+        margin-left: 4%;
+        font-weight: 600;
+    }
+
+
+    .chkSttngs {
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 7px;
+    }
+
+    .lblHeaderTxt {
+        width: 100%;
+        float: left;
+        font-weight: 600;
+        margin-top: 9px;
+        text-align: center;
+    }
+
+
+    .secSettngsRight {
+        width: 31%;
+        height: 100%;
+        float: left;
+    }
+
+    .selectionThree {
+        width: 100%;
+        height: 33%;
+        float: left;
+    }
+
+    .mainBodyTop1left2 {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-left: 1px;
+        min-width: 189px;
+    }
+
+
+    .mainBodyTop1left {
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+
+    .mainBodyTop1leftlbl2 {
+        height: 100%;
+        width: 14%;
+        float: left;
+    }
+
+    .mainBodyTop1leftlbl {
+        height: 100%;
+        width: 38%;
+        float: left;
+    }
+
+    .lblList {
+        width: 37%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 8px;
+        margin-top: 7px;
+        float: left;
+        min-width: 59px;
+        font-weight: 600;
+    }
+
+    .Gruppen1 {
+        width: 37%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 8px;
+        margin-top: 7px;
+        float: left;
+        min-width: 59px;
+        font-weight: 600;
+    }
+
+
+    .Gruppen1New {
+        width: 21%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-left: 7px;
+        margin-top: 7px;
+        float: left;
+        min-width: 56px;
+        font-weight: 600;
+    }
+
+
+
+
+    .mainBodyTop1leftdrp {
+        height: 100%;
+        width: 59%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftdrp4 {
+        height: 100%;
+        width: 50%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftdrp4New {
+        height: 100%;
+        width: 80%;
+        float: left;
+        min-width: 103px;
+    }
+
+
+    .btnFvNavNextRpt {
+        background-image: url('../../Images/FormImages/frontright.png');
+        background-repeat: no-repeat;
+        width: 41%;
+        height: 24px;
+        float: left;
+        margin-top: 0px;
+        border: none;
+        background-position: right;
+        background-position-y: 4px;
+        background-position-x: 2px;
+        margin-left: 7px;
+        background-color: white;
+    }
+
+
+    .btnFvNavPrevRpt {
+        width: 44%;
+        height: 24px;
+        float: left;
+        background-image: url('../../images/FormImages/backleft.png');
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        border-radius: 0px;
+        border: none;
+        background-position: left;
+        background-position-y: 4px;
+        background-position-x: 3px;
+        background-color: white;
+    }
+
+
+    .secAll {
+        width: 36%;
+        float: right;
+        height: 72%;
+        border: 1px solid black;
+        margin-top: 5px;
+        margin-right: 2%;
+    }
+
+    .secContDatePckr {
+        width: 98%;
+        height: 80%;
+        float: left;
+        padding-left: 0px;
+    }
+
+
+    .drpreportvon2 {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 5px;
+        margin-left: 11px;
+    }
+
+    .txtreport {
+        width: 19%;
+        height: 25px;
+        float: left;
+        margin-top: 1px;
+        border-radius: 5px;
+        min-width: 97px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+
+    .txtreportname {
+        width: 70%;
+        height: 25px;
+        float: left;
+        margin-top: 1px;
+        border-radius: 5px;
+        min-width: 154px;
+        margin-left: 14px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportloc {
+        width: 79%;
+        height: 25px;
+        float: left;
+        margin-top: 1px;
+        border-radius: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+
+    .txtreportdept {
+        width: 66%;
+        height: 25px;
+        float: left;
+        margin-top: 1px;
+        border-radius: 5px;
+        min-width: 176px;
+        margin-left: 2px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtreportcost {
+        width: 49%;
+        height: 25px;
+        float: left;
+        margin-top: 1px;
+        border-radius: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    /*.txtreport {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 5px;
+        min-width: 154px;
+    }*/
+
+    .drpreport3 {
+        width: 97%;
+        height: 25px;
+        float: left;
+        margin-top: 4px;
+        border-radius: 5px;
+        background-color: #f69679;
+        margin-left: 7px;
+    }
+
+
+    .secDateindividual {
+        width: 98%;
+        height: 55%;
+        float: left;
+        margin-top: 1%;
+        /*border: 1px solid grey;*/
+    }
+
+    .chk1controllast {
+        float: left;
+        clear: none;
+        margin-top: 11px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .secholdingarea1 {
+        border: 1px solid grey;
+        float: left;
+        height: 99%;
+        margin-left: 1px;
+        margin-right: 5px;
+        width: 12%;
+    }
+
+    .secholdingarea1b {
+        border: 1px solid grey;
+        float: left;
+        height: 99%;
+        margin-right: 0;
+        width: 13%;
+    }
+
+    .btnorientation1 {
+        height: 30px;
+        width: 32px;
+        text-indent: -9999px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        clear: none;
+        background-image: url('../../Images/FormImages/portrait1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .btnorientation2 {
+        height: 30px;
+        width: 35px;
+        text-indent: -9999px;
+        margin-left: 5px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        clear: none;
+        background-image: url('../../Images/FormImages/landscape1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .txtlandscape {
+        width: 5%;
+        min-width: 80px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-top: 8px;
+        text-align: left;
+    }
+
+    .txtportrait {
+        width: 5%;
+        min-width: 80px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        font-weight: 600;
+        margin-top: 8px;
+        text-align: left;
+    }
+
+    .lblDateFrom {
+        width: 5%;
+        float: left;
+        min-width: 31px;
+        margin-top: 9px;
+        font-weight: 600;
+    }
+
+    .lblDateto {
+        width: 5%;
+        float: left;
+        min-width: 30px;
+        margin-left: 6px;
+        margin-top: 10px;
+        text-align: right;
+        padding-right: 6px;
+        font-weight: 600;
+    }
+
+    .griddatemover2 {
+        width: 26%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 23px;
+        vertical-align: top;
+        margin-top: 6px;
+        margin-left: 1px;
+        float: left;
+    }
+
+    .griddatemover3 {
+        width: 40%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 23px;
+        vertical-align: top;
+        margin-top: 7px;
+        margin-left: 1px;
+        float: left;
+    }
+
+    .TopDivRightnew {
+        height: 100%;
+        width: 26%;
+        float: left;
+    }
+
+    .lblreportper {
+        width: 38%;
+        height: 67%;
+        float: left;
+        margin-left: 10px;
+        min-width: 81px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportname {
+        width: 6%;
+        height: 67%;
+        float: left;
+        margin-left: 7px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportloc {
+        width: 21%;
+        height: 67%;
+        float: left;
+        margin-left: -6px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportldept {
+        width: 28%;
+        height: 67%;
+        float: left;
+        margin-left: 5px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblreportlcost {
+        width: 28%;
+        height: 67%;
+        float: left;
+        margin-left: 19px;
+        min-width: 42px;
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .lblBis {
+        width: 100%;
+        height: 23%;
+        float: left;
+        min-width: 36px;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+
+    .txtDisply {
+        width: 58%;
+        float: left;
+        height: 20px;
+        margin-top: 0px;
+        background-color: white;
+        text-align: center;
+        border: 1px solid gray;
+    }
+
+    .txtinfo {
+        height: 29px;
+        width: 15%;
+        font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+        font-size: 14px;
+        margin-top: 2px;
+        border-radius: 5px;
+        float: left;
+        margin-left: 6px;
+        font-weight: 600;
+        background-color: #f69679;
+        min-width: 147px;
+        margin-right: 13px;
+    }
+
+
+    .griddatemover {
+        width: 73%;
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 3px;
+        height: 25px;
+        vertical-align: top;
+        margin-top: 4px;
+        margin-left: 1px;
+    }
+}
+
+.lblDateHeader {
+    width: 97%;
+    float: left;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.secHeader {
+    width: 100%;
+    height: 20px;
+    float: left;
+}
+
+.griddatemovercenter {
+    width: 74%;
+    vertical-align: top;
+    float: left;
+    height: 100%;
+    padding: 0;
+    border: none;
+}
+
+.ddlYearStyle {
+    width: 100%;
+    height: 100%;
+}
+
+.ddlYearStyle2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .ddlYearStyle2 td {
+        padding: 0 !important;
+        height: 14px !important;
+    }
+
+.griddatemoverright {
+    height: 100%;
+    width: 13%;
+    float: left;
+}
+
+.korbtnFvNavNexNrt {
+    border: currentColor;
+    border-image: none;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Images/FormImages/ArrowRight.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position: right;
+    border-radius: 5px;
+}
+
+    .korbtnFvNavNexNrt:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.mainBodybtm {
+    height: 86%;
+    width: 99.5%;
+      overflow-y: auto;
+          margin-left: auto;
+    margin-right: auto;
+    /*float: left;*/
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.InfoOneContent {
+    width: 99%;
+    height: 99%;
+    float: left;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+
+.infoGridLeft {
+    width: 70%;
+    height: 95%;
+    float: left;
+    margin-top: 5px;
+    overflow-y: auto;
+}
+
+.infoGridRight {
+    width: 29%;
+    height: 99%;
+    float: right;
+    margin-top: 5px;
+    overflow-y: auto;
+}
+
+.fvNavSearchGrader {
+    width: 20%;
+}
+
+.fvNavTotalEmpNumGrader {
+    width: 15%;
+}
+
+.searchAllEmp {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+.fvNavNext {
+}
+
+.btnFvNavPrev {
+    background-image: url('../../images/FormImages/ArrowLeft.png');
+    background-repeat: no-repeat;
+}
+
+.btnFvNavNext {
+    background-image: url('../../Images/FormImages/ArrowRight.png');
+    background-repeat: no-repeat;
+}
+
+.empFormViewNav > section {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.empFormViewNav section span {
+    display: block;
+}
+
+.empFormViewNav section input {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+    .empFormViewNav section input:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+.empFormViewNavRpt {
+    float: right;
+    height: 50%;
+    width: 100%;
+}
+
+
+.fvNavSearchGrader {
+    width: 20%;
+}
+
+.fvNavCurrentEmpNumGrader {
+    width: 34%;
+}
+
+.fvNavTotalEmpNumGrader {
+    width: 15%;
+}
+
+
+.fvNavSearch {
+    width: 80px;
+}
+
+.fvNavPrevious {
+}
+
+.fvNavCurrentEmpNum {
+    width: 50px;
+}
+
+.fvNavTotalEmpNum {
+    width: 50px;
+}
+
+.fvNavNext {
+}
+
+.btnFvNavPrev, .btnFvNavNext, .searchAllEmp {
+    background-position-x: 1px;
+    background-position-y: 1px;
+}
+
+.btnFvNavNext {
+    background-image: url('../../Images/FormImages/ArrowRight.png');
+    background-repeat: no-repeat;
+}
+
+.btnFvNavPrev {
+    background-image: url('../../images/FormImages/ArrowLeft.png');
+    background-repeat: no-repeat;
+}
+
+.btnFvNavPrevRpt:enabled:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.btnFvNavNextRpt:enabled:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.korbtnFvNavPrevNr {
+    border: currentColor;
+    border-image: none;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/FormImages/ArrowLeft.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position: left;
+}
+
+    .korbtnFvNavPrevNr:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.searchAllEmpnew1 {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    background-position-y: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+    .searchAllEmpnew1:hover:enabled {
+        background-image: url('/images/FormImages/search.png');
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    }
+
+.searchAllEmpnew3 {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    background-position-y: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+    .searchAllEmpnew3:hover:enabled {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+.searchAllEmpnew1:hover:enabled {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.searchAllEmp {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+    .searchAllEmp:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+.searchEmp {
+    background-image: url('../../Images/FormImages/searchgreen.png');
+    background-repeat: no-repeat;
+    border: none;
+    height: 30px;
+    width: 30px;
+    float: right;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-right: 6px;
+    border-radius: 5px;
+    background-size: contain;
+}
+
+    .searchEmp:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+.searchfltright {
+    Width: 25px;
+    Height: 25px;
+    float: right;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: none;
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+    .searchfltright:hover:enabled {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+.searchfltright2 {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+    .searchfltright2:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+.searchfltright:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.searchfltrightnew2:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.searchfltrightnew {
+    float: right;
+    margin-right: 5px;
+    /*margin-top: 5px;*/
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+.searchfltrightnew2 {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+    .searchfltrightnew2:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+
+
+
+.Gruppen1name {
+    width: 3%;
+    font-family: Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif;
+    font-size: 14px;
+    margin-left: 0%;
+    margin-top: 7px;
+    float: left;
+    min-width: 46px;
+    font-weight: 600;
+}
+
+
+.textColor {
+    color: red;
+}
+
+#loginWrapper {
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: #333;
+    position: absolute;
+    width: 560px;
+    height: 320px;
+    margin-top: 10%;
+    margin-left: 20%;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    z-index: 1000;
+}
+
+.labelStyleLayerOne {
+    float: left;
+    text-align: right;
+    width: 50%;
+    padding: 10px 0 0 10px;
+    margin-top: 10px;
+}
+
+.secOption {
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border: 1px gray;
+    border-bottom-style: solid;
+    display: block;
+}
+
+.wordarea {
+    width: 99%;
+    line-height: 2.91em;
+    padding-left: 20px;
+    float: left;
+    border-bottom: 1px solid grey;
+    height: 40.8px;
+}
+
+
+.cautionText {
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.bgSetter {
+    float: left;
+    width: 100%;
+}
+
+.btnback {
+    float: right;
+    width: 40%;
+}
+
+.btnprint {
+    float: left;
+    width: 40%;
+}
+
+.mainareachk {
+    width: 99%;
+    float: left;
+}
+
+.secOption > input {
+    float: right;
+}
+
+.ListSpache {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.buttonStyle2 {
+    min-width: 58px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 0 5px 23px;
+    background-position-y: 6px;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+    background-image: url('/images/FormImages/btnBack.png');
+}
+
+    .buttonStyle2:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.buttonStyle1 {
+    min-width: 58px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 0 5px 23px;
+    background-position-y: -3px;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../Images/FormImages/printerarea1.png');
+}
+
+    .buttonStyle1:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.midarea1 {
+    float: left;
+    margin-left: 21%;
+    margin-top: 8%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 53%;
+}
+
+
+
+.btnBttmLftprint {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-indent: -9999px;
+    display: block;
+    border: 1px solid gray;
+    float: left;
+    margin-top: 5px;
+}
+
+.btnPrint {
+    background-image: url('../../Images/FormImages/printerarea1.png');
+    background-repeat: no-repeat;
+}
+
+.reportareasetting {
+    width: 42%;
+    height: 98%;
+    border: 1px solid grey;
+    background: white;
+    overflow-y: auto;
+    margin-left: 92px;
+    margin-right: auto;
+    margin-top: 3px;
+    min-width: 695px;
+}
+
+.reportareasetting1 {
+    width: 97%;
+    height: 4%;
+    float: left;
+    margin-top: 3px;
+    margin-left: 11px;
+}
+
+.lblpersonal {
+    float: left;
+    width: 20%;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.lblpersonalnumber {
+    float: left;
+    width: 20%;
+    color: dodgerblue;
+}
+
+.lblpersonalAdress {
+    float: left;
+    width: 20%;
+    color: dodgerblue;
+}
+
+.lblpersonaldatum {
+    float: left;
+    width: 20%;
+    color: dodgerblue;
+}
+
+.lblpersonalcommunication {
+    float: left;
+    width: 20%;
+    color: red;
+}
+
+.lblpersonalprivatedata {
+    float: left;
+    width: 20%;
+    color: red;
+}
+
+.reportareasetting2 {
+    width: 100%;
+    height: 26%;
+    float: left;
+    min-height: 137px;
+    margin-bottom: 2px;
+}
+
+.reportareasetting2left {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.reportareasetting2left1 {
+    width: 74%;
+    height: 18%;
+    float: left;
+    border: 1px solid;
+    margin-left: 11px;
+    margin-top: 2px;
+    padding-left: 5px;
+}
+
+.lblgender {
+    height: 95%;
+    float: left;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.reportareasetting2left2 {
+    width: 75%;
+    height: 20%;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.reportareasetting2left3 {
+    width: 74%;
+    height: 58%;
+    float: left;
+    border: 1px solid;
+    margin-left: 11px;
+}
+
+
+.reportareasetting2right {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.reportareasetting3 {
+    width: 100%;
+    height: 12%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+.lblHeadernew2 {
+    width: 98%;
+    float: left;
+    padding-top: 3px;
+    color: red;
+}
+
+.communicasion {
+    width: 91%;
+    height: 21%;
+    float: left;
+    margin-left: 10px;
+    min-height: 19px;
+}
+
+.communicasiondata {
+    width: 97%;
+    height: 68%;
+    float: left;
+    margin-left: 10px;
+}
+
+.communicasiondatatel {
+    width: 100%;
+    height: 48%;
+    float: left;
+}
+
+.communicasiondataemail {
+    width: 100%;
+    height: 49%;
+    float: left;
+}
+
+.reportareasetting4 {
+    width: 100%;
+    height: 13%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.reportareasettingprivatedata {
+    width: 97%;
+    height: 28%;
+    float: left;
+    margin-left: 10px;
+    min-height: 18px;
+}
+
+.reportareasetting4data {
+    width: 97%;
+    height: 69%;
+    float: left;
+    margin-left: 10px;
+}
+
+.reportareasetting4datatop {
+    width: 100%;
+    height: 48%;
+    float: left;
+}
+
+.reportareasetting4databtm {
+    width: 97%;
+    height: 48%;
+    float: left;
+}
+
+.reportareasetting5 {
+    width: 100%;
+    height: 16%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.reportareasetting6 {
+    width: 100%;
+    height: 11%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+.reportareasetting7 {
+    width: 100%;
+    height: 14%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.headerClass {
+    width: 97%;
+    height: 6%;
+    min-height: 18px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.headerClass1 {
+    width: 97%;
+    height: 8%;
+    min-height: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+.contClass {
+    width: 97%;
+    height: 86%;
+    float: left;
+    margin-top: 3px;
+    margin-left: 11px;
+}
+
+.secTopLblHolder {
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+.lblLeftOne {
+    width: 14%;
+    float: left;
+    margin-left: 5px;
+    color: dodgerblue;
+    height: 100%;
+}
+
+.lblHeader {
+    width: 98%;
+    float: left;
+    color: red;
+}
+
+.lblHeader1 {
+    width: 98%;
+    float: left;
+    color: red;
+}
+
+.lblLeftOne2 {
+    width: 21%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.lblEmailTop {
+    width: 21%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.lblLeftOneBttm {
+    width: 21%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+
+.lblLeftOneFirm {
+    width: 22%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+    margin-left: 4px;
+}
+
+.lblLeftOneFirmnew {
+    width: 21%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+    margin-left: 0px;
+}
+
+.lblLeftOneConffsn {
+    width: 21%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.lblLeftOnePrt4 {
+    width: 21%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.lblLeftOne2Top {
+    width: 14%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.lblLeftOne2no {
+    width: 16%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.lblLeftThreePrt5 {
+    width: 14%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+    text-align: left;
+}
+
+.lblLeftTwoPrt4 {
+    width: 15%;
+    float: left;
+    color: dodgerblue;
+    display: inline-block;
+    height: 100%;
+}
+
+.lblLeftOne4 {
+    width: 14%;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.lblLeftFourlbl {
+    width: 11%;
+    display: inline-block;
+    float: left;
+    color: dodgerblue;
+    height: 100%;
+}
+
+
+
+
+.lblLeftLblPrt6 {
+    width: 22%;
+    float: left;
+    height: 100%;
+    display: inline-block;
+}
+
+.secBttmLblHolder {
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+.secBttmLblHolder3 {
+    width: 100%;
+    height: 30%;
+    float: left;
+    margin-top: 0px;
+}
+
+.contClass2 {
+    width: 97%;
+    height: 76%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 11px;
+}
+
+.contClass2new {
+    width: 97%;
+    height: 71%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 11px;
+}
+
+.secTopLblHolder2 {
+    width: 100%;
+    height: 48%;
+    float: left;
+}
+
+.secTopLblHolder2new {
+    width: 100%;
+    height: 31%;
+    float: left;
+}
+
+.secBttmLblHolder2 {
+    width: 100%;
+    height: 30%;
+    float: left;
+    float: left;
+}
+
+
+.secBttmLblHolder2btnm {
+    width: 100%;
+    height: 50%;
+    float: left;
+    float: left;
+}
+
+.imgframe {
+    width: 49%;
+    height: 96%;
+    float: right;
+    margin-top: 3px;
+    margin-right: 16px;
+    border: 1px solid black;
+    border-image-source: none;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+}
+
+.lblpersonaltelefon {
+    float: left;
+    width: 15%;
+    color: dodgerblue;
+    margin-left: 5px;
+}
+
+.lblpersonaldate {
+    float: left;
+    width: 15%;
+    color: dodgerblue;
+    margin-left: 5px;
+}
+
+.lblpersonalStreet {
+    float: left;
+    width: 14%;
+    color: dodgerblue;
+}
+
+
+.lblpersonalEmail {
+    float: left;
+    width: 15%;
+    color: dodgerblue;
+    margin-left: 5px;
+}
+
+.lblText {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.btnfilter {
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    border: none !important;
+    border-radius: 5px;
+    float: right;
+    padding: 0 0 0 0;
+    margin-top: 5px;
+    margin-left: 0%;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+    .btnfilter:hover:enabled {
+        cursor: pointer;
+        background-color: none !important;
+    }
+
+.printbtnfooterOrange {
+    width: 170px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: rgb(158, 36, 0) !important;
+}
+
+    .printbtnfooterOrange:hover:enabled {
+        cursor: pointer;
+    }
+
+.printbtnfooterGreen {
+    width: 210px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen;
+    padding: 0;
+    text-align: left;
+    margin-left: 6px;
+}
+
+    .printbtnfooterGreen:hover:enabled {
+        cursor: pointer;
+    }
+
+.printbtnfooterorangered {
+        width: 116px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: orangered;
+    margin-left: 0px;
+    padding: 0;
+    padding-left: 3px;
+}
+
+    .printbtnfooterorangered:hover:enabled {
+        cursor: pointer;
+    }
+
+.printbtnfooterBlue:hover:enabled {
+    cursor: pointer;
+}
+
+.secOneWeekHolder {
+    width: 100%;
+    height: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+}
+
+
+.secTwoWeeksHolder {
+    width: 100%;
+    height: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+}
+
+.secFourWeeksHolder {
+    width: 100%;
+    height: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+.secOneDayHolder {
+    width: 40%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    margin-top: 5px;
+}
+
+
+.secSixDaysHolder {
+    width: 100%;
+    height: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+}
+
+.secOneMonthHolder {
+    width: 100%;
+    height: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+/*document viewers sections*/
+.OneWkdocViewer {
+    width: 100%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.sixDaysdocViewer {
+    width: 100%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.oneDaydocViewer {
+    width: 100%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.TwoWksdocViewer {
+    width: 100%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.FourWksdocViewer {
+    width: 100%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.oneMonthdocViewer {
+    width: 100%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+
+.chkSort {
+    float: left;
+    margin-left: 3%;
+}
+
+
+
+.wrapperSec {
+    width: 80%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+.secLeftSelection {
+    width: 56%;
+    height: 100%;
+    float: left;
+}
+
+.secLeftSelectionTop {
+    width: 100%;
+    height: 5%;
+    min-height: 20px;
+    float: left;
+    border: 1px solid gray;
+}
+
+.lblTempNr {
+    width: 12%;
+    margin-left: 8%;
+    float: left;
+    margin-top: 8px;
+}
+
+
+.oneWeekTime {
+}
+
+.twoWeeksTime {
+}
+
+.fourWeeksTime {
+}
+
+
+.oneMonthTime {
+}
+
+.sixDaysTime {
+}
+
+.oneDayTime {
+}
+
+.newTemplateBtn {
+      width: 91px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: darkblue !important;
+}
+
+.saveTemplateBtn {
+     width: 120px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+}
+
+.deleteTemplateBtn {
+    width: 119px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: rgb(255, 88, 0) !important;
+}
+
+.newTemplateBtn:hover:enabled {
+    cursor: pointer;
+}
+
+.focusOnError {
+    border: 1px solid red;
+}
+
+.removeBorderOnError {
+    border: 1px solid #c2c2c2;
+}
+
+.saveTemplateBtn:hover:enabled {
+    cursor: pointer;
+}
+
+.deleteTemplateBtn:hover:enabled {
+    cursor: pointer;
+}
+
+#btnOk {
+    display: block;
+    width: 209px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+
+    #btnOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+
+.focusOnError {
+    border: 1px solid red;
+}
+
+.removeBorderOnError {
+    border: 1px solid #c2c2c2;
+}
+
+#btnCancel {
+    display: block;
+    width: 208px;
+    float: left;
+    height: 30px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+    border-radius: 5px;
+}
+
+
+    #btnCancel:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flame {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#lbltitletop {
+    width: 91%;
+    float: left;
+    clear: none;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+.stopPic {
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+    padding: 5px;
+    clear: both;
+}
+
+#promptbtnclose {
+    width: 25px;
+    float: right;
+    margin-right: 8px;
+    clear: none;
+    height: 25px;
+    background-image: url('../../Images/FormImages/promptclose.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+}
+
+#lbltitlemsg {
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 10px;
+    float: left;
+    height: 40%;
+    text-align: left;
+    clear: both;
+}
+
+#prompttopclose {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    clear: none;
+    height: 27px;
+}
+
+#areasavepop {
+    text-align: left;
+    width: 482px;
+    height: 198px;
+    padding: 0;
+    float: left;
+    background-color: white;
+    clear: none;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+#dialogBox {
+    width: 500px;
+    height: 230px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#btnBackOk {
+    display: block;
+    width: 110px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen;
+    border-radius: 5px;
+}
+
+    #btnBackOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+#btnNo {
+    display: block;
+    width: 160px;
+    float: left;
+    padding: 0;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 1px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnNo:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+.secholdingarea1 {
+    float: left;
+    height: 99%;
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 9%;
+}
+
+
+
+
+
+
+.txtportrait {
+    width: 5%;
+    min-width: 40px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 2px;
+    font-weight: 600;
+    margin-top: 2px;
+    text-align: left;
+    display: block;
+}
+
+.btnorientation1 {
+    height: 30px;
+    width: 32px;
+    text-indent: -9999px;
+    display: block;
+    float: left;
+    margin-top: -1px;
+    clear: none;
+    background-image: url('../../Images/FormImages/portrait1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chk1controllast {
+    float: right;
+    clear: none;
+    margin-top: 22px;
+    height: 20px;
+    width: 19px;
+}
+
+.txtlandscape {
+    width: 5%;
+    min-width: 40px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 4px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: left;
+    display: block;
+}
+
+.txtlandscape_new {
+    width: 5%;
+    min-width: 40px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 4px;
+    font-weight: 600;
+    margin-top: 2px;
+    text-align: left;
+    display: block;
+}
+
+.btnorientation2 {
+    height: 30px;
+    width: 35px;
+    text-indent: -9999px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    clear: none;
+    background-image: url('../../Images/FormImages/landscape1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chk1controllast {
+    float: left;
+    clear: none;
+    margin-top: 4px;
+    height: 20px;
+    width: 14px;
+}
+
+#btnErrorOk {
+    display: block;
+    width: 156px;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-right: 1px;
+    margin-top: 15px;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+    border-radius: 5px;
+}
+
+    #btnErrorOk:enabled:hover {
+        background-color: none !important;
+        cursor: pointer;
+    }

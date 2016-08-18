@@ -1,0 +1,1946 @@
+﻿.ContentAreaDiv {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.TopContentAreaDiv {
+    height: 7%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    width: 100%;
+    float: left;
+    clear: both;
+    min-height: 65px;
+}
+
+.datedis {
+    float: left;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 58px;
+}
+
+.toplabel {
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+    height: 4%;
+    clear: both;
+}
+
+.top1 {
+    width: 100%;
+    float: left;
+    height: 19%;
+}
+
+.top1left {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.top1right {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.lblleft {
+    width: 100%;
+    float: left;
+    height: 33%;
+}
+
+.lblright {
+    width: 100%;
+    float: left;
+    height: 33%;
+}
+
+.lbaus {
+    float: left;
+    color: #54a3ee;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.lbsel {
+    color: #54a3ee;
+    float: left;
+    margin-top: 10px;
+}
+
+.lbldatefrom {
+    float: left;
+    margin-left: 25px;
+    width: 20%;
+}
+
+.lbldateto {
+    float: left;
+    width: 6%;
+}
+
+.topsec1left {
+    width: 100%;
+    float: left;
+    height: 41%;
+}
+
+.topsec1right {
+    width: 85%;
+    float: left;
+    height: 37%;
+}
+
+.topsec1left2 {
+    width: 100%;
+    float: left;
+    height: 30%;
+}
+
+.topsec1right2 {
+    width: 85%;
+    float: left;
+    height: 30%;
+}
+
+.topsec1right2b {
+    width: 85%;
+    float: left;
+    height: 35px;
+}
+
+.mainTableClass {
+    width: 100%;
+    height: 79%;
+}
+
+.mainTableClassbelow {
+    width: 100%;
+    height: 101%;
+}
+
+.rowOne {
+    width: 100%;
+    height: 50%;
+}
+
+.tblCell1 {
+    border: 1px solid gray;
+    width: 20%;
+}
+
+.tblCell2 {
+    border: 1px solid gray;
+    width: 55%;
+}
+
+.tblCell3 {
+    border: 1px solid gray;
+    width: 25%;
+}
+
+.lblno {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 4px;
+    padding-bottom: 4px;
+    padding-right: 0px;
+}
+
+.lblobjectareatitle {
+    width: 93%;
+    text-align: left;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 4px;
+    padding-bottom: 4px;
+    padding-right: 0px;
+    padding-left: 4px;
+}
+
+.drpcombo {
+    float: left;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 58px;
+}
+
+input[type=checkbox] + label::before {
+    display: block;
+    content: url('/Images/FormImages/red.png');
+    position: relative;
+    width: 20px;
+    float: left;
+    margin-left: 42%;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+
+input[type=checkbox]:checked + label::before {
+    content: url('/Images/FormImages/red1.png');
+    cursor: pointer;
+}
+
+#chkMemberDate, #chkStudioGroup, #chkExit, #chkEntry, #chkExpiryDate, #chkMemberCardNr, #chkMemberId, #chkMemberName, #chkMemberContractNr {
+    display: none;
+}
+
+.belowsec {
+    float: left;
+    width: 100%;
+    height: 40%;
+}
+
+.belowsecholder {
+    width: 38%;
+    float: left;
+    margin-left: 25px;
+}
+
+/*TopPArtREportView*/
+.showReports {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.showReportsDocViewer {
+    float: left;
+    height: 91%;
+    width: 100%;
+    margin-top: 1%;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    overflow-y: auto;
+}
+
+
+
+.drpreportvon2 {
+    width: 100%;
+    height: 25px;
+    float: left;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 11px;
+}
+
+
+
+.drpreport3 {
+    width: 97%;
+    height: 25px;
+    float: left;
+    margin-top: 4px;
+    border-radius: 5px;
+    background-color: #f69679;
+    margin-left: 7px;
+}
+
+.secDateindividual {
+    width: 98%;
+    height: 55%;
+    float: left;
+    margin-top: 1%;
+}
+
+.mainBodyTop1leftdrp4New {
+    height: 100%;
+    width: 80%;
+    float: left;
+    min-width: 103px;
+}
+
+.drpreportnew {
+    width: 98%;
+    height: 25px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.selectionOne {
+    width: 100%;
+    height: 33%;
+    float: left;
+}
+
+.selectionTwo {
+    width: 100%;
+    height: 33%;
+    float: left;
+}
+
+
+
+
+.topRight3 {
+    width: 14%;
+    float: left;
+    height: 100%;
+}
+
+.lblPrintModeobj {
+    width: 88%;
+    float: left;
+    margin-left: 12%;
+    font-weight: 600;
+}
+
+.selectionThree {
+    width: 100%;
+    height: 33%;
+    float: left;
+}
+
+
+
+
+
+
+.loggedInUser {
+    width: 80%;
+    height: 25px;
+    float: left;
+    margin-left: 12%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.loggedInUser2 {
+    width: 100%;
+    height: 25px;
+    float: left;
+    margin-left: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.lblCreatedBy {
+    width: 38%;
+    float: left;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.lblPersNameText {
+    width: 60%;
+    float: left;
+    display: inline-block;
+}
+
+
+
+.mainBodybtm {
+    height: 86%;
+    width: 99.5%;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.showReportsPersonal {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: rgba(186,186,186,0.75);
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.btnPrintReport {
+    width: 161px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 7px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: rgb(255, 88, 0) !important;
+    padding: 0;
+}
+
+    .btnPrintReport:hover:enabled {
+        cursor: pointer;
+    }
+
+@media only screen and (min-width: 200px) {
+    .txtlandscape_new {
+        width: 5%;
+        min-width: 40px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-top: -17px;
+        text-align: left;
+        display: block;
+    }
+
+    .txtportrait {
+        width: 5%;
+        min-width: 40px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        font-weight: 600;
+        margin-top: -17px;
+        text-align: left;
+        display: block;
+    }
+
+    .drpreport {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 139px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .topRight3perpekind {
+        width: 24%;
+        float: left;
+        height: 100%;
+    }
+
+    .lblHrsToTitle {
+        width: 15.5%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 8px;
+        padding-right: 0px;
+    }
+
+    .lblPrintDate {
+        width: 25%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 2%;
+    }
+
+    .lblDtFromTitle {
+        width: 9.6%;
+        float: left;
+        margin-top: 9px;
+    }
+
+    .lblDateTitle {
+        width: 15%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 2%;
+    }
+
+    .txtDispDateFrom {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 1%;
+        min-width: 81px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateTo {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 87px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblDateToTitle {
+        width: 16%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 8px;
+        padding-right: 0px;
+    }
+
+    .topRight2 {
+        width: 17%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblPrintMode {
+        width: 88%;
+        float: left;
+        font-weight: 600;
+        margin-left: 12%;
+    }
+
+    .lblTimeHrsMode {
+        width: 31%;
+        float: left;
+        margin-left: 1%;
+    }
+
+    .topRight1 {
+        width: 49%;
+        float: left;
+        height: 100%;
+    }
+
+    .mainBodyTop1leftlbl2 {
+        height: 100%;
+        width: 16%;
+        float: left;
+    }
+
+    .mainBodyTop1left3 {
+        height: 100%;
+        width: 59%;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .lblBis {
+        width: 100%;
+        height: 23%;
+        float: left;
+        min-width: 36px;
+        margin-top: 8px;
+        text-align: left;
+    }
+
+    .mainBodyTop1left2 {
+        height: 100%;
+        width: 15%;
+        float: left;
+        margin-left: 1px;
+        min-width: 189px;
+    }
+
+    .mainBodyTop1leftdrp {
+        height: 100%;
+        width: 49%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .lblreport {
+        width: 88%;
+        height: 35%;
+        float: left;
+        margin-left: 10px;
+        min-width: 120px;
+        margin-top: 7px;
+    }
+
+    .mainBodyTop1leftlbl {
+        height: 100%;
+        width: 47%;
+        float: left;
+    }
+
+    .mainBodyTop1left {
+        height: 100%;
+        width: 24%;
+        float: left;
+    }
+
+    .mainBodyTop1 {
+        height: 96%;
+        width: 100%;
+        padding-top: 0px;
+        float: left;
+    }
+
+    .mainBodyTop {
+        height: 12%;
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .btnquickdruk {
+        width: 89px;
+        height: 30px;
+        border-radius: 5px;
+        float: left;
+        margin: 0;
+        background-position: 10px center;
+        background-repeat: no-repeat;
+        border: none !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        text-decoration: underline !important;
+        color: red !important;
+    }
+
+        .btnquickdruk:hover:enabled {
+            background-color: transparent !important;
+            cursor: pointer;
+            border: none !important;
+        }
+
+    .datedisT {
+        float: left;
+        height: 25px;
+        border-radius: 5px;
+        margin-right: 0px;
+    }
+
+    .chkallget {
+        float: left;
+        width: 20px;
+    }
+
+    .chkabwse {
+        float: left;
+        width: 20px;
+    }
+
+    .chkanwse {
+        float: left;
+        width: 20px;
+    }
+
+    .topRight2areanew {
+        width: 40% !important;
+        height: 100%;
+        float: left;
+        margin-top: 6px;
+    }
+
+    .MidContentAreaDiv {
+        width: 100%;
+        float: left;
+        height: 89%;
+        margin-top: 1%;
+        border: 1px solid grey;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+
+    .sectop {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 8%;
+    }
+
+
+    .labeltop {
+        width: 100%;
+        float: left;
+        color: #54a3ee;
+        margin-left: 11%;
+        font-weight: 600;
+    }
+
+
+    .lblqckdruk {
+        float: left;
+        width: 8%;
+        color: red;
+        margin-left: 3%;
+    }
+
+
+    .lblalleanswe {
+        float: left;
+        width: 11%;
+    }
+
+
+    .lblalleabswe {
+        float: left;
+        width: 10%;
+        margin-left: 11px;
+    }
+
+
+    .lblalleget {
+        float: left;
+        width: 16%;
+        margin-left: 11px;
+    }
+
+
+    .lbldatum {
+        float: left;
+        width: 5%;
+        margin-left: 8px;
+    }
+
+
+    .contentarea {
+        width: 82%;
+        clear: both;
+        margin: 0 auto;
+        height: 92%;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+}
+
+@media only screen and (min-width: 1680px) {
+    .txtlandscape_new {
+        width: 5%;
+        min-width: 40px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-top: -17px;
+        text-align: left;
+        display: block;
+    }
+
+    .txtportrait {
+        width: 5%;
+        min-width: 40px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        font-weight: 600;
+        margin-top: -17px;
+        text-align: left;
+        display: block;
+    }
+
+    .drpreport {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 139px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .topRight3perpekind {
+        width: 24%;
+        float: left;
+        height: 100%;
+    }
+
+    .lblHrsToTitle {
+        width: 15.5%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 8px;
+        padding-right: 0px;
+    }
+
+    .lblPrintDate {
+        width: 22%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 2%;
+    }
+
+    .lblDtFromTitle {
+        width: 9.6%;
+        float: left;
+        margin-top: 9px;
+    }
+
+    .lblDateTitle {
+        width: 12%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 2%;
+    }
+
+    .txtDispDateFrom {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 1%;
+        min-width: 104px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateTo {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 120px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblDateToTitle {
+        width: 13%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 8px;
+        padding-right: 0px;
+    }
+
+    .topRight2 {
+        width: 17%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblPrintMode {
+        width: 88%;
+        float: left;
+        font-weight: 600;
+        margin-left: 12%;
+    }
+
+    .lblTimeHrsMode {
+        width: 31%;
+        float: left;
+        margin-left: 1%;
+    }
+
+    .topRight1 {
+        width: 45%;
+        float: left;
+        height: 100%;
+    }
+
+    .mainBodyTop1leftlbl2 {
+        height: 100%;
+        width: 16%;
+        float: left;
+    }
+
+    .mainBodyTop1left3 {
+        height: 100%;
+        width: 60%;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .lblBis {
+        width: 100%;
+        height: 23%;
+        float: left;
+        min-width: 36px;
+        margin-top: 8px;
+        text-align: left;
+    }
+
+    .mainBodyTop1left2 {
+        height: 100%;
+        width: 15%;
+        float: left;
+        margin-left: 1px;
+        min-width: 189px;
+    }
+
+    .mainBodyTop1leftdrp {
+        height: 100%;
+        width: 58%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .lblreport {
+        width: 88%;
+        height: 35%;
+        float: left;
+        margin-left: 10px;
+        min-width: 120px;
+        margin-top: 7px;
+    }
+
+    .mainBodyTop1leftlbl {
+        height: 100%;
+        width: 38%;
+        float: left;
+    }
+
+    .mainBodyTop1left {
+        height: 100%;
+        width: 24%;
+        float: left;
+    }
+
+    .mainBodyTop1 {
+        height: 96%;
+        width: 100%;
+        padding-top: 0px;
+        float: left;
+    }
+
+    .mainBodyTop {
+        height: 12%;
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .btnquickdruk {
+        width: 89px;
+        height: 30px;
+        border-radius: 5px;
+        float: left;
+        margin: 0;
+        background-position: 10px center;
+        background-repeat: no-repeat;
+        border: none !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        text-decoration: underline !important;
+        color: red !important;
+    }
+
+        .btnquickdruk:hover:enabled {
+            background-color: transparent !important;
+            cursor: pointer;
+            border: none !important;
+        }
+
+    .datedisT {
+        float: left;
+        height: 25px;
+        border-radius: 5px;
+        margin-right: 0px;
+    }
+
+    .chkallget {
+        float: left;
+        width: 20px;
+    }
+
+    .chkabwse {
+        float: left;
+        width: 20px;
+    }
+
+    .chkanwse {
+        float: left;
+        width: 20px;
+    }
+
+    .topRight2areanew {
+        width: 40% !important;
+        height: 100%;
+        float: left;
+        margin-top: 6px;
+    }
+
+    .MidContentAreaDiv {
+        width: 100%;
+        float: left;
+        height: 91%;
+        margin-top: 1%;
+        border: 1px solid grey;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+
+    .sectop {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 8%;
+    }
+
+
+    .labeltop {
+        width: 100%;
+        float: left;
+        color: #54a3ee;
+        margin-left: 11%;
+        font-weight: 600;
+    }
+
+
+    .lblqckdruk {
+        float: left;
+        width: 8%;
+        color: red;
+        margin-left: 3%;
+    }
+
+
+    .lblalleanswe {
+        float: left;
+        width: 11%;
+    }
+
+
+    .lblalleabswe {
+        float: left;
+        width: 10%;
+        margin-left: 11px;
+    }
+
+
+    .lblalleget {
+        float: left;
+        width: 16%;
+        margin-left: 11px;
+    }
+
+
+    .lbldatum {
+        float: left;
+        width: 5%;
+        margin-left: 8px;
+    }
+
+
+    .contentarea {
+        width: 82%;
+        clear: both;
+        margin: 0 auto;
+        height: 92%;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .txtlandscape_new {
+        width: 5%;
+        min-width: 40px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-top: 2px;
+        text-align: left;
+        display: block;
+    }
+
+    .txtportrait {
+        width: 5%;
+        min-width: 40px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        font-weight: 600;
+        margin-top: 2px;
+        text-align: left;
+        display: block;
+    }
+
+    .drpreport {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .topRight3perpekind {
+        width: 20%;
+        float: left;
+        height: 100%;
+    }
+
+    .lblHrsToTitle {
+        width: 9.5%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .lblPrintDate {
+        width: 18%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 2%;
+    }
+
+    .lblDtFromTitle {
+        width: 6.6%;
+        float: left;
+        margin-top: 9px;
+    }
+
+    .lblDateTitle {
+        width: 11%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 2%;
+    }
+
+    .txtDispDateFrom {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 1%;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateTo {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblDateToTitle {
+        width: 10%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .topRight2 {
+        width: 32%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblPrintMode {
+        width: 88%;
+        float: left;
+        font-weight: 600;
+        margin-left: 12%;
+    }
+
+    .lblTimeHrsMode {
+        width: 31%;
+        float: left;
+        margin-left: 1%;
+    }
+
+    .topRight1 {
+        width: 48%;
+        float: left;
+        height: 100%;
+    }
+
+    .mainBodyTop1leftlbl2 {
+        height: 100%;
+        width: 14%;
+        float: left;
+    }
+
+    .mainBodyTop1left3 {
+        height: 100%;
+        width: 63%;
+        float: left;
+        margin-left: 6px;
+    }
+
+    .lblBis {
+        width: 100%;
+        height: 23%;
+        float: left;
+        min-width: 36px;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .mainBodyTop1left2 {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-left: 1px;
+        min-width: 189px;
+    }
+
+    .mainBodyTop1leftdrp {
+        height: 100%;
+        width: 59%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .mainBodyTop1leftlbl {
+        height: 100%;
+        width: 38%;
+        float: left;
+    }
+
+    .mainBodyTop1left {
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+
+    .mainBodyTop1 {
+        height: 84%;
+        width: 100%;
+        padding-top: 8px;
+        float: left;
+    }
+
+    .mainBodyTop {
+        height: 10%;
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .btnquickdruk {
+        width: 89px;
+        height: 30px;
+        border-radius: 5px;
+        float: left;
+        margin: 5px 4px 0 0;
+        background-position: 10px center;
+        background-repeat: no-repeat;
+        border: none !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        text-decoration: underline !important;
+        color: red !important;
+    }
+
+        .btnquickdruk:hover:enabled {
+            background-color: transparent !important;
+            cursor: pointer;
+            border: none !important;
+        }
+
+    .chkabwse {
+        float: left;
+        width: 3%;
+    }
+
+    .chkallget {
+        float: left;
+        width: 3%;
+    }
+
+    .datedisT {
+        float: left;
+        height: 25px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .chkanwse {
+        float: left;
+        width: 3%;
+    }
+
+    .topRight2areanew {
+        width: 20% !important;
+        height: 100%;
+        float: left;
+        margin-top: 0px;
+    }
+
+    .MidContentAreaDiv {
+        width: 100%;
+        float: left;
+        height: 91%;
+        margin-top: 1%;
+        border: 1px solid grey;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .sectop {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 16%;
+    }
+
+    .labeltop {
+        width: 100%;
+        float: left;
+        color: #54a3ee;
+        margin-left: 24%;
+        font-weight: 600;
+    }
+
+    .lblqckdruk {
+        float: left;
+        width: 6%;
+        color: red;
+        margin-left: 4%;
+    }
+
+    .lblalleanswe {
+        float: left;
+        width: 7%;
+    }
+
+    .lblalleabswe {
+        float: left;
+        width: 7%;
+        margin-left: 11px;
+    }
+
+    .lblalleget {
+        float: left;
+        width: 10%;
+        margin-left: 11px;
+    }
+
+    .lbldatum {
+        float: left;
+        width: 3%;
+        margin-left: 8px;
+    }
+
+    .contentarea {
+        width: 55%;
+        /*border: 1px solid grey;*/
+        clear: both;
+        margin: 0 auto;
+        height: 88%;
+        /*float:left;*/
+        /*margin-left:9%;*/
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .txtlandscape_new {
+        width: 5%;
+        min-width: 40px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 4px;
+        font-weight: 600;
+        margin-top: 2px;
+        text-align: left;
+        display: block;
+    }
+
+    .txtportrait {
+        width: 5%;
+        min-width: 40px;
+        float: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        font-weight: 600;
+        margin-top: 2px;
+        text-align: left;
+        display: block;
+    }
+
+    .drpreport {
+        width: 100%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .topRight3perpekind {
+        width: 20%;
+        float: left;
+        height: 100%;
+    }
+
+    .lblHrsToTitle {
+        width: 9.5%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .lblPrintDate {
+        width: 18%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 2%;
+    }
+
+    .lblDtFromTitle {
+        width: 6.6%;
+        float: left;
+        margin-top: 9px;
+    }
+
+    .lblDateTitle {
+        width: 11%;
+        float: left;
+        margin-top: 9px;
+        margin-left: 2%;
+    }
+
+    .txtDispDateFrom {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 1%;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .txtDispDateTo {
+        width: 20%;
+        height: 25px;
+        float: left;
+        margin-top: 5px;
+        min-width: 154px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #c2c2c2;
+        -moz-box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-box-shadow: 1px 1px 4px #ebebeb;
+        box-shadow: 1px 1px 4px #ebebeb;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        outline: 0;
+    }
+
+    .lblDateToTitle {
+        width: 10%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 8px;
+        padding-right: 6px;
+    }
+
+    .topRight2 {
+        width: 32%;
+        height: 100%;
+        float: left;
+    }
+
+    .lblPrintMode {
+        width: 88%;
+        float: left;
+        font-weight: 600;
+        margin-left: 12%;
+    }
+
+    .lblTimeHrsMode {
+        width: 31%;
+        float: left;
+        margin-left: 1%;
+    }
+
+    .topRight1 {
+        width: 48%;
+        float: left;
+        height: 100%;
+    }
+
+    .mainBodyTop1leftlbl2 {
+        height: 100%;
+        width: 14%;
+        float: left;
+    }
+
+    .mainBodyTop1left3 {
+        height: 100%;
+        width: 63%;
+        float: left;
+        margin-left: 6px;
+    }
+
+    .lblBis {
+        width: 100%;
+        height: 23%;
+        float: left;
+        min-width: 36px;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .mainBodyTop1left2 {
+        height: 100%;
+        width: 16%;
+        float: left;
+        margin-left: 1px;
+        min-width: 189px;
+    }
+
+    .mainBodyTop1leftdrp {
+        height: 100%;
+        width: 59%;
+        float: left;
+        min-width: 103px;
+    }
+
+    .lblreport {
+        width: 88%;
+        height: 23%;
+        float: left;
+        margin-left: 10px;
+        min-width: 120px;
+        margin-top: 7px;
+    }
+
+    .mainBodyTop1leftlbl {
+        height: 100%;
+        width: 38%;
+        float: left;
+    }
+
+    .mainBodyTop1left {
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+
+    .mainBodyTop1 {
+        height: 84%;
+        width: 100%;
+        padding-top: 8px;
+        float: left;
+    }
+
+    .mainBodyTop {
+        height: 10%;
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: rgba(186,186,186,0.75);
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .btnquickdruk {
+        width: 89px;
+        height: 30px;
+        border-radius: 5px;
+        float: left;
+        margin: 5px 4px 0 0;
+        background-position: 10px center;
+        background-repeat: no-repeat;
+        border: none !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        text-decoration: underline !important;
+        color: red !important;
+    }
+
+        .btnquickdruk:hover:enabled {
+            background-color: transparent !important;
+            cursor: pointer;
+            border: none !important;
+        }
+
+    .chkabwse {
+        float: left;
+        width: 3%;
+    }
+
+    .chkallget {
+        float: left;
+        width: 3%;
+    }
+
+    .datedisT {
+        float: left;
+        height: 25px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .chkanwse {
+        float: left;
+        width: 3%;
+    }
+
+    .topRight2areanew {
+        width: 20% !important;
+        height: 100%;
+        float: left;
+        margin-top: 0px;
+    }
+
+    .MidContentAreaDiv {
+        width: 100%;
+        float: left;
+        height: 91%;
+        margin-top: 1%;
+        border: 1px solid grey;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .sectop {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 16%;
+    }
+
+    .labeltop {
+        width: 100%;
+        float: left;
+        color: #54a3ee;
+        margin-left: 24%;
+        font-weight: 600;
+    }
+
+    .lblqckdruk {
+        float: left;
+        width: 6%;
+        color: red;
+        margin-left: 4%;
+    }
+
+    .lblalleanswe {
+        float: left;
+        width: 7%;
+    }
+
+    .lblalleabswe {
+        float: left;
+        width: 7%;
+        margin-left: 11px;
+    }
+
+    .lblalleget {
+        float: left;
+        width: 10%;
+        margin-left: 11px;
+    }
+
+    .lbldatum {
+        float: left;
+        width: 3%;
+        margin-left: 8px;
+    }
+
+    .contentarea {
+        width: 55%;
+        /*border: 1px solid grey;*/
+        clear: both;
+        margin: 0 auto;
+        height: 88%;
+        /*float:left;*/
+        /*margin-left:9%;*/
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+}
+
+
+
+.secholdingarea1_new {
+    float: left;
+    height: 99%;
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 45%;
+}
+
+.secholdingarea1b_new {
+    float: left;
+    height: 99%;
+    margin-right: 0px;
+    width: 47%;
+}
+
+.secholdingarea1b_new {
+    float: left;
+    height: 99%;
+    margin-right: 0px;
+    width: 48%;
+}
+
+
+
+.btnorientation1 {
+    height: 30px;
+    width: 32px;
+    text-indent: -9999px;
+    display: block;
+    float: left;
+    margin-top: -1px;
+    clear: none;
+    background-image: url('../../Images/FormImages/portrait1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chk1controllast {
+    float: right;
+    clear: none;
+    margin-top: 22px;
+    height: 20px;
+    width: 19px;
+}
+
+.txtlandscape {
+    width: 5%;
+    min-width: 40px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 4px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: left;
+    display: block;
+}
+
+
+
+.btnorientation2 {
+    height: 30px;
+    width: 35px;
+    text-indent: -9999px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    clear: none;
+    background-image: url('../../Images/FormImages/landscape1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chk1controllast {
+    float: left;
+    clear: none;
+    margin-top: 4px;
+    height: 20px;
+    width: 14px;
+}

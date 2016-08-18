@@ -1,4 +1,3 @@
-
 		--Colors
 IF EXISTS(SELECT * FROM Colors WHERE ColorName = '#00FF00') 
 BEGIN 

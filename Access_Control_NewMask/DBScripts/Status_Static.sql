@@ -70,4 +70,3 @@ INSERT INTO Status_Static (StatusNr , StatusName ) VALUES('-6' , 'Auftr. Ende' )
 END 
 GO 
 
-

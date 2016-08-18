@@ -1,4 +1,4 @@
-
+ 
 --Terminals
 IF EXISTS(SELECT * FROM Terminals WHERE TermType = 'TM 560bc') 
 BEGIN 
